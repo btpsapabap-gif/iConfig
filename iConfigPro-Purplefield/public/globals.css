@@ -1,0 +1,312 @@
+
+/* Tailwind v4 auto-detects utility candidates by scanning the whole project
+   tree. This repo has 800+ markdown files that quote utility class names as
+   prose examples (e.g. border-[color:var(--...)]) which compile to invalid
+   CSS and break every route. Scan application source only. */
+
+
+:root {
+  /* NeuVays Enterprise Design System - iMigrate Pro - Light Theme */
+  /* Primary: Deep Navy  |  Neutrals: Slate  |  Accent: Teal */
+  --background: oklch(0.985 0.002 247);
+  --foreground: oklch(0.15 0.02 255);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 255);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.02 255);
+  --primary: oklch(0.30 0.07 260);
+  --primary-foreground: oklch(0.985 0.005 260);
+  --secondary: oklch(0.96 0.005 255);
+  --secondary-foreground: oklch(0.20 0.03 255);
+  --muted: oklch(0.955 0.005 255);
+  --muted-foreground: oklch(0.50 0.02 255);
+  --accent: oklch(0.55 0.12 195);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.55 0.22 25);
+  --border: oklch(0.90 0.005 255);
+  --input: oklch(0.90 0.005 255);
+  --ring: oklch(0.45 0.10 260);
+
+  /* Bronze/Silver/Gold bucket system */
+  --bronze: oklch(0.60 0.12 55);
+  --bronze-foreground: oklch(1 0 0);
+  --silver: oklch(0.65 0.02 255);
+  --silver-foreground: oklch(1 0 0);
+  --gold: oklch(0.70 0.15 85);
+  --gold-foreground: oklch(0.15 0.02 85);
+
+  /* Status colors */
+  --success: oklch(0.55 0.15 155);
+  --success-foreground: oklch(1 0 0);
+  --warning: oklch(0.70 0.15 75);
+  --warning-foreground: oklch(0.15 0.02 75);
+  --info: oklch(0.55 0.12 240);
+  --info-foreground: oklch(1 0 0);
+
+  /* Charts */
+  --chart-1: oklch(0.30 0.07 260);
+  --chart-2: oklch(0.55 0.12 195);
+  --chart-3: oklch(0.60 0.12 55);
+  --chart-4: oklch(0.65 0.02 255);
+  --chart-5: oklch(0.70 0.15 85);
+  --radius: 0.5rem;
+
+  /* Sidebar */
+  --sidebar: oklch(0.18 0.04 260);
+  --sidebar-foreground: oklch(0.90 0.01 255);
+  --sidebar-primary: oklch(0.55 0.12 195);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.24 0.04 260);
+  --sidebar-accent-foreground: oklch(0.95 0.005 255);
+  --sidebar-border: oklch(0.28 0.04 260);
+  --sidebar-ring: oklch(0.55 0.12 195);
+
+  /* Sidebar section accent colors */
+  --sidebar-section-overview: oklch(0.55 0.12 195);
+  --sidebar-section-pipeline: oklch(0.58 0.18 270);
+  --sidebar-section-bronze: oklch(0.62 0.14 55);
+  --sidebar-section-silver: oklch(0.70 0.03 255);
+  --sidebar-section-gold: oklch(0.72 0.16 85);
+  --sidebar-section-quality: oklch(0.60 0.16 350);
+  --sidebar-section-workflow: oklch(0.58 0.12 210);
+  --sidebar-section-dedup: oklch(0.62 0.14 40);
+  --sidebar-section-transform: oklch(0.58 0.16 290);
+  --sidebar-section-iconfig: oklch(0.56 0.12 220);
+  --sidebar-section-process: oklch(0.58 0.14 145);
+  --sidebar-section-enrichment: oklch(0.58 0.14 160);
+  --sidebar-section-operations: oklch(0.56 0.10 230);
+  --sidebar-section-admin: oklch(0.58 0.14 15);
+  --sidebar-section-compliance: oklch(0.56 0.10 180);
+  --sidebar-section-help: oklch(0.60 0.10 300);
+
+  /* Config suite origin tokens (G-6): muted vs accent, AA against card bg */
+  --config-extracted: oklch(0.55 0.12 195);
+  --config-extracted-foreground: oklch(0.25 0.06 195);
+  --config-standard: oklch(0.50 0.02 255);
+  --config-standard-foreground: oklch(0.32 0.02 255);
+}
+
+.dark {
+  /* NeuVays Enterprise Design System - Dark Theme */
+  --background: oklch(0.13 0.02 260);
+  --foreground: oklch(0.93 0.005 255);
+  --card: oklch(0.17 0.02 260);
+  --card-foreground: oklch(0.93 0.005 255);
+  --popover: oklch(0.17 0.02 260);
+  --popover-foreground: oklch(0.93 0.005 255);
+  --primary: oklch(0.60 0.12 195);
+  --primary-foreground: oklch(0.13 0.02 260);
+  --secondary: oklch(0.22 0.02 260);
+  --secondary-foreground: oklch(0.93 0.005 255);
+  --muted: oklch(0.22 0.02 260);
+  --muted-foreground: oklch(0.60 0.01 255);
+  --accent: oklch(0.55 0.12 195);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.45 0.18 25);
+  --destructive-foreground: oklch(0.65 0.22 25);
+  --border: oklch(0.25 0.02 260);
+  --input: oklch(0.25 0.02 260);
+  --ring: oklch(0.55 0.12 195);
+
+  /* Bronze/Silver/Gold - dark theme variants */
+  --bronze: oklch(0.55 0.10 55);
+  --bronze-foreground: oklch(1 0 0);
+  --silver: oklch(0.60 0.02 255);
+  --silver-foreground: oklch(1 0 0);
+  --gold: oklch(0.65 0.13 85);
+  --gold-foreground: oklch(0.10 0.02 85);
+
+  /* Status - dark theme */
+  --success: oklch(0.55 0.15 155);
+  --success-foreground: oklch(1 0 0);
+  --warning: oklch(0.65 0.13 75);
+  --warning-foreground: oklch(0.10 0.02 75);
+  --info: oklch(0.55 0.12 240);
+  --info-foreground: oklch(1 0 0);
+
+  /* Charts - dark */
+  --chart-1: oklch(0.55 0.12 195);
+  --chart-2: oklch(0.60 0.12 55);
+  --chart-3: oklch(0.65 0.02 255);
+  --chart-4: oklch(0.70 0.15 85);
+  --chart-5: oklch(0.45 0.10 260);
+
+  /* Sidebar - dark */
+  --sidebar: oklch(0.12 0.02 260);
+  --sidebar-foreground: oklch(0.90 0.01 255);
+  --sidebar-primary: oklch(0.55 0.12 195);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.18 0.03 260);
+  --sidebar-accent-foreground: oklch(0.93 0.005 255);
+  --sidebar-border: oklch(0.22 0.02 260);
+  --sidebar-ring: oklch(0.55 0.12 195);
+
+  /* Sidebar section accent colors - dark */
+  --sidebar-section-overview: oklch(0.55 0.12 195);
+  --sidebar-section-pipeline: oklch(0.55 0.16 270);
+  --sidebar-section-bronze: oklch(0.58 0.12 55);
+  --sidebar-section-silver: oklch(0.65 0.03 255);
+  --sidebar-section-gold: oklch(0.68 0.14 85);
+  --sidebar-section-quality: oklch(0.58 0.14 350);
+  --sidebar-section-workflow: oklch(0.55 0.10 210);
+  --sidebar-section-dedup: oklch(0.58 0.12 40);
+  --sidebar-section-transform: oklch(0.55 0.14 290);
+  --sidebar-section-iconfig: oklch(0.54 0.10 220);
+  --sidebar-section-process: oklch(0.55 0.12 145);
+  --sidebar-section-enrichment: oklch(0.55 0.12 160);
+  --sidebar-section-operations: oklch(0.53 0.08 230);
+  --sidebar-section-admin: oklch(0.55 0.12 15);
+  --sidebar-section-compliance: oklch(0.53 0.08 180);
+  --sidebar-section-help: oklch(0.57 0.08 300);
+
+  --config-extracted: oklch(0.62 0.10 195);
+  --config-extracted-foreground: oklch(0.88 0.04 195);
+  --config-standard: oklch(0.62 0.01 255);
+  --config-standard-foreground: oklch(0.85 0.01 255);
+}
+
+:root {
+  --font-sans: 'Inter', 'Inter Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Custom bucket colors */
+  --color-bronze: var(--bronze);
+  --color-bronze-foreground: var(--bronze-foreground);
+  --color-silver: var(--silver);
+  --color-silver-foreground: var(--silver-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+
+  /* Status colors */
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Sidebar section accents */
+  --color-sidebar-section-overview: var(--sidebar-section-overview);
+  --color-sidebar-section-pipeline: var(--sidebar-section-pipeline);
+  --color-sidebar-section-bronze: var(--sidebar-section-bronze);
+  --color-sidebar-section-silver: var(--sidebar-section-silver);
+  --color-sidebar-section-gold: var(--sidebar-section-gold);
+  --color-sidebar-section-quality: var(--sidebar-section-quality);
+  --color-sidebar-section-workflow: var(--sidebar-section-workflow);
+  --color-sidebar-section-dedup: var(--sidebar-section-dedup);
+  --color-sidebar-section-transform: var(--sidebar-section-transform);
+  --color-sidebar-section-iconfig: var(--sidebar-section-iconfig);
+  --color-sidebar-section-process: var(--sidebar-section-process);
+  --color-sidebar-section-enrichment: var(--sidebar-section-enrichment);
+  --color-config-extracted: var(--config-extracted);
+  --color-config-extracted-foreground: var(--config-extracted-foreground);
+  --color-config-standard: var(--config-standard);
+  --color-config-standard-foreground: var(--config-standard-foreground);
+  --color-sidebar-section-operations: var(--sidebar-section-operations);
+  --color-sidebar-section-admin: var(--sidebar-section-admin);
+  --color-sidebar-section-compliance: var(--sidebar-section-compliance);
+  --color-sidebar-section-help: var(--sidebar-section-help);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Tier accent utilities */
+.border-t-bronze { border-top-color: var(--bronze); }
+.border-t-silver { border-top-color: var(--silver); }
+.border-t-gold   { border-top-color: var(--gold);   }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Extraction Run Details — Configuration section overflow fix
+   Target: the key-value grid rendered inside [role="dialog"] .divide-y rows.
+   Fixes the "Tables" field (and any other long value) overflowing the dialog
+   when a MySQL/Oracle extraction config contains 50+ comma-separated table names.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* 1. Cap the entire config list at 240 px and scroll vertically.
+      Prevents 50+ rows from making the dialog taller than the viewport.
+      overflow-x: hidden is a hard stop — nothing can escape horizontally. */
+[role="dialog"] .divide-y {
+  max-height: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* 2. Allow each key-value row to wrap onto a second line when the value
+      is too long to share a row with the label.
+      align-items: flex-start top-aligns label and value after wrapping. */
+[role="dialog"] .divide-y > div {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.125rem 0.5rem;
+}
+
+/* 3. Label (left side): never shrink below its natural width so the key
+      name ("Tables", "Database", etc.) is always fully readable. */
+[role="dialog"] .divide-y > div > span:first-child {
+  flex-shrink: 0;
+}
+
+/* 4. Value (right side): the core fix for the comma-separated tables string.
+      overflow-wrap: break-word  — wraps at commas / spaces first.
+      word-break: break-word     — breaks inside a single long table name
+                                   if it still overflows after wrap.
+      white-space: normal        — cancels any inherited nowrap.
+      min-width: 0               — CRITICAL: flex items default to
+                                   min-width: auto (content size), which
+                                   prevents shrinking below content width.
+                                   Setting 0 lets the browser actually shrink it.
+      max-width: 100%            — hard cap at the parent's width.
+      text-align: right          — preserves the original right-aligned design. */
+[role="dialog"] .divide-y > div > span:last-child {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  min-width: 0;
+  max-width: 100%;
+  text-align: right;
+}

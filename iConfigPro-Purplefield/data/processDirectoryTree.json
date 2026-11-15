@@ -1,0 +1,3481 @@
+[
+  {
+    "id": "L1-ENT",
+    "name": "Enterprise Baseline & Org Structure",
+    "level": 1,
+    "children": [
+      {
+        "id": "L2-ENT-FI",
+        "name": "Financial Accounting Structure",
+        "level": 2,
+        "children": [
+          {
+            "id": "L3-ENT-CC",
+            "name": "Company Code Structure",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-ENT-CCDEF",
+                "name": "Company Code Definition (OX02)",
+                "level": 4,
+                "tables": [
+                  "T001",
+                  "T880",
+                  "T004",
+                  "T009",
+                  "T009B",
+                  "T010O",
+                  "T001B"
+                ],
+                "children": [
+                  {
+                    "id": "L5-ENT-CC1000",
+                    "name": "Company Code 1000 - US East",
+                    "level": 5,
+                    "tables": [
+                      "T001"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-ENT-CCGD",
+                        "name": "Global Data & Local Currency",
+                        "level": 6,
+                        "tables": [
+                          "T001",
+                          "T004"
+                        ]
+                      },
+                      {
+                        "id": "L6-ENT-CCFY",
+                        "name": "Fiscal Year & Posting Period Variant",
+                        "level": 6,
+                        "tables": [
+                          "T009",
+                          "T009B",
+                          "T010O",
+                          "T001B"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-ENT-CCASG",
+                "name": "Company Code Assignments (OX16/OX19)",
+                "level": 4,
+                "tables": [
+                  "T001",
+                  "T880",
+                  "TKA02"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-ENT-CO",
+            "name": "Controlling Structure",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-ENT-COAR",
+                "name": "Controlling Area (OKKP)",
+                "level": 4,
+                "tables": [
+                  "TKA01",
+                  "TKA02"
+                ]
+              },
+              {
+                "id": "L4-ENT-CCA",
+                "name": "Credit Control Area (OB45)",
+                "level": 4,
+                "tables": [
+                  "T014"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L2-ENT-LOG",
+        "name": "Logistics Organizational Structure",
+        "level": 2,
+        "children": [
+          {
+            "id": "L3-ENT-PLANT",
+            "name": "Plant & Storage Structure",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-ENT-PLDEF",
+                "name": "Plant Definition (OX10)",
+                "level": 4,
+                "tables": [
+                  "T001W",
+                  "TFACD",
+                  "TFACS"
+                ],
+                "children": [
+                  {
+                    "id": "L5-ENT-PL1000",
+                    "name": "Plant 1000 - Manufacturing",
+                    "level": 5,
+                    "tables": [
+                      "T001W"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-ENT-PLCAL",
+                        "name": "Factory Calendar & Address",
+                        "level": 6,
+                        "tables": [
+                          "T001W",
+                          "TFACS"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-ENT-SLOC",
+                "name": "Storage Location (OX09)",
+                "level": 4,
+                "tables": [
+                  "T001L"
+                ]
+              },
+              {
+                "id": "L4-ENT-VAL",
+                "name": "Valuation Level & Area (OX14)",
+                "level": 4,
+                "tables": [
+                  "TCURM",
+                  "T001K"
+                ]
+              },
+              {
+                "id": "L4-ENT-PLASG",
+                "name": "Plant to Company Code (OX18)",
+                "level": 4,
+                "tables": [
+                  "T001K",
+                  "T001W"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-ENT-PURORG",
+            "name": "Purchasing Organization Structure",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-ENT-EKORG",
+                "name": "Purchasing Organization (OX08)",
+                "level": 4,
+                "tables": [
+                  "T024E"
+                ],
+                "children": [
+                  {
+                    "id": "L5-ENT-EK1000",
+                    "name": "Purch. Org 1000 - Central",
+                    "level": 5,
+                    "tables": [
+                      "T024E"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-ENT-EKSCH",
+                        "name": "Schema Group Assignment (KALSK)",
+                        "level": 6,
+                        "tables": [
+                          "T024E"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-ENT-EKGRP",
+                "name": "Purchasing Group (OME4)",
+                "level": 4,
+                "tables": [
+                  "T024"
+                ]
+              },
+              {
+                "id": "L4-ENT-EKASG",
+                "name": "Purch. Org Assignments (OX01/OX17)",
+                "level": 4,
+                "tables": [
+                  "T024E",
+                  "T024W",
+                  "T024Z"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-ENT-SD",
+            "name": "Sales Structure for Stock Transfer",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-ENT-SDDEF",
+                "name": "Sales Org / Channel / Division",
+                "level": 4,
+                "tables": [
+                  "TVKO",
+                  "TVTW",
+                  "TSPA",
+                  "TVTA"
+                ]
+              },
+              {
+                "id": "L4-ENT-SHIP",
+                "name": "Shipping Point & Plant Assignment",
+                "level": 4,
+                "tables": [
+                  "TVST",
+                  "TVSWZ",
+                  "TVKWZ"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-S2P",
+    "name": "Source to Pay (S2P)",
+    "level": 1,
+    "children": [
+      {
+        "id": "S2P-ES",
+        "name": "Enterprise Structure",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-ES-EKORG",
+            "name": "Purchasing Organization",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-ES-SETUP",
+                "name": "Purchasing Org Setup",
+                "level": 4,
+                "tcode": "OX08",
+                "tables": [
+                  "T024E"
+                ],
+                "children": [
+                  {
+                    "id": "S2P-ES-1000",
+                    "name": "Purchasing Organization 1000",
+                    "level": 5,
+                    "tcode": "OX08",
+                    "tables": [
+                      "T024E"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "S2P-ES-EKGRP",
+                "name": "Purchasing Group",
+                "level": 4,
+                "tcode": "OME4",
+                "tables": [
+                  "T024"
+                ]
+              },
+              {
+                "id": "S2P-ES-ASSIGN",
+                "name": "Org Assignments (Company Code / Plant)",
+                "level": 4,
+                "requires": [
+                  "S2P-ES-SETUP",
+                  "L4-ENT-CCDEF",
+                  "L4-ENT-PLDEF"
+                ],
+                "tcode": "OX01",
+                "tables": [
+                  "T024E",
+                  "T024W",
+                  "T024Z"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L2-S2P-MD",
+        "name": "Procurement Master Data",
+        "level": 2,
+        "children": [
+          {
+            "id": "L3-MD-MAT",
+            "name": "Material Master Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-MD-MTYPE",
+                "name": "Material Types (OMS2)",
+                "level": 4,
+                "tcode": "OMS2",
+                "tables": [
+                  "T134",
+                  "T134T",
+                  "T134M",
+                  "T137"
+                ]
+              },
+              {
+                "id": "L4-MD-MGRP",
+                "name": "Material Groups (OMSF)",
+                "level": 4,
+                "tcode": "OMSF",
+                "tables": [
+                  "T023",
+                  "T023T"
+                ]
+              },
+              {
+                "id": "L4-MD-UOM",
+                "name": "Units of Measure (CUNI)",
+                "level": 4,
+                "tcode": "CUNI",
+                "tables": [
+                  "T006",
+                  "T006A",
+                  "T006D"
+                ]
+              },
+              {
+                "id": "L4-MD-MFS",
+                "name": "Field Selection & Screen Sequence",
+                "level": 4,
+                "tables": [
+                  "T130F",
+                  "T130A",
+                  "T133A",
+                  "T133S"
+                ]
+              },
+              {
+                "id": "L4-MD-MDATA",
+                "name": "Material Master Records (MM01)",
+                "level": 4,
+                "tcode": "MM01",
+                "tables": [
+                  "MARA",
+                  "MAKT",
+                  "MARC",
+                  "MARD",
+                  "MBEW",
+                  "MLAN",
+                  "MARM"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-MD-VEND",
+            "name": "Supplier / Business Partner Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-MD-VACC",
+                "name": "Vendor Account Groups (OBD3)",
+                "level": 4,
+                "tcode": "OBD3",
+                "tables": [
+                  "T077K",
+                  "T077Y",
+                  "T078K"
+                ]
+              },
+              {
+                "id": "L4-MD-VDATA",
+                "name": "Vendor Master Segments (XK01 / BP)",
+                "level": 4,
+                "tcode": "XK01",
+                "tables": [
+                  "LFA1",
+                  "LFB1",
+                  "LFM1",
+                  "LFM2"
+                ],
+                "children": [
+                  {
+                    "id": "L5-MD-VPURCH",
+                    "name": "Purchasing Org Segment",
+                    "level": 5,
+                    "tables": [
+                      "LFM1",
+                      "LFM2"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-MD-VSCH",
+                        "name": "Schema Group & GR-Based IV",
+                        "level": 6,
+                        "tables": [
+                          "LFM1"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-MD-VPART",
+                "name": "Partner Determination",
+                "level": 4,
+                "tables": [
+                  "WYT3",
+                  "TPAR",
+                  "TPART",
+                  "T160V"
+                ]
+              },
+              {
+                "id": "L4-MD-BP",
+                "name": "Business Partner (S/4HANA)",
+                "level": 4,
+                "tcode": "BP",
+                "tables": [
+                  "BUT000",
+                  "BUT020",
+                  "BUT100",
+                  "BUT050",
+                  "CVI_VEND_LINK",
+                  "TB003"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-PR",
+        "name": "Purchase Requisition",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-PR-HDR",
+            "name": "PR Header Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-PR-DT",
+                "name": "PR Document Types",
+                "level": 4,
+                "tcode": "OMEB",
+                "tables": [
+                  "T161",
+                  "T161T",
+                  "T161A"
+                ],
+                "children": [
+                  {
+                    "id": "S2P-PR-NB",
+                    "name": "Standard PR (NB)",
+                    "level": 5,
+                    "tcode": "ME51N",
+                    "tables": [
+                      "T161",
+                      "T161T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "S2P-PR-NR",
+                "name": "PR Number Ranges",
+                "level": 4,
+                "tcode": "OMH7",
+                "object": "BANF",
+                "tables": [
+                  "NRIV",
+                  "TNRO"
+                ]
+              },
+              {
+                "id": "S2P-PR-DOC",
+                "name": "PR Documents",
+                "level": 4,
+                "tcode": "ME53N",
+                "tables": [
+                  "EBAN",
+                  "EBKN"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-SRC",
+        "name": "Source Determination",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-SRC-EORD",
+            "name": "Source List",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-SRC-REQ",
+                "name": "Source List Requirement",
+                "level": 4,
+                "tcode": "OME5",
+                "tables": [
+                  "T001W",
+                  "MARC"
+                ]
+              },
+              {
+                "id": "S2P-SRC-DET",
+                "name": "Source Determination",
+                "level": 4,
+                "tcode": "ME01",
+                "tables": [
+                  "EORD"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S2P-SRC-INFO",
+            "name": "Info Records",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-SRC-STD",
+                "name": "Standard Info Record",
+                "level": 4,
+                "tcode": "ME11",
+                "tables": [
+                  "EINA",
+                  "EINE"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S2P-SRC-QUOTA",
+            "name": "Quota Arrangement",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-SRC-QUOTA-L4",
+                "name": "Quota Arrangement Setup",
+                "level": 4,
+                "tcode": "MEQ1",
+                "tables": [
+                  "EQUK",
+                  "EQUP"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "P-OA",
+            "name": "Outline Agreements",
+            "level": 3,
+            "children": [
+              {
+                "id": "P-OA-K",
+                "name": "Contracts",
+                "level": 4,
+                "tcode": "ME31K",
+                "tables": [
+                  "T161",
+                  "T161T",
+                  "A016",
+                  "EKAB"
+                ]
+              },
+              {
+                "id": "P-OA-L",
+                "name": "Scheduling Agreements",
+                "level": 4,
+                "tcode": "ME31L",
+                "tables": [
+                  "T161",
+                  "T161T",
+                  "EKEK",
+                  "EKEH"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "P-PROC",
+        "name": "Purchase Order Management",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-PO-HDR",
+            "name": "PO Header Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "P-PODT",
+                "name": "Purchase Document Types",
+                "level": 4,
+                "tcode": "OMEC",
+                "requires": [
+                  "S2P-ES-EKORG"
+                ],
+                "tables": [
+                  "T161",
+                  "T161T",
+                  "T161P",
+                  "T161A",
+                  "T160",
+                  "T160M",
+                  "NRIV",
+                  "TNRO"
+                ],
+                "children": [
+                  {
+                    "id": "P-NB",
+                    "name": "Standard PO (NB)",
+                    "level": 5,
+                    "tcode": "ME21N",
+                    "tables": [
+                      "T161",
+                      "T161T",
+                      "T161P"
+                    ],
+                    "children": [
+                      {
+                        "id": "P-NB-CTL",
+                        "name": "Document Type Control Settings",
+                        "level": 6,
+                        "tables": [
+                          "T161",
+                          "T168"
+                        ]
+                      },
+                      {
+                        "id": "P-NB-NR",
+                        "name": "Number Range Assignment",
+                        "level": 6,
+                        "object": "EINKBELEG",
+                        "tables": [
+                          "NRIV",
+                          "TNRO",
+                          "T161"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "P-ZNB",
+                    "name": "Z Standard PO (ZNB) - copy of NB",
+                    "level": 5,
+                    "tcode": "OMEC",
+                    "tables": [
+                      "T161",
+                      "T161T",
+                      "T161P"
+                    ]
+                  },
+                  {
+                    "id": "P-UB",
+                    "name": "Stock Transport Order (UB)",
+                    "level": 5,
+                    "tcode": "OMEC",
+                    "tables": [
+                      "T161",
+                      "T161T",
+                      "T161P",
+                      "T001W",
+                      "TVKWZ"
+                    ]
+                  },
+                  {
+                    "id": "P-FO",
+                    "name": "Framework Order (FO)",
+                    "level": 5,
+                    "tcode": "OMEC",
+                    "tables": [
+                      "T161",
+                      "T161T",
+                      "T161P"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P-NB-FS",
+                "name": "Field Selection & Screen Layout",
+                "level": 4,
+                "tcode": "OMF4",
+                "tables": [
+                  "T162",
+                  "T162K",
+                  "T160"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S2P-PO-ITEM",
+            "name": "PO Item Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "P-ITEMCAT",
+                "name": "Item Categories",
+                "level": 4,
+                "tables": [
+                  "T163"
+                ],
+                "children": [
+                  {
+                    "id": "S2P-IC-NORM",
+                    "name": "Standard Item (NORM)",
+                    "level": 5,
+                    "tables": [
+                      "T163"
+                    ]
+                  },
+                  {
+                    "id": "S2P-IC-L",
+                    "name": "Subcontracting (L)",
+                    "level": 5,
+                    "tables": [
+                      "T163",
+                      "EKPB"
+                    ]
+                  },
+                  {
+                    "id": "S2P-IC-K",
+                    "name": "Consignment (K)",
+                    "level": 5,
+                    "tables": [
+                      "T163"
+                    ]
+                  },
+                  {
+                    "id": "S2P-IC-D",
+                    "name": "Service (D)",
+                    "level": 5,
+                    "tables": [
+                      "T163",
+                      "ASMD",
+                      "ESLL",
+                      "ESUH"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P-ACCASG",
+                "name": "Account Assignment Categories",
+                "level": 4,
+                "tcode": "OME9",
+                "requires": [
+                  "P-ITEMCAT"
+                ],
+                "tables": [
+                  "T163K",
+                  "T163Y",
+                  "T162",
+                  "T162K"
+                ],
+                "children": [
+                  {
+                    "id": "P-AA-K",
+                    "name": "Cost Centre (K) / Internal Order (F)",
+                    "level": 5,
+                    "tables": [
+                      "T163K",
+                      "T163Y"
+                    ]
+                  },
+                  {
+                    "id": "P-AA-A",
+                    "name": "Asset (A) / Project (P / Q)",
+                    "level": 5,
+                    "tables": [
+                      "T163K",
+                      "T163Y"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "P-CONF",
+                "name": "Confirmation Control",
+                "level": 4,
+                "tables": [
+                  "T163D",
+                  "T163L",
+                  "EKES"
+                ]
+              },
+              {
+                "id": "P-TEXTS",
+                "name": "Texts & Version Management",
+                "level": 4,
+                "tables": [
+                  "T166K",
+                  "T166P",
+                  "TTXOB",
+                  "TTXID",
+                  "STXH",
+                  "STXL",
+                  "EREV"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-PRC-CT",
+            "name": "Pricing & Conditions",
+            "level": 3,
+            "children": [
+              {
+                "id": "L4-PRC-TBL",
+                "name": "Condition Tables",
+                "level": 4,
+                "tcode": "M/03",
+                "tables": [
+                  "T681",
+                  "T681A",
+                  "A016",
+                  "A017",
+                  "A018",
+                  "A019"
+                ]
+              },
+              {
+                "id": "L4-PRC-ACC",
+                "name": "Access Sequences",
+                "level": 4,
+                "tcode": "M/07",
+                "tables": [
+                  "T682",
+                  "T682I",
+                  "T682Z"
+                ]
+              },
+              {
+                "id": "L4-PRC-CTYP",
+                "name": "Condition Types",
+                "level": 4,
+                "tcode": "M/06",
+                "tables": [
+                  "T685",
+                  "T685A",
+                  "T685T"
+                ],
+                "children": [
+                  {
+                    "id": "L5-PRC-PB00",
+                    "name": "Gross Price (PB00 / PBXX)",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "T682I"
+                    ]
+                  },
+                  {
+                    "id": "L5-PRC-FRA1",
+                    "name": "Delivery Costs (FRA1 / FRB1)",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "T683S"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-PRC-ACCKEY",
+                        "name": "Accrual Account Key (KVSL2)",
+                        "level": 6,
+                        "tables": [
+                          "T683S",
+                          "T030"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-PRC-SCHEMA",
+                "name": "Calculation Schema",
+                "level": 4,
+                "tcode": "M/08",
+                "tables": [
+                  "T683",
+                  "T683S",
+                  "T683T"
+                ]
+              },
+              {
+                "id": "L4-PRC-DET",
+                "name": "Schema Determination",
+                "level": 4,
+                "tcode": "OMFO",
+                "requires": [
+                  "L4-PRC-SCHEMA",
+                  "S2P-ES-EKORG"
+                ],
+                "tables": [
+                  "T024E",
+                  "LFM1",
+                  "T683"
+                ]
+              },
+              {
+                "id": "L3-PRC-REC",
+                "name": "Condition Records",
+                "level": 4,
+                "tcode": "MEK1",
+                "tables": [
+                  "KONH",
+                  "KONP",
+                  "KONM",
+                  "KONW",
+                  "PRCD_ELEMENTS"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L2-S2P-TAX",
+            "name": "Tax Determination",
+            "level": 3,
+            "children": [
+              {
+                "id": "L3-TAX-PROC",
+                "name": "Tax Procedure Setup",
+                "level": 4,
+                "tcode": "OBBG",
+                "tables": [
+                  "T683",
+                  "T683S",
+                  "T005",
+                  "A003"
+                ]
+              },
+              {
+                "id": "L3-TAX-CODE",
+                "name": "Tax Codes",
+                "level": 4,
+                "tcode": "FTXP",
+                "tables": [
+                  "T007A",
+                  "T007S",
+                  "KONP"
+                ]
+              },
+              {
+                "id": "L3-TAX-ACC",
+                "name": "Tax Account Determination",
+                "level": 4,
+                "tcode": "OB40",
+                "tables": [
+                  "T030K",
+                  "TTXD",
+                  "TTXJ",
+                  "MLAN"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "L3-OUT-MSG",
+            "name": "Output / Message Determination",
+            "level": 3,
+            "tcode": "NACE",
+            "children": [
+              {
+                "id": "L4-OUT-CT",
+                "name": "Output Condition Technique (Usage B)",
+                "level": 4,
+                "tables": [
+                  "T681",
+                  "T682",
+                  "T682I",
+                  "T683",
+                  "T683S",
+                  "T685B"
+                ]
+              },
+              {
+                "id": "L4-OUT-REC",
+                "name": "Output Condition Records",
+                "level": 4,
+                "tcode": "MN04",
+                "tables": [
+                  "NACH",
+                  "TPAER"
+                ]
+              },
+              {
+                "id": "L4-OUT-PRG",
+                "name": "Programs & Forms",
+                "level": 4,
+                "tables": [
+                  "TNAPR",
+                  "NAST",
+                  "CMFP",
+                  "CMFK"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S2P-PO-DOC",
+            "name": "PO Documents",
+            "level": 3,
+            "tcode": "ME23N",
+            "children": [
+              {
+                "id": "S2P-PO-DOC-HDR",
+                "name": "Header / Item / Schedule Lines",
+                "level": 4,
+                "tables": [
+                  "EKKO",
+                  "EKPO",
+                  "EKET"
+                ]
+              },
+              {
+                "id": "S2P-PO-DOC-ACC",
+                "name": "Account Assignment & Partners",
+                "level": 4,
+                "tables": [
+                  "EKKN",
+                  "EKPA"
+                ]
+              },
+              {
+                "id": "S2P-PO-DOC-HIS",
+                "name": "PO History",
+                "level": 4,
+                "tables": [
+                  "EKBE",
+                  "EKBZ"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L2-S2P-GOV",
+        "name": "Release / Approval",
+        "level": 2,
+        "children": [
+          {
+            "id": "L3-GOV-REL",
+            "name": "PO Release Strategy",
+            "level": 3,
+            "requires": [
+              "P-PODT"
+            ],
+            "children": [
+              {
+                "id": "L4-GOV-GRP",
+                "name": "Release Group",
+                "level": 4,
+                "tcode": "OMGQ",
+                "tables": [
+                  "T16FG"
+                ]
+              },
+              {
+                "id": "L4-GOV-CODE",
+                "name": "Release Code",
+                "level": 4,
+                "tcode": "OMGQ",
+                "tables": [
+                  "T16FC"
+                ]
+              },
+              {
+                "id": "L4-GOV-IND",
+                "name": "Release Indicator",
+                "level": 4,
+                "tcode": "OMGQ",
+                "tables": [
+                  "T16FE"
+                ]
+              },
+              {
+                "id": "L4-GOV-STRAT",
+                "name": "Release Strategy",
+                "level": 4,
+                "tcode": "OMGQ",
+                "tables": [
+                  "T16FS",
+                  "T16FV",
+                  "T16FW",
+                  "T16FT"
+                ],
+                "children": [
+                  {
+                    "id": "L5-GOV-S1",
+                    "name": "Strategy by Value & Purch. Group",
+                    "level": 5,
+                    "tables": [
+                      "T16FS",
+                      "AUSP"
+                    ],
+                    "children": [
+                      {
+                        "id": "L6-GOV-CEKKO",
+                        "name": "Characteristic Source (CEKKO)",
+                        "level": 6,
+                        "tables": [
+                          "CABN",
+                          "AUSP"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "L4-GOV-CLASS",
+                "name": "Classification Setup",
+                "level": 4,
+                "tcode": "CL02",
+                "tables": [
+                  "CABN",
+                  "CABNT",
+                  "CAWN",
+                  "CAWNT",
+                  "KLAH",
+                  "KSSK",
+                  "KSML",
+                  "AUSP"
+                ]
+              },
+              {
+                "id": "L4-GOV-WF",
+                "name": "Workflow Integration",
+                "level": 4,
+                "tables": [
+                  "T16FK",
+                  "SWWWIHEAD",
+                  "SWW_WI2OBJ"
+                ]
+              },
+              {
+                "id": "L4-GOV-STATUS",
+                "name": "Release Status on the PO",
+                "level": 4,
+                "tcode": "ME29N",
+                "tables": [
+                  "EKKO"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-GR",
+        "name": "Goods Receipt",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-GR-IM",
+            "name": "Inventory Management",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-GR-101",
+                "name": "Movement Type 101 - GR for PO",
+                "level": 4,
+                "tcode": "OMJJ",
+                "tables": [
+                  "T156",
+                  "T156T",
+                  "T156W",
+                  "T156S"
+                ]
+              },
+              {
+                "id": "S2P-GR-102",
+                "name": "Movement Type 102 - GR Reversal",
+                "level": 4,
+                "tcode": "OMJJ",
+                "tables": [
+                  "T156",
+                  "T156T"
+                ]
+              },
+              {
+                "id": "S2P-GR-GRIR",
+                "name": "GR/IR Clearing",
+                "level": 4,
+                "tcode": "OBYC",
+                "tables": [
+                  "T030",
+                  "EKBE"
+                ]
+              },
+              {
+                "id": "S2P-GR-DOC",
+                "name": "Material Documents",
+                "level": 4,
+                "tcode": "MIGO",
+                "tables": [
+                  "MKPF",
+                  "MSEG"
+                ]
+              },
+              {
+                "id": "S2P-GR-PER",
+                "name": "MM Period Control",
+                "level": 4,
+                "tcode": "MMPV",
+                "tables": [
+                  "MARV",
+                  "T001B"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-IV",
+        "name": "Invoice Verification",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-IV-INV",
+            "name": "Invoice",
+            "level": 3,
+            "children": [
+              {
+                "id": "S2P-IV-MIRO",
+                "name": "Invoice Verification",
+                "level": 4,
+                "tcode": "MIRO",
+                "tables": [
+                  "RBKP",
+                  "RSEG",
+                  "T169P"
+                ]
+              },
+              {
+                "id": "S2P-IV-TOL",
+                "name": "Tolerance Limits",
+                "level": 4,
+                "tcode": "OMR6",
+                "tables": [
+                  "T169G"
+                ]
+              },
+              {
+                "id": "S2P-IV-BLK",
+                "name": "Invoice Blocking",
+                "level": 4,
+                "tcode": "MRBR",
+                "tables": [
+                  "RBKP",
+                  "RSEG",
+                  "T169F"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "L3-VAL-ACC",
+        "name": "Account Determination",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-AD-BSX",
+            "name": "Inventory - BSX",
+            "level": 3,
+            "requires": [
+              "L4-VAL-CLASS"
+            ],
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "MBEW",
+              "T025"
+            ]
+          },
+          {
+            "id": "S2P-AD-WRX",
+            "name": "GR/IR - WRX",
+            "level": 3,
+            "tcode": "OBYC",
+            "tables": [
+              "T030"
+            ]
+          },
+          {
+            "id": "S2P-AD-GBB",
+            "name": "Consumption - GBB",
+            "level": 3,
+            "requires": [
+              "L4-VAL-CLASS"
+            ],
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "T156S"
+            ]
+          },
+          {
+            "id": "S2P-AD-PRD",
+            "name": "Price Difference - PRD",
+            "level": 3,
+            "requires": [
+              "L4-VAL-CLASS"
+            ],
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "MBEW"
+            ]
+          },
+          {
+            "id": "S2P-AD-KEYS",
+            "name": "Transaction / Event Keys",
+            "level": 3,
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "T030B"
+            ]
+          },
+          {
+            "id": "L4-VAL-CLASS",
+            "name": "Valuation Classes",
+            "level": 3,
+            "tcode": "OMSK",
+            "tables": [
+              "T025",
+              "T025T",
+              "T025L",
+              "T134"
+            ]
+          },
+          {
+            "id": "L4-VAL-GRP",
+            "name": "Valuation Grouping Code",
+            "level": 3,
+            "tcode": "OMWD",
+            "tables": [
+              "T001K",
+              "MBEW"
+            ]
+          },
+          {
+            "id": "L4-VAL-MVT",
+            "name": "Movement Type Control",
+            "level": 3,
+            "tcode": "OMJJ",
+            "tables": [
+              "T156",
+              "T156T",
+              "T156W",
+              "T156S"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-PAY",
+        "name": "Payment",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-PAY-F110",
+            "name": "Automatic Payment",
+            "level": 3,
+            "tcode": "F110",
+            "tables": [
+              "T042",
+              "T042Z",
+              "REGUH",
+              "REGUP"
+            ]
+          },
+          {
+            "id": "S2P-PAY-CLR",
+            "name": "Vendor Clearing",
+            "level": 3,
+            "tcode": "F-44",
+            "tables": [
+              "BSIK",
+              "BSAK",
+              "LFB1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S2P-E2E",
+        "name": "E2E Test",
+        "level": 2,
+        "children": [
+          {
+            "id": "S2P-E2E-ME51N",
+            "name": "ME51N - Purchase Requisition",
+            "level": 3,
+            "tcode": "ME51N",
+            "tables": [
+              "EBAN",
+              "EBKN"
+            ]
+          },
+          {
+            "id": "S2P-E2E-ME21N",
+            "name": "ME21N - Purchase Order",
+            "level": 3,
+            "tcode": "ME21N",
+            "tables": [
+              "EKKO",
+              "EKPO",
+              "EKET",
+              "EKKN"
+            ]
+          },
+          {
+            "id": "S2P-E2E-MIGO",
+            "name": "MIGO - Goods Receipt",
+            "level": 3,
+            "tcode": "MIGO",
+            "tables": [
+              "MKPF",
+              "MSEG",
+              "EKBE"
+            ]
+          },
+          {
+            "id": "S2P-E2E-MIRO",
+            "name": "MIRO - Invoice",
+            "level": 3,
+            "tcode": "MIRO",
+            "tables": [
+              "RBKP",
+              "RSEG",
+              "EKBE"
+            ]
+          },
+          {
+            "id": "S2P-E2E-F110",
+            "name": "F110 - Payment",
+            "level": 3,
+            "tcode": "F110",
+            "tables": [
+              "REGUH",
+              "REGUP",
+              "BSAK"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-FICO",
+    "name": "Finance & Controlling (FI/CO)",
+    "level": 1,
+    "children": [
+      {
+        "id": "FI-GL",
+        "name": "General Ledger",
+        "level": 2,
+        "children": [
+          {
+            "id": "FI-GL-CC",
+            "name": "Company Code Global Data",
+            "level": 3,
+            "tcode": "OBY6",
+            "tables": [
+              "T001",
+              "T001B"
+            ]
+          },
+          {
+            "id": "FI-GL-COA",
+            "name": "Chart of Accounts",
+            "level": 3,
+            "tcode": "OB13",
+            "tables": [
+              "T004",
+              "T004T"
+            ],
+            "children": [
+              {
+                "id": "FI-GL-COA-ASG",
+                "name": "Assign to Company Code",
+                "level": 4,
+                "tcode": "OB62",
+                "tables": [
+                  "T001",
+                  "T004"
+                ]
+              },
+              {
+                "id": "FI-GL-ACCT",
+                "name": "G/L Master Records",
+                "level": 4,
+                "tcode": "FS00",
+                "tables": [
+                  "SKA1",
+                  "SKB1",
+                  "SKAT"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "FI-GL-GRP",
+            "name": "G/L Account Groups",
+            "level": 3,
+            "tcode": "OBD4",
+            "tables": [
+              "T077S",
+              "T077Z"
+            ],
+            "requires": [
+              "FI-GL-COA"
+            ]
+          },
+          {
+            "id": "FI-GL-FSV",
+            "name": "Field Status Variants",
+            "level": 3,
+            "tcode": "OBC4",
+            "tables": [
+              "T004V",
+              "T004G",
+              "T004F"
+            ],
+            "children": [
+              {
+                "id": "FI-GL-FSV-ASG",
+                "name": "Assign to Company Code",
+                "level": 4,
+                "tcode": "OBC5",
+                "tables": [
+                  "T001",
+                  "T004V"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "FI-GL-FY",
+            "name": "Fiscal Year & Posting Periods",
+            "level": 3,
+            "tcode": "OB29",
+            "tables": [
+              "T009",
+              "T009B",
+              "T010O",
+              "T001B"
+            ]
+          },
+          {
+            "id": "FI-GL-DOC",
+            "name": "Document Types & Number Ranges",
+            "level": 3,
+            "tcode": "OBA7",
+            "tables": [
+              "T003",
+              "T003T"
+            ],
+            "children": [
+              {
+                "id": "FI-GL-DOC-NR",
+                "name": "Document Number Ranges",
+                "level": 4,
+                "tcode": "FBN1",
+                "object": "RF_BELEG",
+                "tables": [
+                  "NRIV",
+                  "TNRO"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "FI-GL-PK",
+            "name": "Posting Keys",
+            "level": 3,
+            "tcode": "OB41",
+            "tables": [
+              "TBSL",
+              "TBSLT"
+            ]
+          },
+          {
+            "id": "FI-GL-TOL",
+            "name": "Tolerance Groups",
+            "level": 3,
+            "tcode": "OBA4",
+            "tables": [
+              "T043",
+              "T043T",
+              "T043S"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FI-AP",
+        "name": "Accounts Payable",
+        "level": 2,
+        "children": [
+          {
+            "id": "FI-AP-GRP",
+            "name": "Vendor Account Groups",
+            "level": 3,
+            "tcode": "OBD3",
+            "tables": [
+              "T077K",
+              "T077Y"
+            ]
+          },
+          {
+            "id": "FI-AP-TERM",
+            "name": "Payment Terms",
+            "level": 3,
+            "tcode": "OBB8",
+            "tables": [
+              "T052",
+              "T052U"
+            ]
+          },
+          {
+            "id": "FI-AP-PAY",
+            "name": "Payment Program",
+            "level": 3,
+            "tcode": "FBZP",
+            "tables": [
+              "T042",
+              "T042Z",
+              "T042E"
+            ]
+          },
+          {
+            "id": "FI-AP-SGL",
+            "name": "Special G/L Transactions",
+            "level": 3,
+            "tcode": "OBXR",
+            "tables": [
+              "T074",
+              "T074U"
+            ]
+          },
+          {
+            "id": "FI-AP-REC",
+            "name": "Reconciliation Accounts",
+            "level": 3,
+            "tcode": "FS00",
+            "tables": [
+              "LFB1",
+              "SKB1"
+            ],
+            "requires": [
+              "FI-GL-COA"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FI-AR",
+        "name": "Accounts Receivable",
+        "level": 2,
+        "children": [
+          {
+            "id": "FI-AR-GRP",
+            "name": "Customer Account Groups",
+            "level": 3,
+            "tcode": "OBD2",
+            "tables": [
+              "T077D",
+              "T077X"
+            ]
+          },
+          {
+            "id": "FI-AR-DUN",
+            "name": "Dunning Procedures",
+            "level": 3,
+            "tcode": "FBMP",
+            "tables": [
+              "T047",
+              "T047A",
+              "T047B"
+            ]
+          },
+          {
+            "id": "FI-AR-CR",
+            "name": "Credit Management",
+            "level": 3,
+            "tcode": "OB45",
+            "tables": [
+              "T014",
+              "T691F"
+            ]
+          },
+          {
+            "id": "FI-AR-REC",
+            "name": "Reconciliation Accounts",
+            "level": 3,
+            "tcode": "FS00",
+            "tables": [
+              "KNB1",
+              "SKB1"
+            ],
+            "requires": [
+              "FI-GL-COA"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FI-AA",
+        "name": "Asset Accounting",
+        "level": 2,
+        "children": [
+          {
+            "id": "FI-AA-COD",
+            "name": "Chart of Depreciation",
+            "level": 3,
+            "tcode": "EC08",
+            "tables": [
+              "T096",
+              "T096T"
+            ]
+          },
+          {
+            "id": "FI-AA-CLS",
+            "name": "Asset Classes",
+            "level": 3,
+            "tcode": "OAOA",
+            "tables": [
+              "ANKA",
+              "ANKT",
+              "T095"
+            ],
+            "requires": [
+              "FI-AA-COD"
+            ]
+          },
+          {
+            "id": "FI-AA-DEP",
+            "name": "Depreciation Areas",
+            "level": 3,
+            "tcode": "OADB",
+            "tables": [
+              "T093",
+              "T093B"
+            ],
+            "requires": [
+              "FI-AA-COD"
+            ]
+          },
+          {
+            "id": "FI-AA-ACC",
+            "name": "Asset Account Determination",
+            "level": 3,
+            "tcode": "AO90",
+            "tables": [
+              "T095",
+              "SKB1"
+            ],
+            "requires": [
+              "FI-GL-COA"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CO-BASE",
+        "name": "Controlling",
+        "level": 2,
+        "children": [
+          {
+            "id": "CO-AREA",
+            "name": "Controlling Area",
+            "level": 3,
+            "tcode": "OKKP",
+            "tables": [
+              "TKA01",
+              "TKA02"
+            ]
+          },
+          {
+            "id": "CO-CE",
+            "name": "Cost Element Accounting",
+            "level": 3,
+            "tcode": "KA01",
+            "tables": [
+              "CSKA",
+              "CSKB",
+              "CSKU"
+            ],
+            "requires": [
+              "CO-AREA",
+              "FI-GL-COA"
+            ]
+          },
+          {
+            "id": "CO-CC",
+            "name": "Cost Centre Accounting",
+            "level": 3,
+            "tcode": "KS01",
+            "tables": [
+              "CSKS",
+              "CSKT"
+            ],
+            "requires": [
+              "CO-AREA"
+            ],
+            "children": [
+              {
+                "id": "CO-CC-HIER",
+                "name": "Standard Hierarchy",
+                "level": 4,
+                "tcode": "OKEON",
+                "tables": [
+                  "CSKS",
+                  "TKA01"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "CO-IO",
+            "name": "Internal Orders",
+            "level": 3,
+            "tcode": "KO01",
+            "tables": [
+              "AUFK",
+              "T003O",
+              "T003P"
+            ],
+            "requires": [
+              "CO-AREA"
+            ]
+          },
+          {
+            "id": "CO-PC",
+            "name": "Profit Centre Accounting",
+            "level": 3,
+            "tcode": "KE51",
+            "tables": [
+              "CEPC",
+              "CEPCT"
+            ],
+            "requires": [
+              "CO-AREA"
+            ]
+          },
+          {
+            "id": "CO-NR",
+            "name": "CO Number Ranges",
+            "level": 3,
+            "tcode": "KANK",
+            "tables": [
+              "NRIV",
+              "TNRO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FI-E2E",
+        "name": "FI/CO E2E Validation",
+        "level": 2,
+        "children": [
+          {
+            "id": "FI-E2E-FB50",
+            "name": "FB50 - G/L Document",
+            "level": 3,
+            "tcode": "FB50",
+            "tables": [
+              "BKPF",
+              "BSEG",
+              "ACDOCA"
+            ]
+          },
+          {
+            "id": "FI-E2E-FB60",
+            "name": "FB60 - Vendor Invoice",
+            "level": 3,
+            "tcode": "FB60",
+            "tables": [
+              "BKPF",
+              "BSEG",
+              "BSIK"
+            ]
+          },
+          {
+            "id": "FI-E2E-FB70",
+            "name": "FB70 - Customer Invoice",
+            "level": 3,
+            "tcode": "FB70",
+            "tables": [
+              "BKPF",
+              "BSEG"
+            ]
+          },
+          {
+            "id": "FI-E2E-F110",
+            "name": "F110 - Payment Run",
+            "level": 3,
+            "tcode": "F110",
+            "tables": [
+              "REGUH",
+              "REGUP",
+              "BSAK"
+            ]
+          },
+          {
+            "id": "FI-E2E-DISP",
+            "name": "FAGLL03 - Line Item Display",
+            "level": 3,
+            "tcode": "FAGLL03",
+            "tables": [
+              "ACDOCA",
+              "BSEG"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-PP",
+    "name": "Plan to Produce (PP)",
+    "level": 1,
+    "children": [
+      {
+        "id": "PP-ES",
+        "name": "Enterprise Structure",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-ES-PLANT",
+            "name": "Plant & Storage Location",
+            "level": 3,
+            "tcode": "OX10",
+            "tables": [
+              "T001W",
+              "T001L",
+              "T001K"
+            ]
+          },
+          {
+            "id": "PP-ES-MRPC",
+            "name": "MRP Controllers",
+            "level": 3,
+            "tcode": "OPPU",
+            "tables": [
+              "T024D"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-MD",
+        "name": "Production Master Data",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-MD-MRP",
+            "name": "Material Master MRP Views",
+            "level": 3,
+            "tcode": "MM01",
+            "tables": [
+              "MARA",
+              "MARC"
+            ]
+          },
+          {
+            "id": "PP-MD-BOM",
+            "name": "Bill of Material",
+            "level": 3,
+            "tcode": "CS01",
+            "tables": [
+              "MAST",
+              "STKO",
+              "STPO"
+            ],
+            "children": [
+              {
+                "id": "PP-MD-BOM-USE",
+                "name": "BOM Usage & Status",
+                "level": 4,
+                "tcode": "OS20",
+                "tables": [
+                  "STKO"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PP-MD-WC",
+            "name": "Work Centre",
+            "level": 3,
+            "tcode": "CR01",
+            "tables": [
+              "CRHD",
+              "CRCA"
+            ],
+            "requires": [
+              "PP-ES-PLANT"
+            ]
+          },
+          {
+            "id": "PP-MD-RTG",
+            "name": "Routing",
+            "level": 3,
+            "tcode": "CA01",
+            "tables": [
+              "MAPL",
+              "PLKO",
+              "PLPO",
+              "PLAS"
+            ],
+            "requires": [
+              "PP-MD-WC"
+            ]
+          },
+          {
+            "id": "PP-MD-PV",
+            "name": "Production Version",
+            "level": 3,
+            "tcode": "C223",
+            "tables": [
+              "MKAL"
+            ],
+            "requires": [
+              "PP-MD-BOM",
+              "PP-MD-RTG"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-MRP",
+        "name": "MRP Configuration",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-MRP-TYPE",
+            "name": "MRP Types",
+            "level": 3,
+            "tcode": "OMDQ",
+            "tables": [
+              "T438A",
+              "T438T"
+            ]
+          },
+          {
+            "id": "PP-MRP-LOT",
+            "name": "Lot Size Procedures",
+            "level": 3,
+            "tcode": "OMI4",
+            "tables": [
+              "T439A",
+              "T439T"
+            ]
+          },
+          {
+            "id": "PP-MRP-AV",
+            "name": "Availability Check",
+            "level": 3,
+            "tcode": "OPPJ",
+            "tables": [
+              "TMVF",
+              "TMVFU"
+            ]
+          },
+          {
+            "id": "PP-MRP-GRP",
+            "name": "MRP Group / Plant Parameters",
+            "level": 3,
+            "tcode": "OPPQ",
+            "tables": [
+              "T001W",
+              "MARC"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-ORD",
+        "name": "Production Order Management",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-ORD-TYPE",
+            "name": "Order Types",
+            "level": 3,
+            "tcode": "OPJH",
+            "tables": [
+              "T003O",
+              "T003P"
+            ],
+            "children": [
+              {
+                "id": "PP-ORD-PP01",
+                "name": "PP01 - Standard Production Order",
+                "level": 4,
+                "tcode": "OPJH",
+                "tables": [
+                  "T003O"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "PP-ORD-PARM",
+            "name": "Order Type Dependent Parameters",
+            "level": 3,
+            "tcode": "OPL8",
+            "tables": [
+              "T399X"
+            ],
+            "requires": [
+              "PP-ORD-TYPE"
+            ]
+          },
+          {
+            "id": "PP-ORD-SCHED",
+            "name": "Scheduling Parameters",
+            "level": 3,
+            "tcode": "OPU3",
+            "tables": [
+              "T399X"
+            ],
+            "requires": [
+              "PP-ORD-TYPE"
+            ]
+          },
+          {
+            "id": "PP-ORD-CONF",
+            "name": "Confirmation Parameters",
+            "level": 3,
+            "tcode": "OPK4",
+            "tables": [
+              "T399X"
+            ],
+            "requires": [
+              "PP-ORD-TYPE"
+            ]
+          },
+          {
+            "id": "PP-ORD-STAT",
+            "name": "Status Profiles",
+            "level": 3,
+            "tcode": "BS02",
+            "tables": [
+              "TJ20",
+              "TJ21"
+            ]
+          },
+          {
+            "id": "PP-ORD-NR",
+            "name": "Order Number Ranges",
+            "level": 3,
+            "tcode": "CO82",
+            "object": "AUFTRAG",
+            "tables": [
+              "NRIV",
+              "TNRO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-CAP",
+        "name": "Capacity Planning",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-CAP-CAT",
+            "name": "Capacity Categories",
+            "level": 3,
+            "tcode": "OP03",
+            "tables": [
+              "CRCA",
+              "CRHD"
+            ]
+          },
+          {
+            "id": "PP-CAP-LEV",
+            "name": "Capacity Levelling Profiles",
+            "level": 3,
+            "tcode": "OPD0",
+            "tables": [
+              "CRHD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-COST",
+        "name": "Costing & Valuation",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-COST-VAR",
+            "name": "Costing Variants",
+            "level": 3,
+            "tcode": "OPL1",
+            "tables": [
+              "TCK03"
+            ]
+          },
+          {
+            "id": "PP-COST-CLS",
+            "name": "Valuation Classes",
+            "level": 3,
+            "tcode": "OMSK",
+            "tables": [
+              "T025",
+              "T025T",
+              "T025L"
+            ]
+          },
+          {
+            "id": "PP-COST-ACC",
+            "name": "Account Determination (GBB / BSX)",
+            "level": 3,
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "T156",
+              "T156S"
+            ],
+            "requires": [
+              "PP-COST-CLS"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PP-E2E",
+        "name": "PP E2E Validation",
+        "level": 2,
+        "children": [
+          {
+            "id": "PP-E2E-MD02",
+            "name": "MD02 - MRP Run",
+            "level": 3,
+            "tcode": "MD02",
+            "tables": [
+              "MARC",
+              "MDBS"
+            ]
+          },
+          {
+            "id": "PP-E2E-CO01",
+            "name": "CO01 - Create Production Order",
+            "level": 3,
+            "tcode": "CO01",
+            "tables": [
+              "AUFK",
+              "AFKO",
+              "AFPO"
+            ]
+          },
+          {
+            "id": "PP-E2E-CO11N",
+            "name": "CO11N - Confirmation",
+            "level": 3,
+            "tcode": "CO11N",
+            "tables": [
+              "AFRU",
+              "AFKO"
+            ]
+          },
+          {
+            "id": "PP-E2E-MIGO",
+            "name": "MIGO 101 - Goods Receipt",
+            "level": 3,
+            "tcode": "MIGO",
+            "tables": [
+              "MKPF",
+              "MSEG"
+            ]
+          },
+          {
+            "id": "PP-E2E-CO88",
+            "name": "CO88 - Order Settlement",
+            "level": 3,
+            "tcode": "CO88",
+            "tables": [
+              "AUFK",
+              "BKPF",
+              "BSEG"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P-O2C",
+    "name": "Order to Cash (O2C)",
+    "level": 1,
+    "children": [
+      {
+        "id": "O2C-ES",
+        "name": "Enterprise Structure",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-ES-VKORG",
+            "name": "Define Sales Organization",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-ES-VKORG-L4",
+                "name": "Sales Organization",
+                "level": 4,
+                "tcode": "OVX5",
+                "tables": [
+                  "TVKO"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-ES-Z100",
+                    "name": "Z100 - US Sales Organization",
+                    "level": 5,
+                    "tcode": "OVX5",
+                    "tables": [
+                      "TVKO"
+                    ],
+                    "bcset": "ZO2C_ES_001"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-ES-VTWEG",
+            "name": "Define Distribution Channel",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG"
+            ],
+            "children": [
+              {
+                "id": "O2C-ES-VTWEG-L4",
+                "name": "Distribution Channel",
+                "level": 4,
+                "tcode": "OVXI",
+                "tables": [
+                  "TVTW"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-ES-Z1",
+                    "name": "Z1 - Direct Sales",
+                    "level": 5,
+                    "tcode": "OVXI",
+                    "tables": [
+                      "TVTW"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-ES-SPART",
+            "name": "Define Division",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG"
+            ],
+            "children": [
+              {
+                "id": "O2C-ES-SPART-L4",
+                "name": "Division",
+                "level": 4,
+                "tcode": "OVXB",
+                "tables": [
+                  "TSPA"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-ES-Z0",
+                    "name": "Z0 - General",
+                    "level": 5,
+                    "tcode": "OVXB",
+                    "tables": [
+                      "TSPA"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-ES-AREA",
+            "name": "Define Sales Area",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG",
+              "O2C-ES-VTWEG",
+              "O2C-ES-SPART"
+            ],
+            "children": [
+              {
+                "id": "O2C-ES-AREA-L4",
+                "name": "Sales Org + Distribution Channel + Division",
+                "level": 4,
+                "tcode": "OVXG",
+                "tables": [
+                  "TVTA"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-ES-A1",
+            "name": "Assign Sales Organization to Company Code",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG",
+              "L4-ENT-CCDEF"
+            ],
+            "tcode": "OVX3",
+            "tables": [
+              "TVKO",
+              "T001"
+            ]
+          },
+          {
+            "id": "O2C-ES-A2",
+            "name": "Assign Distribution Channel to Sales Organization",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG",
+              "O2C-ES-VTWEG"
+            ],
+            "tcode": "OVXK",
+            "tables": [
+              "TVKOV"
+            ]
+          },
+          {
+            "id": "O2C-ES-A3",
+            "name": "Assign Division to Sales Organization",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG",
+              "O2C-ES-SPART"
+            ],
+            "tcode": "OVXA",
+            "tables": [
+              "TVKOS"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-MD",
+        "name": "Sales Master Data Control",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-MD-KTOKD",
+            "name": "Customer Account Groups",
+            "level": 3,
+            "tcode": "OBD2",
+            "tables": [
+              "T077D",
+              "T077X"
+            ]
+          },
+          {
+            "id": "O2C-MD-PARVW",
+            "name": "Customer Partner Functions",
+            "level": 3,
+            "tcode": "VOPA",
+            "tables": [
+              "TPAR",
+              "TPART",
+              "KNVP"
+            ]
+          },
+          {
+            "id": "O2C-MD-KNVV",
+            "name": "Customer Sales Area Data",
+            "level": 3,
+            "tcode": "XD01",
+            "tables": [
+              "KNA1",
+              "KNB1",
+              "KNVV"
+            ]
+          },
+          {
+            "id": "O2C-MD-MVKE",
+            "name": "Material Sales Views",
+            "level": 3,
+            "tcode": "MM01",
+            "tables": [
+              "MARA",
+              "MVKE"
+            ]
+          },
+          {
+            "id": "O2C-MD-KTGRM",
+            "name": "Material Account Assignment",
+            "level": 3,
+            "tcode": "OVK5",
+            "tables": [
+              "TVKM",
+              "MVKE"
+            ]
+          },
+          {
+            "id": "O2C-MD-KNMT",
+            "name": "Customer-Material Info Record",
+            "level": 3,
+            "tcode": "VD51",
+            "tables": [
+              "KNMT"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "P-SD",
+        "name": "Sales Order Management",
+        "level": 2,
+        "children": [
+          {
+            "id": "P-SHS",
+            "name": "Sales Header Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "P-SDT",
+                "name": "Sales Document Types",
+                "level": 4,
+                "tcode": "VOV8",
+                "tables": [
+                  "TVAK",
+                  "TVAKT"
+                ],
+                "children": [
+                  {
+                    "id": "P-OR",
+                    "name": "Standard Sales Order (OR)",
+                    "level": 5,
+                    "tcode": "VOV8",
+                    "tables": [
+                      "TVAK",
+                      "TVAKT"
+                    ],
+                    "bcset": "ZO2C_SO_001"
+                  },
+                  {
+                    "id": "O2C-ZOR",
+                    "name": "Z Standard Sales Order (ZOR) - copy of OR",
+                    "level": 5,
+                    "tcode": "VOV8",
+                    "tables": [
+                      "TVAK",
+                      "TVAKT"
+                    ],
+                    "bcset": "ZO2C_SO_001"
+                  },
+                  {
+                    "id": "O2C-SO-NR",
+                    "name": "Sales Document Number Range",
+                    "level": 5,
+                    "tcode": "VN01",
+                    "object": "RV_BELEG",
+                    "tables": [
+                      "NRIV",
+                      "TNRO"
+                    ],
+                    "bcset": "ZO2C_SO_002"
+                  }
+                ]
+              },
+              {
+                "id": "O2C-SO-OVAI",
+                "name": "Assign Sales Area to Sales Document Types",
+                "level": 4,
+                "requires": [
+                  "P-SDT",
+                  "O2C-ES-AREA"
+                ],
+                "tcode": "OVAI",
+                "tables": [
+                  "TVAKZ",
+                  "TVTA"
+                ],
+                "bcset": "ZO2C_SO_003"
+              },
+              {
+                "id": "O2C-SO-ITEM",
+                "name": "Sales Document Item Setup",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "O2C-SO-TAN",
+                    "name": "Define Item Categories (TAN)",
+                    "level": 5,
+                    "tcode": "VOV7",
+                    "tables": [
+                      "TVAP",
+                      "TVAPT"
+                    ],
+                    "bcset": "ZO2C_SO_004"
+                  },
+                  {
+                    "id": "O2C-SO-VOV4",
+                    "name": "Assign Item Categories",
+                    "level": 5,
+                    "requires": [
+                      "O2C-SO-TAN",
+                      "P-SDT"
+                    ],
+                    "tcode": "VOV4",
+                    "tables": [
+                      "T184",
+                      "TVAP"
+                    ],
+                    "bcset": "ZO2C_SO_005"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-SL",
+            "name": "Schedule Line Setup",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-SL-CP",
+                "name": "Define Schedule Line Categories (CP)",
+                "level": 4,
+                "tcode": "VOV6",
+                "tables": [
+                  "TVEP",
+                  "TVEPT"
+                ]
+              },
+              {
+                "id": "O2C-SL-VOV5",
+                "name": "Assign Schedule Line Categories",
+                "level": 4,
+                "requires": [
+                  "O2C-SL-CP",
+                  "O2C-SO-TAN"
+                ],
+                "tcode": "VOV5",
+                "tables": [
+                  "TVEPZ",
+                  "TVEP"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-PD",
+            "name": "Partner Determination",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-PD-CUST",
+                "name": "Customer Partner Functions",
+                "level": 4,
+                "tcode": "VOPA",
+                "tables": [
+                  "TPAR",
+                  "KNVP"
+                ]
+              },
+              {
+                "id": "O2C-PD-HDR",
+                "name": "Sales Document Partner Procedure",
+                "level": 4,
+                "tcode": "VOPA",
+                "tables": [
+                  "TPAER",
+                  "TVAK"
+                ]
+              },
+              {
+                "id": "O2C-PD-ITM",
+                "name": "Item Partner Procedure",
+                "level": 4,
+                "tcode": "VOPA",
+                "tables": [
+                  "TPAER",
+                  "TVAP"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-INC",
+            "name": "Incompletion Control",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-INC-DEF",
+                "name": "Define Incompletion Procedures",
+                "level": 4,
+                "tcode": "OVA2",
+                "tables": [
+                  "TVUV",
+                  "TVUVF"
+                ]
+              },
+              {
+                "id": "O2C-INC-ASG",
+                "name": "Assign to Sales Documents",
+                "level": 4,
+                "tcode": "VUA2",
+                "tables": [
+                  "TVAK",
+                  "TVUV"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-CTRL",
+            "name": "Sales Order Controls",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-CTRL-DB",
+                "name": "Delivery Block",
+                "level": 4,
+                "tcode": "OVLS",
+                "tables": [
+                  "TVLS"
+                ]
+              },
+              {
+                "id": "O2C-CTRL-BB",
+                "name": "Billing Block",
+                "level": 4,
+                "tcode": "OVV3",
+                "tables": [
+                  "TVFS"
+                ]
+              },
+              {
+                "id": "O2C-CTRL-CR",
+                "name": "Credit Check",
+                "level": 4,
+                "tcode": "OVA8",
+                "tables": [
+                  "T691F",
+                  "T014"
+                ]
+              },
+              {
+                "id": "O2C-CTRL-AV",
+                "name": "Material Availability Check",
+                "level": 4,
+                "tcode": "OVZ9",
+                "tables": [
+                  "TMVF",
+                  "TMVFU"
+                ]
+              },
+              {
+                "id": "O2C-CTRL-TOR",
+                "name": "Requirements / Transfer of Requirements",
+                "level": 4,
+                "tcode": "OVZG",
+                "tables": [
+                  "TVEP",
+                  "TMVF"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-PRC",
+        "name": "Pricing",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-PRC-CT",
+            "name": "Condition Technique",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-PRC-TBL",
+                "name": "Condition Tables",
+                "level": 4,
+                "tcode": "V/03",
+                "tables": [
+                  "T681",
+                  "A004",
+                  "A005"
+                ]
+              },
+              {
+                "id": "O2C-PRC-ACC",
+                "name": "Access Sequences",
+                "level": 4,
+                "tcode": "V/07",
+                "tables": [
+                  "T682",
+                  "T682I",
+                  "T682Z"
+                ]
+              },
+              {
+                "id": "O2C-PRC-CTYP",
+                "name": "Condition Types",
+                "level": 4,
+                "tcode": "V/06",
+                "tables": [
+                  "T685",
+                  "T685A",
+                  "T685T"
+                ]
+              },
+              {
+                "id": "O2C-PRC-PROC",
+                "name": "Pricing Procedures",
+                "level": 4,
+                "tcode": "V/08",
+                "tables": [
+                  "T683",
+                  "T683S",
+                  "T683T"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-PRC-STD",
+            "name": "Pricing Procedure",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-PRC-STD-L4",
+                "name": "Standard Pricing Procedure (RVAA01)",
+                "level": 4,
+                "tcode": "V/08",
+                "tables": [
+                  "T683",
+                  "T683S"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-PRC-PR00",
+                    "name": "PR00 - Base Price",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "A004",
+                      "KONP"
+                    ]
+                  },
+                  {
+                    "id": "O2C-PRC-K004",
+                    "name": "K004 - Material Discount",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "A004",
+                      "KONP"
+                    ]
+                  },
+                  {
+                    "id": "O2C-PRC-K007",
+                    "name": "K007 - Customer Discount",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "A005",
+                      "KONP"
+                    ]
+                  },
+                  {
+                    "id": "O2C-PRC-MWST",
+                    "name": "MWST - Tax",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "A003",
+                      "T007A"
+                    ]
+                  },
+                  {
+                    "id": "O2C-PRC-VPRS",
+                    "name": "VPRS - Cost",
+                    "level": 5,
+                    "tables": [
+                      "T685A",
+                      "MBEW"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-PRC-DET",
+            "name": "Pricing Procedure Determination",
+            "level": 3,
+            "requires": [
+              "O2C-PRC-STD",
+              "O2C-ES-AREA"
+            ],
+            "tcode": "OVKK",
+            "tables": [
+              "T683V",
+              "TVAK",
+              "KNVV"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-DEL",
+        "name": "Availability & Delivery",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-AV",
+            "name": "Availability Check",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-AV-GRP",
+                "name": "Checking Group",
+                "level": 4,
+                "tcode": "OVZ2",
+                "tables": [
+                  "TMVF"
+                ]
+              },
+              {
+                "id": "O2C-AV-RULE",
+                "name": "Checking Rule",
+                "level": 4,
+                "tcode": "OVZ8",
+                "tables": [
+                  "TMVFU"
+                ]
+              },
+              {
+                "id": "O2C-AV-SCOPE",
+                "name": "Scope of Check",
+                "level": 4,
+                "tcode": "OVZ9",
+                "tables": [
+                  "TMVFU"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-SHP",
+            "name": "Shipping Point Determination",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-SHP-COND",
+                "name": "Shipping Conditions",
+                "level": 4,
+                "tcode": "OVSG",
+                "tables": [
+                  "TVSB"
+                ]
+              },
+              {
+                "id": "O2C-SHP-LGRP",
+                "name": "Loading Group",
+                "level": 4,
+                "tcode": "OVSJ",
+                "tables": [
+                  "TLGR"
+                ]
+              },
+              {
+                "id": "O2C-SHP-PLANT",
+                "name": "Plant",
+                "level": 4,
+                "tables": [
+                  "T001W",
+                  "TVKWZ"
+                ]
+              },
+              {
+                "id": "O2C-SHP-VSTEL",
+                "name": "Shipping Point",
+                "level": 4,
+                "tcode": "OVL2",
+                "tables": [
+                  "TVST",
+                  "TVSTZ",
+                  "TVSWZ"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-DELC",
+            "name": "Delivery Configuration",
+            "level": 3,
+            "children": [
+              {
+                "id": "O2C-DELC-TYPE",
+                "name": "Delivery Types",
+                "level": 4,
+                "tcode": "OVLK",
+                "tables": [
+                  "TVLK",
+                  "TVLKT"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-DELC-LF",
+                    "name": "LF - Outbound Delivery",
+                    "level": 5,
+                    "tcode": "OVLK",
+                    "tables": [
+                      "TVLK",
+                      "TVLKT"
+                    ],
+                    "bcset": "ZO2C_DEL_001"
+                  }
+                ]
+              },
+              {
+                "id": "O2C-DELC-ITEM",
+                "name": "Delivery Item Categories",
+                "level": 4,
+                "tcode": "OVLP",
+                "tables": [
+                  "TVLP"
+                ],
+                "children": [
+                  {
+                    "id": "O2C-DELC-TAN",
+                    "name": "TAN",
+                    "level": 5,
+                    "tables": [
+                      "TVLP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "O2C-DELC-PICK",
+                "name": "Picking",
+                "level": 4,
+                "tcode": "OVLP",
+                "tables": [
+                  "TVLP",
+                  "T001L"
+                ]
+              },
+              {
+                "id": "O2C-DELC-PACK",
+                "name": "Packing",
+                "level": 4,
+                "tcode": "VHAR",
+                "tables": [
+                  "TVLP"
+                ]
+              },
+              {
+                "id": "O2C-DELC-PGI",
+                "name": "Post Goods Issue",
+                "level": 4,
+                "tcode": "OMJJ",
+                "tables": [
+                  "T156",
+                  "T030"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-CC",
+        "name": "Copy Control",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-CC-OD",
+            "name": "Sales Order to Delivery",
+            "level": 3,
+            "requires": [
+              "P-SDT",
+              "O2C-DELC-TYPE"
+            ],
+            "tcode": "VTLA",
+            "tables": [
+              "TVCPL"
+            ],
+            "bcset": "ZO2C_CC_001",
+            "children": [
+              {
+                "id": "O2C-CC-OD-L4",
+                "name": "Copy Control - Header & Item",
+                "level": 4,
+                "tcode": "VTLA",
+                "tables": [
+                  "TVCPL"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-CC-DB",
+            "name": "Delivery to Billing",
+            "level": 3,
+            "requires": [
+              "O2C-DELC-TYPE",
+              "O2C-BIL-TYPE"
+            ],
+            "tcode": "VTFL",
+            "tables": [
+              "TVCPF"
+            ],
+            "bcset": "ZO2C_CC_002",
+            "children": [
+              {
+                "id": "O2C-CC-DB-L4",
+                "name": "Copy Control - Header & Item",
+                "level": 4,
+                "tcode": "VTFL",
+                "tables": [
+                  "TVCPF"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-BIL",
+        "name": "Billing",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-BIL-TYPE",
+            "name": "Billing Types",
+            "level": 3,
+            "tcode": "VOFA",
+            "tables": [
+              "TVFK",
+              "TVFKT"
+            ],
+            "children": [
+              {
+                "id": "O2C-BIL-F2",
+                "name": "F2 - Invoice",
+                "level": 4,
+                "tcode": "VOFA",
+                "tables": [
+                  "TVFK",
+                  "TVFKT"
+                ],
+                "bcset": "ZO2C_BILL_001"
+              }
+            ]
+          },
+          {
+            "id": "O2C-BIL-ITEM",
+            "name": "Billing Item Categories",
+            "level": 3,
+            "tcode": "VOFS",
+            "tables": [
+              "TVFP"
+            ]
+          },
+          {
+            "id": "O2C-BIL-NR",
+            "name": "Billing Number Ranges",
+            "level": 3,
+            "tcode": "VN01",
+            "object": "RV_BELEG",
+            "tables": [
+              "NRIV",
+              "TNRO"
+            ]
+          },
+          {
+            "id": "O2C-BIL-BLK",
+            "name": "Billing Blocks",
+            "level": 3,
+            "tcode": "OVV3",
+            "tables": [
+              "TVFS"
+            ]
+          },
+          {
+            "id": "O2C-BIL-REL",
+            "name": "Billing Relevance",
+            "level": 3,
+            "tcode": "VOV7",
+            "tables": [
+              "TVAP",
+              "TVFK"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-OUT",
+        "name": "Output Management",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-OUT-SO",
+            "name": "Sales Order Output",
+            "level": 3,
+            "tcode": "NACE",
+            "tables": [
+              "NACH",
+              "TNAPR",
+              "NAST",
+              "T685B"
+            ]
+          },
+          {
+            "id": "O2C-OUT-DL",
+            "name": "Delivery Output",
+            "level": 3,
+            "tcode": "NACE",
+            "tables": [
+              "NACH",
+              "TNAPR",
+              "NAST"
+            ]
+          },
+          {
+            "id": "O2C-OUT-BI",
+            "name": "Billing Output",
+            "level": 3,
+            "tcode": "NACE",
+            "tables": [
+              "NACH",
+              "TNAPR",
+              "NAST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-ACC",
+        "name": "Account Determination",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-ACC-REV",
+            "name": "Revenue Account Determination",
+            "level": 3,
+            "requires": [
+              "O2C-ES-VKORG",
+              "L4-ENT-CCDEF"
+            ],
+            "tcode": "VKOA",
+            "tables": [
+              "C001",
+              "C002",
+              "T030"
+            ],
+            "children": [
+              {
+                "id": "O2C-ACC-KTOPL",
+                "name": "Chart of Accounts",
+                "level": 4,
+                "tables": [
+                  "T004"
+                ]
+              },
+              {
+                "id": "O2C-ACC-VKORG",
+                "name": "Sales Organization",
+                "level": 4,
+                "tables": [
+                  "TVKO"
+                ]
+              },
+              {
+                "id": "O2C-ACC-KTGRD",
+                "name": "Customer Account Assignment Group",
+                "level": 4,
+                "tables": [
+                  "TVKT",
+                  "KNVV"
+                ]
+              },
+              {
+                "id": "O2C-ACC-KTGRM",
+                "name": "Material Account Assignment Group",
+                "level": 4,
+                "tables": [
+                  "TVKM",
+                  "MVKE"
+                ]
+              },
+              {
+                "id": "O2C-ACC-KVSL1",
+                "name": "Account Key",
+                "level": 4,
+                "tables": [
+                  "T683S",
+                  "T030"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "O2C-ACC-TAX",
+            "name": "Tax Account Determination",
+            "level": 3,
+            "tcode": "OB40",
+            "tables": [
+              "T030K",
+              "T007A"
+            ]
+          },
+          {
+            "id": "O2C-ACC-COST",
+            "name": "Cost Account Determination",
+            "level": 3,
+            "tcode": "OBYC",
+            "tables": [
+              "T030",
+              "T025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O2C-E2E",
+        "name": "O2C E2E Validation",
+        "level": 2,
+        "children": [
+          {
+            "id": "O2C-E2E-VA01",
+            "name": "Create Sales Order",
+            "level": 3,
+            "tcode": "VA01",
+            "tables": [
+              "VBAK",
+              "VBAP",
+              "VBEP"
+            ]
+          },
+          {
+            "id": "O2C-E2E-VA03",
+            "name": "Check Order",
+            "level": 3,
+            "tcode": "VA03",
+            "tables": [
+              "VBAK",
+              "VBAP"
+            ]
+          },
+          {
+            "id": "O2C-E2E-VL01N",
+            "name": "Create Outbound Delivery",
+            "level": 3,
+            "tcode": "VL01N",
+            "tables": [
+              "LIKP",
+              "LIPS"
+            ]
+          },
+          {
+            "id": "O2C-E2E-PICK",
+            "name": "Picking",
+            "level": 3,
+            "tcode": "VL02N",
+            "tables": [
+              "LIPS",
+              "T001L"
+            ]
+          },
+          {
+            "id": "O2C-E2E-PGI",
+            "name": "Post Goods Issue",
+            "level": 3,
+            "tcode": "VL02N",
+            "tables": [
+              "LIKP",
+              "MSEG",
+              "T156"
+            ]
+          },
+          {
+            "id": "O2C-E2E-VF01",
+            "name": "Create Billing",
+            "level": 3,
+            "tcode": "VF01",
+            "tables": [
+              "VBRK",
+              "VBRP"
+            ]
+          },
+          {
+            "id": "O2C-E2E-FB03",
+            "name": "Accounting Document",
+            "level": 3,
+            "tcode": "FB03",
+            "tables": [
+              "BKPF",
+              "BSEG"
+            ]
+          },
+          {
+            "id": "O2C-E2E-FLOW",
+            "name": "Document Flow",
+            "level": 3,
+            "tcode": "VA03",
+            "tables": [
+              "VBFA"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

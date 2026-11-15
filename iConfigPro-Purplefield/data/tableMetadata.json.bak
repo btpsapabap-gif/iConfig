@@ -1,0 +1,2123 @@
+[
+  {
+    "table": "T001",
+    "desc": "Company Codes",
+    "type": "Org Structure",
+    "key": "BUKRS",
+    "verify": true
+  },
+  {
+    "table": "T880",
+    "desc": "Companies (Consolidation)",
+    "type": "Org Structure",
+    "key": "RCOMP",
+    "verify": false
+  },
+  {
+    "table": "T004",
+    "desc": "Chart of Accounts",
+    "type": "Org Structure",
+    "key": "KTOPL",
+    "verify": false
+  },
+  {
+    "table": "T009",
+    "desc": "Fiscal Year Variants",
+    "type": "Global Setting",
+    "key": "PERIV",
+    "verify": true
+  },
+  {
+    "table": "T009B",
+    "desc": "Fiscal Year Variant Periods",
+    "type": "Global Setting",
+    "key": "PERIV, BDATJ",
+    "verify": false
+  },
+  {
+    "table": "T010O",
+    "desc": "Posting Period Variants",
+    "type": "Global Setting",
+    "key": "BKPV",
+    "verify": false
+  },
+  {
+    "table": "T001B",
+    "desc": "Permitted Posting Periods",
+    "type": "Global Setting",
+    "key": "RRCTY, BUKRS",
+    "verify": false
+  },
+  {
+    "table": "TKA01",
+    "desc": "Controlling Areas",
+    "type": "Org Structure",
+    "key": "KOKRS",
+    "verify": true
+  },
+  {
+    "table": "TKA02",
+    "desc": "CO Area to Company Code",
+    "type": "Org Assignment",
+    "key": "KOKRS, BUKRS",
+    "verify": false
+  },
+  {
+    "table": "T014",
+    "desc": "Credit Control Areas",
+    "type": "Org Structure",
+    "key": "KKBER",
+    "verify": false
+  },
+  {
+    "table": "T001W",
+    "desc": "Plants / Branches",
+    "type": "Org Structure",
+    "key": "WERKS",
+    "verify": true
+  },
+  {
+    "table": "TFACD",
+    "desc": "Factory Calendar Definition",
+    "type": "Global Setting",
+    "key": "IDENT",
+    "verify": false
+  },
+  {
+    "table": "TFACS",
+    "desc": "Factory Calendar Days",
+    "type": "Global Setting",
+    "key": "IDENT, JAHR",
+    "verify": false
+  },
+  {
+    "table": "T001L",
+    "desc": "Storage Locations",
+    "type": "Org Structure",
+    "key": "WERKS, LGORT",
+    "verify": false
+  },
+  {
+    "table": "TCURM",
+    "desc": "MM Control Table (Valuation Level)",
+    "type": "Global Setting",
+    "key": "MANDT",
+    "verify": false
+  },
+  {
+    "table": "T001K",
+    "desc": "Valuation Areas & Grouping Code",
+    "type": "Org Assignment",
+    "key": "BWKEY",
+    "verify": false
+  },
+  {
+    "table": "T024E",
+    "desc": "Purchasing Organizations",
+    "type": "Org Structure",
+    "key": "EKORG",
+    "verify": true
+  },
+  {
+    "table": "T024",
+    "desc": "Purchasing Groups",
+    "type": "Org Structure",
+    "key": "EKGRP",
+    "verify": false
+  },
+  {
+    "table": "T024W",
+    "desc": "Purch. Org to Plant Assignment",
+    "type": "Org Assignment",
+    "key": "WERKS, EKORG",
+    "verify": false
+  },
+  {
+    "table": "T024Z",
+    "desc": "Reference Purchasing Organization",
+    "type": "Org Assignment",
+    "key": "EKORG, EKORZ",
+    "verify": false
+  },
+  {
+    "table": "TVKO",
+    "desc": "Sales Organizations",
+    "type": "Org Structure",
+    "key": "VKORG",
+    "verify": false
+  },
+  {
+    "table": "TVTW",
+    "desc": "Distribution Channels",
+    "type": "Org Structure",
+    "key": "VTWEG",
+    "verify": false
+  },
+  {
+    "table": "TSPA",
+    "desc": "Divisions",
+    "type": "Org Structure",
+    "key": "SPART",
+    "verify": false
+  },
+  {
+    "table": "TVTA",
+    "desc": "Sales Areas",
+    "type": "Org Assignment",
+    "key": "VKORG, VTWEG, SPART",
+    "verify": false
+  },
+  {
+    "table": "TVST",
+    "desc": "Shipping Points",
+    "type": "Org Structure",
+    "key": "VSTEL",
+    "verify": false
+  },
+  {
+    "table": "TVSWZ",
+    "desc": "Shipping Point to Plant",
+    "type": "Org Assignment",
+    "key": "VSTEL, WERKS",
+    "verify": false
+  },
+  {
+    "table": "TVKWZ",
+    "desc": "Sales Area to Plant",
+    "type": "Org Assignment",
+    "key": "VKORG, VTWEG, WERKS",
+    "verify": false
+  },
+  {
+    "table": "T134",
+    "desc": "Material Types",
+    "type": "Header Control",
+    "key": "MTART",
+    "verify": true
+  },
+  {
+    "table": "T134T",
+    "desc": "Material Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, MTART",
+    "verify": false
+  },
+  {
+    "table": "T134M",
+    "desc": "Qty / Value Updating per Mat. Type",
+    "type": "Relational Matrix",
+    "key": "MTART, BWKEY",
+    "verify": false
+  },
+  {
+    "table": "T137",
+    "desc": "Industry Sectors",
+    "type": "Domain Table",
+    "key": "MBRSH",
+    "verify": false
+  },
+  {
+    "table": "T023",
+    "desc": "Material Groups",
+    "type": "Header Control",
+    "key": "MATKL",
+    "verify": true
+  },
+  {
+    "table": "T023T",
+    "desc": "Material Group Texts",
+    "type": "Text Table",
+    "key": "SPRAS, MATKL",
+    "verify": false
+  },
+  {
+    "table": "T006",
+    "desc": "Units of Measure",
+    "type": "Domain Table",
+    "key": "MSEHI",
+    "verify": true
+  },
+  {
+    "table": "T006A",
+    "desc": "UoM Language-Dependent",
+    "type": "Text Table",
+    "key": "SPRAS, MSEHI",
+    "verify": false
+  },
+  {
+    "table": "T006D",
+    "desc": "Dimensions",
+    "type": "Domain Table",
+    "key": "DIMID",
+    "verify": false
+  },
+  {
+    "table": "T130F",
+    "desc": "Material Master Field Selection",
+    "type": "UI Control",
+    "key": "FIELDNAME",
+    "verify": false
+  },
+  {
+    "table": "T130A",
+    "desc": "Field Selection Reference",
+    "type": "UI Control",
+    "key": "FLDGRP",
+    "verify": false
+  },
+  {
+    "table": "T133A",
+    "desc": "Material Master Screen Sequence",
+    "type": "UI Control",
+    "key": "BILDSEQU",
+    "verify": false
+  },
+  {
+    "table": "T133S",
+    "desc": "Material Master Screen Definition",
+    "type": "UI Control",
+    "key": "BILDSEQU, BILDNR",
+    "verify": false
+  },
+  {
+    "table": "MARA",
+    "desc": "Material Master General Data",
+    "type": "Master Data",
+    "key": "MATNR",
+    "verify": true
+  },
+  {
+    "table": "MAKT",
+    "desc": "Material Descriptions",
+    "type": "Text Table",
+    "key": "MATNR, SPRAS",
+    "verify": false
+  },
+  {
+    "table": "MARC",
+    "desc": "Material Plant Data",
+    "type": "Master Data",
+    "key": "MATNR, WERKS",
+    "verify": false
+  },
+  {
+    "table": "MARD",
+    "desc": "Material Storage Location Data",
+    "type": "Master Data",
+    "key": "MATNR, WERKS, LGORT",
+    "verify": false
+  },
+  {
+    "table": "MBEW",
+    "desc": "Material Valuation",
+    "type": "Master Data",
+    "key": "MATNR, BWKEY, BWTAR",
+    "verify": false
+  },
+  {
+    "table": "MLAN",
+    "desc": "Material Tax Classification",
+    "type": "Master Data",
+    "key": "MATNR, ALAND",
+    "verify": false
+  },
+  {
+    "table": "MARM",
+    "desc": "Units of Measure per Material",
+    "type": "Master Data",
+    "key": "MATNR, MEINH",
+    "verify": false
+  },
+  {
+    "table": "T077K",
+    "desc": "Vendor Account Groups",
+    "type": "Header Control",
+    "key": "KTOKK",
+    "verify": true
+  },
+  {
+    "table": "T077Y",
+    "desc": "Vendor Account Group Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOKK",
+    "verify": false
+  },
+  {
+    "table": "T078K",
+    "desc": "Vendor Field Status per Acct Group",
+    "type": "UI Control",
+    "key": "KTOKK",
+    "verify": false
+  },
+  {
+    "table": "LFA1",
+    "desc": "Vendor General Data",
+    "type": "Master Data",
+    "key": "LIFNR",
+    "verify": true
+  },
+  {
+    "table": "LFB1",
+    "desc": "Vendor Company Code Data",
+    "type": "Master Data",
+    "key": "LIFNR, BUKRS",
+    "verify": false
+  },
+  {
+    "table": "LFM1",
+    "desc": "Vendor Purchasing Org Data",
+    "type": "Master Data",
+    "key": "LIFNR, EKORG",
+    "verify": false
+  },
+  {
+    "table": "LFM2",
+    "desc": "Vendor Purch. Data per Sub-Range",
+    "type": "Master Data",
+    "key": "LIFNR, EKORG, LTSNR",
+    "verify": false
+  },
+  {
+    "table": "WYT3",
+    "desc": "Vendor Partner Functions",
+    "type": "Relational Matrix",
+    "key": "LIFNR, EKORG, PARVW",
+    "verify": false
+  },
+  {
+    "table": "TPAR",
+    "desc": "Partner Functions",
+    "type": "Domain Table",
+    "key": "PARVW",
+    "verify": true
+  },
+  {
+    "table": "TPART",
+    "desc": "Partner Function Texts",
+    "type": "Text Table",
+    "key": "SPRAS, PARVW",
+    "verify": false
+  },
+  {
+    "table": "T160V",
+    "desc": "Partner Schemas - Purchasing",
+    "type": "Relational Matrix",
+    "key": "PARGR",
+    "verify": false
+  },
+  {
+    "table": "BUT000",
+    "desc": "Business Partner General (S/4)",
+    "type": "Master Data",
+    "key": "PARTNER",
+    "verify": false
+  },
+  {
+    "table": "BUT020",
+    "desc": "BP Addresses",
+    "type": "Master Data",
+    "key": "PARTNER, ADDRNUMBER",
+    "verify": false
+  },
+  {
+    "table": "BUT100",
+    "desc": "BP Roles",
+    "type": "Relational Matrix",
+    "key": "PARTNER, RLTYP",
+    "verify": false
+  },
+  {
+    "table": "BUT050",
+    "desc": "BP Relationships",
+    "type": "Relational Matrix",
+    "key": "RELNR",
+    "verify": false
+  },
+  {
+    "table": "CVI_VEND_LINK",
+    "desc": "BP to Vendor Link (CVI)",
+    "type": "Org Assignment",
+    "key": "PARTNER_GUID, VENDOR",
+    "verify": false
+  },
+  {
+    "table": "TB003",
+    "desc": "BP Role Categories",
+    "type": "Domain Table",
+    "key": "RLTYP",
+    "verify": false
+  },
+  {
+    "table": "EINA",
+    "desc": "Info Record - General Data",
+    "type": "Master Data",
+    "key": "INFNR",
+    "verify": true
+  },
+  {
+    "table": "EINE",
+    "desc": "Info Record - Purch. Org Data",
+    "type": "Master Data",
+    "key": "INFNR, EKORG, WERKS",
+    "verify": false
+  },
+  {
+    "table": "EORD",
+    "desc": "Source List",
+    "type": "Master Data",
+    "key": "MATNR, WERKS, ZEORD",
+    "verify": false
+  },
+  {
+    "table": "EQUK",
+    "desc": "Quota Arrangement Header",
+    "type": "Master Data",
+    "key": "QUNUM",
+    "verify": true
+  },
+  {
+    "table": "EQUP",
+    "desc": "Quota Arrangement Item",
+    "type": "Master Data",
+    "key": "QUNUM, QUPOS",
+    "verify": false
+  },
+  {
+    "table": "T161",
+    "desc": "Purchasing Document Types",
+    "type": "Header Control",
+    "key": "BSART",
+    "verify": true
+  },
+  {
+    "table": "T161T",
+    "desc": "Doc Type Descriptions",
+    "type": "Text Table",
+    "key": "SPRAS, BSART",
+    "verify": false
+  },
+  {
+    "table": "T161P",
+    "desc": "Allowed Item Categories per Doc Type",
+    "type": "Relational Matrix",
+    "key": "BSART, PSTYP",
+    "verify": false
+  },
+  {
+    "table": "T161A",
+    "desc": "Link Requisition to PO Doc Type",
+    "type": "Relational Matrix",
+    "key": "BSART, BSTYP",
+    "verify": false
+  },
+  {
+    "table": "T160",
+    "desc": "Transaction Control - Purchasing",
+    "type": "UI Control",
+    "key": "TCODE",
+    "verify": false
+  },
+  {
+    "table": "T160M",
+    "desc": "Purchasing System Messages",
+    "type": "UI Control",
+    "key": "ARBGB, MSGNR",
+    "verify": false
+  },
+  {
+    "table": "T168",
+    "desc": "Screen Control Header",
+    "type": "UI Control",
+    "key": "BSART",
+    "verify": false
+  },
+  {
+    "table": "T162",
+    "desc": "Field Selection - Purchasing Document",
+    "type": "UI Control",
+    "key": "FAUSG",
+    "verify": false
+  },
+  {
+    "table": "T162K",
+    "desc": "Field Selection Keys",
+    "type": "UI Control",
+    "key": "FAUSG, FELDN",
+    "verify": false
+  },
+  {
+    "table": "NRIV",
+    "desc": "Number Range Intervals",
+    "type": "Number Range",
+    "key": "OBJECT, NRRANGENR",
+    "verify": false
+  },
+  {
+    "table": "TNRO",
+    "desc": "Number Range Object Registry",
+    "type": "Number Range",
+    "key": "OBJECT",
+    "verify": false
+  },
+  {
+    "table": "T163",
+    "desc": "Item Categories in Purchasing Doc",
+    "type": "Header Control",
+    "key": "PSTYP",
+    "verify": true
+  },
+  {
+    "table": "T163K",
+    "desc": "Account Assignment Categories",
+    "type": "Header Control",
+    "key": "KNTTP",
+    "verify": true
+  },
+  {
+    "table": "T163Y",
+    "desc": "Item Cat / Acct Assign Cat Combination",
+    "type": "Relational Matrix",
+    "key": "PSTYP, KNTTP",
+    "verify": false
+  },
+  {
+    "table": "T163D",
+    "desc": "Confirmation Categories",
+    "type": "Domain Table",
+    "key": "KZABS",
+    "verify": false
+  },
+  {
+    "table": "T163L",
+    "desc": "Confirmation Control Keys",
+    "type": "Header Control",
+    "key": "BSTAE",
+    "verify": false
+  },
+  {
+    "table": "T166K",
+    "desc": "Purchasing Header Text Types",
+    "type": "UI Control",
+    "key": "TDOBJECT, TDID",
+    "verify": false
+  },
+  {
+    "table": "T166P",
+    "desc": "Purchasing Item Text Types",
+    "type": "UI Control",
+    "key": "TDOBJECT, TDID",
+    "verify": false
+  },
+  {
+    "table": "TTXOB",
+    "desc": "Text Object Registry",
+    "type": "Domain Table",
+    "key": "TDOBJECT",
+    "verify": false
+  },
+  {
+    "table": "TTXID",
+    "desc": "Text ID Registry",
+    "type": "Domain Table",
+    "key": "TDOBJECT, TDID",
+    "verify": false
+  },
+  {
+    "table": "STXH",
+    "desc": "SAPscript Text Header",
+    "type": "Transaction Data",
+    "key": "TDOBJECT, TDNAME, TDID",
+    "verify": false
+  },
+  {
+    "table": "STXL",
+    "desc": "SAPscript Text Lines",
+    "type": "Transaction Data",
+    "key": "TDOBJECT, TDNAME, TDID",
+    "verify": false
+  },
+  {
+    "table": "EREV",
+    "desc": "Purchasing Document Versions",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, REVNO",
+    "verify": false
+  },
+  {
+    "table": "EKPB",
+    "desc": "Components to be Provided",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, RSPOS",
+    "verify": false
+  },
+  {
+    "table": "EKES",
+    "desc": "Vendor Confirmations",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, ETENS",
+    "verify": false
+  },
+  {
+    "table": "EBAN",
+    "desc": "Purchase Requisition",
+    "type": "Transaction Data",
+    "key": "BANFN, BNFPO",
+    "verify": false
+  },
+  {
+    "table": "EBKN",
+    "desc": "PR Account Assignment",
+    "type": "Transaction Data",
+    "key": "BANFN, BNFPO, ZEBKN",
+    "verify": false
+  },
+  {
+    "table": "EKAB",
+    "desc": "Release Documentation (Call-offs)",
+    "type": "Transaction Data",
+    "key": "KONNR, KTPNR, EBELN",
+    "verify": false
+  },
+  {
+    "table": "EKEK",
+    "desc": "Sched. Agreement Release Header",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, ABRUF",
+    "verify": false
+  },
+  {
+    "table": "EKEH",
+    "desc": "Sched. Agreement Release Doc.",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, ABRUF",
+    "verify": false
+  },
+  {
+    "table": "ASMD",
+    "desc": "Service Master",
+    "type": "Master Data",
+    "key": "ASNUM",
+    "verify": false
+  },
+  {
+    "table": "ESLL",
+    "desc": "Service Lines",
+    "type": "Transaction Data",
+    "key": "PACKNO, INTROW",
+    "verify": false
+  },
+  {
+    "table": "ESUH",
+    "desc": "Service Limits Header",
+    "type": "Transaction Data",
+    "key": "PACKNO",
+    "verify": false
+  },
+  {
+    "table": "T681",
+    "desc": "Condition Tables",
+    "type": "Condition Config",
+    "key": "KVEWE, KOTABNR",
+    "verify": true
+  },
+  {
+    "table": "T681A",
+    "desc": "Condition Table Attributes",
+    "type": "Condition Config",
+    "key": "KVEWE, KOTABNR",
+    "verify": false
+  },
+  {
+    "table": "T682",
+    "desc": "Access Sequences",
+    "type": "Condition Config",
+    "key": "KVEWE, KAPPL, KOZGF",
+    "verify": true
+  },
+  {
+    "table": "T682I",
+    "desc": "Access Sequence - Accesses",
+    "type": "Condition Config",
+    "key": "KOZGF, KOLNR",
+    "verify": false
+  },
+  {
+    "table": "T682Z",
+    "desc": "Access Sequence - Field Mapping",
+    "type": "Condition Config",
+    "key": "KOZGF, KOLNR",
+    "verify": false
+  },
+  {
+    "table": "T685",
+    "desc": "Condition Types",
+    "type": "Condition Config",
+    "key": "KVEWE, KAPPL, KSCHL",
+    "verify": true
+  },
+  {
+    "table": "T685A",
+    "desc": "Condition Type Control",
+    "type": "Condition Config",
+    "key": "KSCHL",
+    "verify": false
+  },
+  {
+    "table": "T685T",
+    "desc": "Condition Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KSCHL",
+    "verify": false
+  },
+  {
+    "table": "T683",
+    "desc": "Calculation Schema Header",
+    "type": "Condition Config",
+    "key": "KALSM",
+    "verify": true
+  },
+  {
+    "table": "T683S",
+    "desc": "Calculation Schema Steps",
+    "type": "Condition Config",
+    "key": "KALSM, STUNR, ZAEHK",
+    "verify": false
+  },
+  {
+    "table": "T683T",
+    "desc": "Calculation Schema Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KALSM",
+    "verify": false
+  },
+  {
+    "table": "A016",
+    "desc": "Cond. Table - Contract Item",
+    "type": "Condition Data",
+    "key": "KSCHL, EVRTN, EVRTP",
+    "verify": false
+  },
+  {
+    "table": "A017",
+    "desc": "Cond. Table - Info Record (Plant)",
+    "type": "Condition Data",
+    "key": "KSCHL, LIFNR, MATNR, EKORG, WERKS",
+    "verify": false
+  },
+  {
+    "table": "A018",
+    "desc": "Cond. Table - Info Record",
+    "type": "Condition Data",
+    "key": "KSCHL, LIFNR, MATNR, EKORG",
+    "verify": false
+  },
+  {
+    "table": "A019",
+    "desc": "Cond. Table - Vendor",
+    "type": "Condition Data",
+    "key": "KSCHL, LIFNR, EKORG",
+    "verify": false
+  },
+  {
+    "table": "KONH",
+    "desc": "Condition Record Header",
+    "type": "Condition Data",
+    "key": "KNUMH",
+    "verify": true
+  },
+  {
+    "table": "KONP",
+    "desc": "Condition Record Items",
+    "type": "Condition Data",
+    "key": "KNUMH, KOPOS",
+    "verify": false
+  },
+  {
+    "table": "KONM",
+    "desc": "Condition Quantity Scales",
+    "type": "Condition Data",
+    "key": "KNUMH, KOPOS, KSTBM",
+    "verify": false
+  },
+  {
+    "table": "KONW",
+    "desc": "Condition Value Scales",
+    "type": "Condition Data",
+    "key": "KNUMH, KOPOS, KSTBW",
+    "verify": false
+  },
+  {
+    "table": "PRCD_ELEMENTS",
+    "desc": "Document Conditions (S/4, was KONV)",
+    "type": "Condition Data",
+    "key": "KNUMV, KPOSN, STUNR",
+    "verify": false
+  },
+  {
+    "table": "T005",
+    "desc": "Countries & Tax Procedure Assignment",
+    "type": "Global Setting",
+    "key": "LAND1",
+    "verify": false
+  },
+  {
+    "table": "A003",
+    "desc": "Cond. Table - Tax Classification",
+    "type": "Condition Data",
+    "key": "KSCHL, ALAND, MWSKZ",
+    "verify": false
+  },
+  {
+    "table": "T007A",
+    "desc": "Tax Codes",
+    "type": "Tax Config",
+    "key": "KALSM, MWSKZ",
+    "verify": true
+  },
+  {
+    "table": "T007S",
+    "desc": "Tax Code Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KALSM, MWSKZ",
+    "verify": false
+  },
+  {
+    "table": "T030K",
+    "desc": "Tax Account Determination",
+    "type": "Account Determination",
+    "key": "KTOPL, KTOSL, MWSKZ",
+    "verify": false
+  },
+  {
+    "table": "TTXD",
+    "desc": "Tax Jurisdiction Structure",
+    "type": "Tax Config",
+    "key": "KALSM",
+    "verify": false
+  },
+  {
+    "table": "TTXJ",
+    "desc": "Tax Jurisdiction Codes",
+    "type": "Tax Config",
+    "key": "KALSM, TXJCD",
+    "verify": false
+  },
+  {
+    "table": "CABN",
+    "desc": "Characteristics",
+    "type": "Classification",
+    "key": "ATINN",
+    "verify": true
+  },
+  {
+    "table": "CABNT",
+    "desc": "Characteristic Texts",
+    "type": "Text Table",
+    "key": "ATINN, SPRAS",
+    "verify": false
+  },
+  {
+    "table": "CAWN",
+    "desc": "Characteristic Values",
+    "type": "Classification",
+    "key": "ATINN, ATZHL",
+    "verify": true
+  },
+  {
+    "table": "CAWNT",
+    "desc": "Characteristic Value Texts",
+    "type": "Text Table",
+    "key": "ATINN, ATZHL, SPRAS",
+    "verify": false
+  },
+  {
+    "table": "KLAH",
+    "desc": "Class Header",
+    "type": "Classification",
+    "key": "CLINT",
+    "verify": false
+  },
+  {
+    "table": "KSSK",
+    "desc": "Object to Class Allocation",
+    "type": "Classification",
+    "key": "OBJEK, CLINT",
+    "verify": false
+  },
+  {
+    "table": "KSML",
+    "desc": "Characteristics of a Class",
+    "type": "Classification",
+    "key": "CLINT, IMERK",
+    "verify": false
+  },
+  {
+    "table": "AUSP",
+    "desc": "Characteristic Values of Object",
+    "type": "Classification",
+    "key": "OBJEK, ATINN, ATZHL",
+    "verify": false
+  },
+  {
+    "table": "T16FG",
+    "desc": "Release Groups",
+    "type": "Release Config",
+    "key": "FRGGR",
+    "verify": true
+  },
+  {
+    "table": "T16FC",
+    "desc": "Release Codes",
+    "type": "Release Config",
+    "key": "FRGGR, FRGCO",
+    "verify": false
+  },
+  {
+    "table": "T16FS",
+    "desc": "Release Strategies",
+    "type": "Release Config",
+    "key": "FRGGR, FRGSX",
+    "verify": false
+  },
+  {
+    "table": "T16FE",
+    "desc": "Release Indicators",
+    "type": "Release Config",
+    "key": "FRGKZ",
+    "verify": false
+  },
+  {
+    "table": "T16FV",
+    "desc": "Release Prerequisites",
+    "type": "Relational Matrix",
+    "key": "FRGGR, FRGSX, FRGCO",
+    "verify": false
+  },
+  {
+    "table": "T16FW",
+    "desc": "Release Statuses",
+    "type": "Relational Matrix",
+    "key": "FRGGR, FRGSX",
+    "verify": false
+  },
+  {
+    "table": "T16FT",
+    "desc": "Release Strategy Texts",
+    "type": "Text Table",
+    "key": "SPRAS, FRGGR, FRGSX",
+    "verify": false
+  },
+  {
+    "table": "T16FK",
+    "desc": "Release Code Agent Assignment",
+    "type": "Release Config",
+    "key": "FRGGR, FRGCO",
+    "verify": false
+  },
+  {
+    "table": "SWWWIHEAD",
+    "desc": "Workflow Work Item Header",
+    "type": "Transaction Data",
+    "key": "WI_ID",
+    "verify": false
+  },
+  {
+    "table": "SWW_WI2OBJ",
+    "desc": "Work Item to Object Link",
+    "type": "Transaction Data",
+    "key": "WI_ID, INSTID",
+    "verify": false
+  },
+  {
+    "table": "T685B",
+    "desc": "Output Types (Messages)",
+    "type": "Message Config",
+    "key": "KVEWE, KAPPL, KSCHL",
+    "verify": false
+  },
+  {
+    "table": "NACH",
+    "desc": "Output Condition Records",
+    "type": "Message Config",
+    "key": "KAPPL, KSCHL, KOTABNR",
+    "verify": true
+  },
+  {
+    "table": "TNAPR",
+    "desc": "Output Programs and Forms",
+    "type": "Message Config",
+    "key": "KSCHL, NACHA",
+    "verify": false
+  },
+  {
+    "table": "NAST",
+    "desc": "Message Status per Document",
+    "type": "Transaction Data",
+    "key": "KAPPL, OBJKY, KSCHL",
+    "verify": false
+  },
+  {
+    "table": "CMFP",
+    "desc": "Message Processing Log",
+    "type": "Transaction Data",
+    "key": "ARBGB, MSGNR",
+    "verify": false
+  },
+  {
+    "table": "CMFK",
+    "desc": "Message Log Header",
+    "type": "Transaction Data",
+    "key": "NR",
+    "verify": false
+  },
+  {
+    "table": "TPAER",
+    "desc": "Partner Roles for Messages",
+    "type": "Message Config",
+    "key": "KAPPL, PARVW",
+    "verify": false
+  },
+  {
+    "table": "T025",
+    "desc": "Valuation Classes",
+    "type": "Account Determination",
+    "key": "BKLAS",
+    "verify": true
+  },
+  {
+    "table": "T025T",
+    "desc": "Valuation Class Texts",
+    "type": "Text Table",
+    "key": "SPRAS, BKLAS",
+    "verify": false
+  },
+  {
+    "table": "T025L",
+    "desc": "Account Category Reference",
+    "type": "Account Determination",
+    "key": "KKREF",
+    "verify": false
+  },
+  {
+    "table": "T030",
+    "desc": "Automatic Postings (OBYC)",
+    "type": "Account Determination",
+    "key": "KTOPL, KTOSL, BWMOD, BKLAS",
+    "verify": true
+  },
+  {
+    "table": "T030B",
+    "desc": "Transaction / Event Keys",
+    "type": "Account Determination",
+    "key": "KTOSL",
+    "verify": false
+  },
+  {
+    "table": "T156",
+    "desc": "Movement Types",
+    "type": "Header Control",
+    "key": "BWART",
+    "verify": true
+  },
+  {
+    "table": "T156T",
+    "desc": "Movement Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, BWART",
+    "verify": false
+  },
+  {
+    "table": "T156W",
+    "desc": "Movement Type Value String",
+    "type": "Account Determination",
+    "key": "BWART, SOBKZ",
+    "verify": false
+  },
+  {
+    "table": "T156S",
+    "desc": "Value String to Transaction Key",
+    "type": "Account Determination",
+    "key": "VORSL, BWSCL",
+    "verify": false
+  },
+  {
+    "table": "EKKO",
+    "desc": "Purchasing Document Header",
+    "type": "Transaction Data",
+    "key": "EBELN",
+    "verify": true
+  },
+  {
+    "table": "EKPO",
+    "desc": "Purchasing Document Item",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP",
+    "verify": false
+  },
+  {
+    "table": "EKET",
+    "desc": "Purchasing Document Schedule Line",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, ETENR",
+    "verify": false
+  },
+  {
+    "table": "EKKN",
+    "desc": "PO Account Assignment",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, ZEKKN",
+    "verify": false
+  },
+  {
+    "table": "EKPA",
+    "desc": "PO Partner Functions",
+    "type": "Transaction Data",
+    "key": "EBELN, PARVW",
+    "verify": false
+  },
+  {
+    "table": "EKBE",
+    "desc": "PO History",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, VGABE, GJAHR, BELNR",
+    "verify": false
+  },
+  {
+    "table": "EKBZ",
+    "desc": "PO History - Delivery Costs",
+    "type": "Transaction Data",
+    "key": "EBELN, EBELP, VGABE, GJAHR, BELNR",
+    "verify": false
+  },
+  {
+    "table": "MKPF",
+    "desc": "Material Document Header",
+    "type": "Transaction Data",
+    "key": "MBLNR, MJAHR",
+    "verify": false
+  },
+  {
+    "table": "MARV",
+    "desc": "Material Control Record (MM Period)",
+    "type": "Global Setting",
+    "key": "BUKRS",
+    "verify": false
+  },
+  {
+    "table": "RBKP",
+    "desc": "Invoice Document Header",
+    "type": "Transaction Data",
+    "key": "BELNR, GJAHR",
+    "verify": false
+  },
+  {
+    "table": "RSEG",
+    "desc": "Invoice Document Item",
+    "type": "Transaction Data",
+    "key": "BELNR, GJAHR, BUZEI",
+    "verify": false
+  },
+  {
+    "table": "T169F",
+    "desc": "Invoice Verification: Doc Type Control",
+    "type": "Header Control",
+    "key": "BUKRS",
+    "verify": false
+  },
+  {
+    "table": "T169P",
+    "desc": "Invoice Verification: Parameters",
+    "type": "Global Setting",
+    "key": "BUKRS",
+    "verify": false
+  },
+  {
+    "table": "T169G",
+    "desc": "Invoice Tolerance Limits",
+    "type": "Global Setting",
+    "key": "BUKRS, TLKNZ",
+    "verify": false
+  },
+  {
+    "table": "T042",
+    "desc": "Payment Program Configuration",
+    "type": "Global Setting",
+    "key": "ZBUKR",
+    "verify": false
+  },
+  {
+    "table": "T042Z",
+    "desc": "Payment Methods",
+    "type": "Domain Table",
+    "key": "LAND1, ZLSCH",
+    "verify": false
+  },
+  {
+    "table": "REGUH",
+    "desc": "Payment Run: Settlement Data",
+    "type": "Transaction Data",
+    "key": "LAUFD, LAUFI, LIFNR",
+    "verify": false
+  },
+  {
+    "table": "REGUP",
+    "desc": "Payment Run: Processed Items",
+    "type": "Transaction Data",
+    "key": "LAUFD, LAUFI, BUKRS, BELNR",
+    "verify": false
+  },
+  {
+    "table": "BSIK",
+    "desc": "Vendor Open Items",
+    "type": "Transaction Data",
+    "key": "BUKRS, LIFNR, BELNR",
+    "verify": false
+  },
+  {
+    "table": "BSAK",
+    "desc": "Vendor Cleared Items",
+    "type": "Transaction Data",
+    "key": "BUKRS, LIFNR, BELNR",
+    "verify": false
+  },
+  {
+    "table": "T004T",
+    "desc": "Chart of Accounts Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOPL",
+    "verify": false
+  },
+  {
+    "table": "SKA1",
+    "desc": "G/L Account Master (Chart of Accounts)",
+    "type": "Master Data",
+    "key": "KTOPL, SAKNR",
+    "verify": true
+  },
+  {
+    "table": "SKB1",
+    "desc": "G/L Account Master (Company Code)",
+    "type": "Master Data",
+    "key": "BUKRS, SAKNR",
+    "verify": false
+  },
+  {
+    "table": "SKAT",
+    "desc": "G/L Account Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOPL, SAKNR",
+    "verify": false
+  },
+  {
+    "table": "T077S",
+    "desc": "G/L Account Groups",
+    "type": "Header Control",
+    "key": "KTOPL, KTOKS",
+    "verify": true
+  },
+  {
+    "table": "T077Z",
+    "desc": "G/L Account Group Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOPL, KTOKS",
+    "verify": false
+  },
+  {
+    "table": "T004V",
+    "desc": "Field Status Variants",
+    "type": "Header Control",
+    "key": "BUKRS, FSTVA",
+    "verify": true
+  },
+  {
+    "table": "T004G",
+    "desc": "Field Status Groups",
+    "type": "UI Control",
+    "key": "BUKRS, FSTVA, FSTAG",
+    "verify": false
+  },
+  {
+    "table": "T004F",
+    "desc": "Field Status Definition",
+    "type": "UI Control",
+    "key": "BUKRS, FSTAG",
+    "verify": false
+  },
+  {
+    "table": "T003",
+    "desc": "FI Document Types",
+    "type": "Header Control",
+    "key": "BLART",
+    "verify": true
+  },
+  {
+    "table": "T003T",
+    "desc": "FI Document Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, BLART",
+    "verify": false
+  },
+  {
+    "table": "TBSL",
+    "desc": "Posting Keys",
+    "type": "Header Control",
+    "key": "BSCHL",
+    "verify": true
+  },
+  {
+    "table": "TBSLT",
+    "desc": "Posting Key Texts",
+    "type": "Text Table",
+    "key": "SPRAS, BSCHL",
+    "verify": false
+  },
+  {
+    "table": "T043",
+    "desc": "Tolerance Groups (Employees)",
+    "type": "Global Setting",
+    "key": "BUKRS, TGRUP",
+    "verify": true
+  },
+  {
+    "table": "T043T",
+    "desc": "Tolerance Group Texts",
+    "type": "Text Table",
+    "key": "SPRAS, BUKRS, TGRUP",
+    "verify": false
+  },
+  {
+    "table": "T043S",
+    "desc": "Tolerance Groups (G/L)",
+    "type": "Global Setting",
+    "key": "BUKRS, TGRUP",
+    "verify": false
+  },
+  {
+    "table": "T052",
+    "desc": "Payment Terms",
+    "type": "Header Control",
+    "key": "ZTERM",
+    "verify": true
+  },
+  {
+    "table": "T052U",
+    "desc": "Payment Term Texts",
+    "type": "Text Table",
+    "key": "SPRAS, ZTERM",
+    "verify": false
+  },
+  {
+    "table": "T042E",
+    "desc": "Payment Method per Company Code",
+    "type": "Global Setting",
+    "key": "ZBUKR, ZLSCH",
+    "verify": false
+  },
+  {
+    "table": "T074",
+    "desc": "Special G/L Accounts",
+    "type": "Account Determination",
+    "key": "KOART, SHBKZ, HKONT",
+    "verify": true
+  },
+  {
+    "table": "T074U",
+    "desc": "Special G/L Indicator Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KOART, SHBKZ",
+    "verify": false
+  },
+  {
+    "table": "T047",
+    "desc": "Dunning Procedures",
+    "type": "Header Control",
+    "key": "MAHNV",
+    "verify": true
+  },
+  {
+    "table": "T047A",
+    "desc": "Dunning Levels",
+    "type": "Relational Matrix",
+    "key": "MAHNV, MAHNS",
+    "verify": false
+  },
+  {
+    "table": "T047B",
+    "desc": "Dunning Charges",
+    "type": "Relational Matrix",
+    "key": "MAHNV, MAHNS",
+    "verify": false
+  },
+  {
+    "table": "T096",
+    "desc": "Chart of Depreciation",
+    "type": "Org Structure",
+    "key": "AFAPL",
+    "verify": true
+  },
+  {
+    "table": "T096T",
+    "desc": "Chart of Depreciation Texts",
+    "type": "Text Table",
+    "key": "SPRAS, AFAPL",
+    "verify": false
+  },
+  {
+    "table": "ANKA",
+    "desc": "Asset Classes",
+    "type": "Header Control",
+    "key": "ANLKL",
+    "verify": true
+  },
+  {
+    "table": "ANKT",
+    "desc": "Asset Class Texts",
+    "type": "Text Table",
+    "key": "SPRAS, ANLKL",
+    "verify": false
+  },
+  {
+    "table": "T095",
+    "desc": "Asset Account Determination",
+    "type": "Account Determination",
+    "key": "KTOGR, AFABE",
+    "verify": false
+  },
+  {
+    "table": "T093",
+    "desc": "Depreciation Areas",
+    "type": "Header Control",
+    "key": "AFAPL, AFABE",
+    "verify": true
+  },
+  {
+    "table": "T093B",
+    "desc": "Depreciation Area Company Code Data",
+    "type": "Global Setting",
+    "key": "BUKRS, AFABE",
+    "verify": false
+  },
+  {
+    "table": "CSKA",
+    "desc": "Cost Elements (Chart of Accounts)",
+    "type": "Master Data",
+    "key": "KTOPL, KSTAR",
+    "verify": true
+  },
+  {
+    "table": "CSKB",
+    "desc": "Cost Elements (Controlling Area)",
+    "type": "Master Data",
+    "key": "KOKRS, KSTAR, DATBI",
+    "verify": false
+  },
+  {
+    "table": "CSKU",
+    "desc": "Cost Element Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOPL, KSTAR",
+    "verify": false
+  },
+  {
+    "table": "CSKS",
+    "desc": "Cost Centre Master",
+    "type": "Master Data",
+    "key": "KOKRS, KOSTL, DATBI",
+    "verify": true
+  },
+  {
+    "table": "CSKT",
+    "desc": "Cost Centre Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KOKRS, KOSTL",
+    "verify": false
+  },
+  {
+    "table": "AUFK",
+    "desc": "Order Master Data",
+    "type": "Master Data",
+    "key": "AUFNR",
+    "verify": false
+  },
+  {
+    "table": "T003O",
+    "desc": "Order Types",
+    "type": "Header Control",
+    "key": "AUART",
+    "verify": true
+  },
+  {
+    "table": "T003P",
+    "desc": "Order Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, AUART",
+    "verify": false
+  },
+  {
+    "table": "CEPC",
+    "desc": "Profit Centre Master",
+    "type": "Master Data",
+    "key": "PRCTR, DATBI, KOKRS",
+    "verify": true
+  },
+  {
+    "table": "CEPCT",
+    "desc": "Profit Centre Texts",
+    "type": "Text Table",
+    "key": "SPRAS, PRCTR, DATBI",
+    "verify": false
+  },
+  {
+    "table": "ACDOCA",
+    "desc": "Universal Journal Line Items (S/4)",
+    "type": "Transaction Data",
+    "key": "RCLNT, RLDNR, RBUKRS, GJAHR, BELNR, DOCLN",
+    "verify": false
+  },
+  {
+    "table": "T024D",
+    "desc": "MRP Controllers",
+    "type": "Org Structure",
+    "key": "WERKS, DISPO",
+    "verify": false
+  },
+  {
+    "table": "MAST",
+    "desc": "Material to BOM Link",
+    "type": "Master Data",
+    "key": "MATNR, WERKS, STLAN, STLNR",
+    "verify": false
+  },
+  {
+    "table": "STKO",
+    "desc": "BOM Header",
+    "type": "Master Data",
+    "key": "STLNR, STLAL",
+    "verify": true
+  },
+  {
+    "table": "STPO",
+    "desc": "BOM Item",
+    "type": "Master Data",
+    "key": "STLNR, STLKN",
+    "verify": false
+  },
+  {
+    "table": "CRHD",
+    "desc": "Work Centre Header",
+    "type": "Master Data",
+    "key": "OBJTY, OBJID",
+    "verify": true
+  },
+  {
+    "table": "CRCA",
+    "desc": "Work Centre Capacity Allocation",
+    "type": "Master Data",
+    "key": "OBJTY, OBJID, LFDNR",
+    "verify": false
+  },
+  {
+    "table": "MAPL",
+    "desc": "Material to Routing Link",
+    "type": "Master Data",
+    "key": "MATNR, WERKS, PLNTY, PLNNR",
+    "verify": false
+  },
+  {
+    "table": "PLKO",
+    "desc": "Routing Header",
+    "type": "Master Data",
+    "key": "PLNTY, PLNNR, PLNAL",
+    "verify": true
+  },
+  {
+    "table": "PLPO",
+    "desc": "Routing Operation",
+    "type": "Master Data",
+    "key": "PLNTY, PLNNR, PLNKN",
+    "verify": false
+  },
+  {
+    "table": "PLAS",
+    "desc": "Routing Sequence / Operation Link",
+    "type": "Master Data",
+    "key": "PLNTY, PLNNR, PLNAL, PLNKN",
+    "verify": false
+  },
+  {
+    "table": "MKAL",
+    "desc": "Production Version",
+    "type": "Master Data",
+    "key": "MATNR, WERKS, VERID",
+    "verify": false
+  },
+  {
+    "table": "T438A",
+    "desc": "MRP Types",
+    "type": "Header Control",
+    "key": "DISMM",
+    "verify": true
+  },
+  {
+    "table": "T438T",
+    "desc": "MRP Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, DISMM",
+    "verify": false
+  },
+  {
+    "table": "T439A",
+    "desc": "Lot Size Procedures",
+    "type": "Header Control",
+    "key": "DISLS",
+    "verify": true
+  },
+  {
+    "table": "T439T",
+    "desc": "Lot Size Texts",
+    "type": "Text Table",
+    "key": "SPRAS, DISLS",
+    "verify": false
+  },
+  {
+    "table": "T399X",
+    "desc": "Order Type Dependent Parameters",
+    "type": "Header Control",
+    "key": "WERKS, AUART",
+    "verify": false
+  },
+  {
+    "table": "TJ20",
+    "desc": "Status Profiles",
+    "type": "Header Control",
+    "key": "STSMA",
+    "verify": true
+  },
+  {
+    "table": "TJ21",
+    "desc": "Status Profile: User Status",
+    "type": "Relational Matrix",
+    "key": "STSMA, ESTAT",
+    "verify": false
+  },
+  {
+    "table": "TCK03",
+    "desc": "Costing Variants",
+    "type": "Header Control",
+    "key": "KLVAR",
+    "verify": false
+  },
+  {
+    "table": "AFKO",
+    "desc": "Production Order Header",
+    "type": "Transaction Data",
+    "key": "AUFNR",
+    "verify": false
+  },
+  {
+    "table": "AFPO",
+    "desc": "Production Order Item",
+    "type": "Transaction Data",
+    "key": "AUFNR, POSNR",
+    "verify": false
+  },
+  {
+    "table": "AFRU",
+    "desc": "Order Confirmations",
+    "type": "Transaction Data",
+    "key": "RUECK, RMZHL",
+    "verify": false
+  },
+  {
+    "table": "MDBS",
+    "desc": "MRP Index of Purchase Order Items",
+    "type": "Transaction Data",
+    "key": "MATNR, WERKS, EBELN, EBELP",
+    "verify": false
+  },
+  {
+    "table": "TVAK",
+    "desc": "Sales Document Types",
+    "type": "Header Control",
+    "key": "AUART",
+    "verify": true
+  },
+  {
+    "table": "TVAKT",
+    "desc": "Sales Doc Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, AUART",
+    "verify": false
+  },
+  {
+    "table": "TVAKZ",
+    "desc": "Sales Area to Sales Doc Type",
+    "type": "Relational Matrix",
+    "key": "VKORG, VTWEG, SPART, AUART",
+    "verify": false
+  },
+  {
+    "table": "TVAP",
+    "desc": "Sales Item Categories",
+    "type": "Item Control",
+    "key": "PSTYV",
+    "verify": true
+  },
+  {
+    "table": "TVAPT",
+    "desc": "Sales Item Category Texts",
+    "type": "Text Table",
+    "key": "SPRAS, PSTYV",
+    "verify": false
+  },
+  {
+    "table": "T184",
+    "desc": "Item Category Determination",
+    "type": "Relational Matrix",
+    "key": "AUART, MTPOS, UEPST",
+    "verify": false
+  },
+  {
+    "table": "TVEP",
+    "desc": "Schedule Line Categories",
+    "type": "Item Control",
+    "key": "ETTYP",
+    "verify": true
+  },
+  {
+    "table": "TVEPT",
+    "desc": "Schedule Line Category Texts",
+    "type": "Text Table",
+    "key": "SPRAS, ETTYP",
+    "verify": false
+  },
+  {
+    "table": "TVEPZ",
+    "desc": "Schedule Line Determination",
+    "type": "Relational Matrix",
+    "key": "PSTYV, DISMM, ETTYP",
+    "verify": false
+  },
+  {
+    "table": "TVUV",
+    "desc": "Incompletion Procedures",
+    "type": "Header Control",
+    "key": "UVALL",
+    "verify": true
+  },
+  {
+    "table": "TVUVF",
+    "desc": "Incompletion Procedure Fields",
+    "type": "Relational Matrix",
+    "key": "UVALL, TBNAM, FDNAM",
+    "verify": false
+  },
+  {
+    "table": "TVLS",
+    "desc": "Delivery Blocks",
+    "type": "Domain Table",
+    "key": "LIFSP",
+    "verify": false
+  },
+  {
+    "table": "TVFS",
+    "desc": "Billing Blocks",
+    "type": "Domain Table",
+    "key": "FAKSP",
+    "verify": false
+  },
+  {
+    "table": "T691F",
+    "desc": "Automatic Credit Control",
+    "type": "Header Control",
+    "key": "KKBER, CTLPC, CRTYP",
+    "verify": false
+  },
+  {
+    "table": "TMVF",
+    "desc": "Availability Checking Group",
+    "type": "Header Control",
+    "key": "MTVFP",
+    "verify": false
+  },
+  {
+    "table": "TMVFU",
+    "desc": "Availability Scope of Check",
+    "type": "Relational Matrix",
+    "key": "MTVFP, CHRUL",
+    "verify": false
+  },
+  {
+    "table": "T077D",
+    "desc": "Customer Account Groups",
+    "type": "Header Control",
+    "key": "KTOKD",
+    "verify": true
+  },
+  {
+    "table": "T077X",
+    "desc": "Customer Account Group Texts",
+    "type": "Text Table",
+    "key": "SPRAS, KTOKD",
+    "verify": false
+  },
+  {
+    "table": "KNA1",
+    "desc": "Customer General Data",
+    "type": "Master Data",
+    "key": "KUNNR",
+    "verify": true
+  },
+  {
+    "table": "KNB1",
+    "desc": "Customer Company Code Data",
+    "type": "Master Data",
+    "key": "KUNNR, BUKRS",
+    "verify": false
+  },
+  {
+    "table": "KNVV",
+    "desc": "Customer Sales Area Data",
+    "type": "Master Data",
+    "key": "KUNNR, VKORG, VTWEG, SPART",
+    "verify": false
+  },
+  {
+    "table": "KNVP",
+    "desc": "Customer Partner Functions",
+    "type": "Relational Matrix",
+    "key": "KUNNR, VKORG, VTWEG, SPART, PARVW",
+    "verify": false
+  },
+  {
+    "table": "KNMT",
+    "desc": "Customer-Material Info Record",
+    "type": "Master Data",
+    "key": "VKORG, VTWEG, KUNNR, MATNR",
+    "verify": false
+  },
+  {
+    "table": "MVKE",
+    "desc": "Material Sales Data",
+    "type": "Master Data",
+    "key": "MATNR, VKORG, VTWEG",
+    "verify": false
+  },
+  {
+    "table": "TVKM",
+    "desc": "Material Account Assignment Groups",
+    "type": "Account Determination",
+    "key": "KTGRM",
+    "verify": false
+  },
+  {
+    "table": "TVKT",
+    "desc": "Customer Account Assignment Groups",
+    "type": "Account Determination",
+    "key": "KTGRD",
+    "verify": false
+  },
+  {
+    "table": "TVKOV",
+    "desc": "Distribution Channel to Sales Org",
+    "type": "Org Assignment",
+    "key": "VKORG, VTWEG",
+    "verify": false
+  },
+  {
+    "table": "TVKOS",
+    "desc": "Division to Sales Org",
+    "type": "Org Assignment",
+    "key": "VKORG, SPART",
+    "verify": false
+  },
+  {
+    "table": "TVSTZ",
+    "desc": "Shipping Point Determination",
+    "type": "Relational Matrix",
+    "key": "VSBED, LPRIO, WERKS, VSTEL",
+    "verify": false
+  },
+  {
+    "table": "TVSB",
+    "desc": "Shipping Conditions",
+    "type": "Domain Table",
+    "key": "VSBED",
+    "verify": false
+  },
+  {
+    "table": "TLGR",
+    "desc": "Loading Groups",
+    "type": "Domain Table",
+    "key": "LADGR",
+    "verify": false
+  },
+  {
+    "table": "TVLK",
+    "desc": "Delivery Types",
+    "type": "Header Control",
+    "key": "LFART",
+    "verify": true
+  },
+  {
+    "table": "TVLKT",
+    "desc": "Delivery Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, LFART",
+    "verify": false
+  },
+  {
+    "table": "TVLP",
+    "desc": "Delivery Item Categories",
+    "type": "Item Control",
+    "key": "PSTYV",
+    "verify": false
+  },
+  {
+    "table": "TVFK",
+    "desc": "Billing Types",
+    "type": "Header Control",
+    "key": "FKART",
+    "verify": true
+  },
+  {
+    "table": "TVFKT",
+    "desc": "Billing Type Texts",
+    "type": "Text Table",
+    "key": "SPRAS, FKART",
+    "verify": false
+  },
+  {
+    "table": "TVFP",
+    "desc": "Billing Item Categories",
+    "type": "Item Control",
+    "key": "FKARV, PSTYV",
+    "verify": false
+  },
+  {
+    "table": "TVCPL",
+    "desc": "Copy Control: Order to Delivery",
+    "type": "Relational Matrix",
+    "key": "LFART, AUART",
+    "verify": false
+  },
+  {
+    "table": "TVCPF",
+    "desc": "Copy Control: Delivery to Billing",
+    "type": "Relational Matrix",
+    "key": "FKARV, LFART",
+    "verify": false
+  },
+  {
+    "table": "T683V",
+    "desc": "Pricing Procedure Determination (SD)",
+    "type": "Condition Config",
+    "key": "KALVG, KALKS, KALSM",
+    "verify": false
+  },
+  {
+    "table": "A004",
+    "desc": "Cond. Table - Material",
+    "type": "Condition Data",
+    "key": "KSCHL, VKORG, VTWEG, MATNR",
+    "verify": false
+  },
+  {
+    "table": "A005",
+    "desc": "Cond. Table - Customer / Material",
+    "type": "Condition Data",
+    "key": "KSCHL, VKORG, VTWEG, KUNNR, MATNR",
+    "verify": false
+  },
+  {
+    "table": "C001",
+    "desc": "Cond. Table - Revenue Account Determination",
+    "type": "Condition Data",
+    "key": "KAPPL, KSCHL, KTOPL",
+    "verify": false
+  },
+  {
+    "table": "C002",
+    "desc": "Cond. Table - Revenue Acct Det. (detailed)",
+    "type": "Condition Data",
+    "key": "KAPPL, KSCHL, KTOPL",
+    "verify": false
+  },
+  {
+    "table": "VBAK",
+    "desc": "Sales Document Header",
+    "type": "Transaction Data",
+    "key": "VBELN",
+    "verify": false
+  },
+  {
+    "table": "VBAP",
+    "desc": "Sales Document Item",
+    "type": "Transaction Data",
+    "key": "VBELN, POSNR",
+    "verify": false
+  },
+  {
+    "table": "VBEP",
+    "desc": "Sales Document Schedule Line",
+    "type": "Transaction Data",
+    "key": "VBELN, POSNR, ETENR",
+    "verify": false
+  },
+  {
+    "table": "LIKP",
+    "desc": "Delivery Header",
+    "type": "Transaction Data",
+    "key": "VBELN",
+    "verify": false
+  },
+  {
+    "table": "LIPS",
+    "desc": "Delivery Item",
+    "type": "Transaction Data",
+    "key": "VBELN, POSNR",
+    "verify": false
+  },
+  {
+    "table": "VBRK",
+    "desc": "Billing Header",
+    "type": "Transaction Data",
+    "key": "VBELN",
+    "verify": false
+  },
+  {
+    "table": "VBRP",
+    "desc": "Billing Item",
+    "type": "Transaction Data",
+    "key": "VBELN, POSNR",
+    "verify": false
+  },
+  {
+    "table": "VBFA",
+    "desc": "Document Flow",
+    "type": "Transaction Data",
+    "key": "VBELV, POSNV, VBELN, POSNN",
+    "verify": false
+  },
+  {
+    "table": "MSEG",
+    "desc": "Material Document Item",
+    "type": "Transaction Data",
+    "key": "MBLNR, MJAHR, ZEILE",
+    "verify": false
+  },
+  {
+    "table": "BKPF",
+    "desc": "Accounting Document Header",
+    "type": "Transaction Data",
+    "key": "BUKRS, BELNR, GJAHR",
+    "verify": false
+  },
+  {
+    "table": "BSEG",
+    "desc": "Accounting Document Item",
+    "type": "Transaction Data",
+    "key": "BUKRS, BELNR, GJAHR, BUZEI",
+    "verify": false
+  }
+]

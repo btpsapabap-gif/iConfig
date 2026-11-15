@@ -1,0 +1,5254 @@
+[
+  {
+    "id": "l1-enterprise-structure-enterprise-structure",
+    "level": 1,
+    "name": "Enterprise Structure",
+    "module_name": "Enterprise Structure",
+    "tables": [
+      "TVTA",
+      "TCURR",
+      "T004",
+      "T009",
+      "T009B",
+      "T014",
+      "T001B",
+      "T010O",
+      "TKA01",
+      "TKA02",
+      "T024",
+      "TVKO",
+      "TVGRT",
+      "TSPA",
+      "TVST",
+      "TVKOV",
+      "T001",
+      "T024E",
+      "T001L",
+      "T001W",
+      "T001K",
+      "TCURM",
+      "T880",
+      "T024W",
+      "TCURC",
+      "TFACD",
+      "TFACS"
+    ],
+    "children": [
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org",
+        "level": 2,
+        "name": "Sales Org",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "TVTA",
+          "TVKO",
+          "TVGRT",
+          "TSPA",
+          "TVKOV"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-areas-sales-org-dist-chnl-division",
+            "level": 3,
+            "name": "Sales Areas (Sales Org/Dist.Chnl/Division)",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TVTA"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-areas-sales-org-dist-chnl-division-l4-spro-enterprise-structure-assignment-sd-set-up-sales-area",
+                "level": 4,
+                "name": "SPRO: Enterprise Structure > Assignment > SD > Set up sales area",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TVTA"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-areas-sales-org-dist-chnl-division-l4-spro-enterprise-structure-assignment-sd-set-up-sales-area-l5-tvta",
+                    "level": 5,
+                    "name": "TVTA",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TVTA"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-organizations",
+            "level": 3,
+            "name": "Sales Organizations",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TVKO"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-organizations-l4-ovx5",
+                "level": 4,
+                "name": "OVX5",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TVKO"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-organizations-l4-ovx5-l5-tvko",
+                    "level": 5,
+                    "name": "TVKO",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TVKO"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-groups-text",
+            "level": 3,
+            "name": "Sales Groups (text)",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TVGRT"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-groups-text-l4-ovxa",
+                "level": 4,
+                "name": "OVXA",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TVGRT"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-groups-text-l4-ovxa-l5-tvgrt",
+                    "level": 5,
+                    "name": "TVGRT",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TVGRT"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-divisions",
+            "level": 3,
+            "name": "Divisions",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TSPA"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-divisions-l4-ovxb",
+                "level": 4,
+                "name": "OVXB",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TSPA"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-divisions-l4-ovxb-l5-tspa",
+                    "level": 5,
+                    "name": "TSPA",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TSPA"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-org-to-distribution-channel-assignment",
+            "level": 3,
+            "name": "Sales Org to Distribution Channel Assignment",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TVKOV"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-org-to-distribution-channel-assignment-l4-ovxk",
+                "level": 4,
+                "name": "OVXK",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TVKOV"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-sales-org-l3-sales-org-to-distribution-channel-assignment-l4-ovxk-l5-tvkov",
+                    "level": 5,
+                    "name": "TVKOV",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TVKOV"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-currency",
+        "level": 2,
+        "name": "Currency",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "TCURR",
+          "TCURM",
+          "TCURC"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-exchange-rates",
+            "level": 3,
+            "name": "Exchange Rates",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TCURR"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-exchange-rates-l4-ob08",
+                "level": 4,
+                "name": "OB08",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TCURR"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-exchange-rates-l4-ob08-l5-tcurr",
+                    "level": 5,
+                    "name": "TCURR",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TCURR"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-mm-control-table-valuation-level",
+            "level": 3,
+            "name": "MM Control Table (Valuation Level)",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TCURM"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-mm-control-table-valuation-level-l4-ox14",
+                "level": 4,
+                "name": "OX14",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TCURM"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-mm-control-table-valuation-level-l4-ox14-l5-tcurm",
+                    "level": 5,
+                    "name": "TCURM",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TCURM"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-currency-codes",
+            "level": 3,
+            "name": "Currency Codes",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TCURC"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-currency-codes-l4-oy03",
+                "level": 4,
+                "name": "OY03",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TCURC"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-currency-l3-currency-codes-l4-oy03-l5-tcurc",
+                    "level": 5,
+                    "name": "TCURC",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TCURC"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-chart-of-accounts",
+        "level": 2,
+        "name": "Chart of Accounts",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T004"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-chart-of-accounts-l3-chart-of-accounts",
+            "level": 3,
+            "name": "Chart of Accounts",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T004"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-chart-of-accounts-l3-chart-of-accounts-l4-ob13",
+                "level": 4,
+                "name": "OB13",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T004"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-chart-of-accounts-l3-chart-of-accounts-l4-ob13-l5-t004",
+                    "level": 5,
+                    "name": "T004",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T004"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year",
+        "level": 2,
+        "name": "Fiscal Year",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T009",
+          "T009B"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variants",
+            "level": 3,
+            "name": "Fiscal Year Variants",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T009"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variants-l4-ob29",
+                "level": 4,
+                "name": "OB29",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T009"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variants-l4-ob29-l5-t009",
+                    "level": 5,
+                    "name": "T009",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T009"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variant-periods",
+            "level": 3,
+            "name": "Fiscal Year Variant Periods",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T009B"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variant-periods-l4-ob29",
+                "level": 4,
+                "name": "OB29",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T009B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-fiscal-year-l3-fiscal-year-variant-periods-l4-ob29-l5-t009b",
+                    "level": 5,
+                    "name": "T009B",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T009B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-credit-mgmt",
+        "level": 2,
+        "name": "Credit Mgmt",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T014"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-credit-mgmt-l3-credit-control-areas",
+            "level": 3,
+            "name": "Credit Control Areas",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T014"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-credit-mgmt-l3-credit-control-areas-l4-ob45",
+                "level": 4,
+                "name": "OB45",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T014"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-credit-mgmt-l3-credit-control-areas-l4-ob45-l5-t014",
+                    "level": 5,
+                    "name": "T014",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T014"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods",
+        "level": 2,
+        "name": "Posting Periods",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T001B",
+          "T010O"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-permitted-posting-periods",
+            "level": 3,
+            "name": "Permitted Posting Periods",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T001B"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-permitted-posting-periods-l4-ob52",
+                "level": 4,
+                "name": "OB52",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T001B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-permitted-posting-periods-l4-ob52-l5-t001b",
+                    "level": 5,
+                    "name": "T001B",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T001B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-posting-period-variants",
+            "level": 3,
+            "name": "Posting Period Variants",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T010O"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-posting-period-variants-l4-obbo",
+                "level": 4,
+                "name": "OBBO",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T010O"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-posting-periods-l3-posting-period-variants-l4-obbo-l5-t010o",
+                    "level": 5,
+                    "name": "T010O",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T010O"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-controlling",
+        "level": 2,
+        "name": "Controlling",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "TKA01",
+          "TKA02"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-controlling-areas",
+            "level": 3,
+            "name": "Controlling Areas",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TKA01"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-controlling-areas-l4-okkp",
+                "level": 4,
+                "name": "OKKP",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TKA01"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-controlling-areas-l4-okkp-l5-tka01",
+                    "level": 5,
+                    "name": "TKA01",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TKA01"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-co-area-to-company-code-assignment",
+            "level": 3,
+            "name": "CO Area to Company Code Assignment",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TKA02"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-co-area-to-company-code-assignment-l4-okkp",
+                "level": 4,
+                "name": "OKKP",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TKA02"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-controlling-l3-co-area-to-company-code-assignment-l4-okkp-l5-tka02",
+                    "level": 5,
+                    "name": "TKA02",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TKA02"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org",
+        "level": 2,
+        "name": "Purchasing Org",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T024",
+          "T024E",
+          "T024W"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-groups",
+            "level": 3,
+            "name": "Purchasing Groups",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T024"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-groups-l4-ome4",
+                "level": 4,
+                "name": "OME4",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T024"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-groups-l4-ome4-l5-t024",
+                    "level": 5,
+                    "name": "T024",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T024"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-organizations",
+            "level": 3,
+            "name": "Purchasing Organizations",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T024E"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-organizations-l4-ox08",
+                "level": 4,
+                "name": "OX08",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T024E"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-organizations-l4-ox08-l5-t024e",
+                    "level": 5,
+                    "name": "T024E",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T024E"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-org-to-plant-assignment",
+            "level": 3,
+            "name": "Purchasing Org to Plant Assignment",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T024W"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-org-to-plant-assignment-l4-ox17",
+                "level": 4,
+                "name": "OX17",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T024W"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-purchasing-org-l3-purchasing-org-to-plant-assignment-l4-ox17-l5-t024w",
+                    "level": 5,
+                    "name": "T024W",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T024W"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-shipping",
+        "level": 2,
+        "name": "Shipping",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "TVST"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-shipping-l3-shipping-points",
+            "level": 3,
+            "name": "Shipping Points",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TVST"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-shipping-l3-shipping-points-l4-ovxd",
+                "level": 4,
+                "name": "OVXD",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TVST"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-shipping-l3-shipping-points-l4-ovxd-l5-tvst",
+                    "level": 5,
+                    "name": "TVST",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TVST"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-company",
+        "level": 2,
+        "name": "Company",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "T001",
+          "T001L",
+          "T001W",
+          "T001K",
+          "T880"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-company-codes",
+            "level": 3,
+            "name": "Company Codes",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T001"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-company-codes-l4-ox02",
+                "level": 4,
+                "name": "OX02",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T001"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-company-codes-l4-ox02-l5-t001",
+                    "level": 5,
+                    "name": "T001",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T001"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-storage-locations",
+            "level": 3,
+            "name": "Storage Locations",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T001L"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-storage-locations-l4-ox09",
+                "level": 4,
+                "name": "OX09",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T001L"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-storage-locations-l4-ox09-l5-t001l",
+                    "level": 5,
+                    "name": "T001L",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T001L"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-plants-branches",
+            "level": 3,
+            "name": "Plants / Branches",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T001W"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-plants-branches-l4-ox10",
+                "level": 4,
+                "name": "OX10",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T001W"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-plants-branches-l4-ox10-l5-t001w",
+                    "level": 5,
+                    "name": "T001W",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T001W"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-valuation-areas",
+            "level": 3,
+            "name": "Valuation Areas",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T001K"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-valuation-areas-l4-ox14",
+                "level": 4,
+                "name": "OX14",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T001K"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-valuation-areas-l4-ox14-l5-t001k",
+                    "level": 5,
+                    "name": "T001K",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T001K"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-global-company-consolidation-companies",
+            "level": 3,
+            "name": "Global Company / Consolidation Companies",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "T880"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-global-company-consolidation-companies-l4-ox15",
+                "level": 4,
+                "name": "OX15",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "T880"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-company-l3-global-company-consolidation-companies-l4-ox15-l5-t880",
+                    "level": 5,
+                    "name": "T880",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "T880"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal",
+        "level": 2,
+        "name": "Factory Cal.",
+        "module_name": "Enterprise Structure",
+        "tables": [
+          "TFACD",
+          "TFACS"
+        ],
+        "children": [
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-definition",
+            "level": 3,
+            "name": "Factory Calendar Definition",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TFACD"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-definition-l4-scal",
+                "level": 4,
+                "name": "SCAL",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TFACD"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-definition-l4-scal-l5-tfacd",
+                    "level": 5,
+                    "name": "TFACD",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TFACD"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-assignment-to-plant",
+            "level": 3,
+            "name": "Factory Calendar Assignment to Plant",
+            "module_name": "Enterprise Structure",
+            "tables": [
+              "TFACS"
+            ],
+            "children": [
+              {
+                "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-assignment-to-plant-l4-scal",
+                "level": 4,
+                "name": "SCAL",
+                "module_name": "Enterprise Structure",
+                "tables": [
+                  "TFACS"
+                ],
+                "children": [
+                  {
+                    "id": "l1-enterprise-structure-enterprise-structure-l2-factory-cal-l3-factory-calendar-assignment-to-plant-l4-scal-l5-tfacs",
+                    "level": 5,
+                    "name": "TFACS",
+                    "module_name": "Enterprise Structure",
+                    "tables": [
+                      "TFACS"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-financial-accounting-fi-ap-ar",
+    "level": 1,
+    "name": "FI - AP/AR",
+    "module_name": "Financial Accounting",
+    "tables": [
+      "T047",
+      "T047B",
+      "T042E",
+      "T042Z",
+      "T052",
+      "T053R",
+      "T077D",
+      "T077K"
+    ],
+    "children": [
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-dunning",
+        "level": 2,
+        "name": "Dunning",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T047",
+          "T047B"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-procedures-header",
+            "level": 3,
+            "name": "Dunning Procedures (Header)",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T047"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-procedures-header-l4-fbmp",
+                "level": 4,
+                "name": "FBMP",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T047"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-procedures-header-l4-fbmp-l5-t047",
+                    "level": 5,
+                    "name": "T047",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T047"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-levels",
+            "level": 3,
+            "name": "Dunning Levels",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T047B"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-levels-l4-fbmp",
+                "level": 4,
+                "name": "FBMP",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T047B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-dunning-l3-dunning-levels-l4-fbmp-l5-t047b",
+                    "level": 5,
+                    "name": "T047B",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T047B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program",
+        "level": 2,
+        "name": "Payment Program",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T042E",
+          "T042Z"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-paying-company-codes",
+            "level": 3,
+            "name": "Paying Company Codes",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T042E"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-paying-company-codes-l4-fbzp",
+                "level": 4,
+                "name": "FBZP",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T042E"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-paying-company-codes-l4-fbzp-l5-t042e",
+                    "level": 5,
+                    "name": "T042E",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T042E"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-payment-methods-per-country",
+            "level": 3,
+            "name": "Payment Methods per Country",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T042Z"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-payment-methods-per-country-l4-fbzp",
+                "level": 4,
+                "name": "FBZP",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T042Z"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-payment-program-l3-payment-methods-per-country-l4-fbzp-l5-t042z",
+                    "level": 5,
+                    "name": "T042Z",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T042Z"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-payment-terms",
+        "level": 2,
+        "name": "Payment Terms",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T052"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-payment-terms-l3-terms-of-payment",
+            "level": 3,
+            "name": "Terms of Payment",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T052"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-payment-terms-l3-terms-of-payment-l4-obb8",
+                "level": 4,
+                "name": "OBB8",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T052"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-payment-terms-l3-terms-of-payment-l4-obb8-l5-t052",
+                    "level": 5,
+                    "name": "T052",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T052"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-reason-codes",
+        "level": 2,
+        "name": "Reason Codes",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T053R"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-reason-codes-l3-reason-codes-for-payment-differences",
+            "level": 3,
+            "name": "Reason Codes for Payment Differences",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T053R"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-reason-codes-l3-reason-codes-for-payment-differences-l4-obbe",
+                "level": 4,
+                "name": "OBBE",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T053R"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-reason-codes-l3-reason-codes-for-payment-differences-l4-obbe-l5-t053r",
+                    "level": 5,
+                    "name": "T053R",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T053R"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-customer-master",
+        "level": 2,
+        "name": "Customer Master",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T077D"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-customer-master-l3-customer-account-groups",
+            "level": 3,
+            "name": "Customer Account Groups",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T077D"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-customer-master-l3-customer-account-groups-l4-obd2",
+                "level": 4,
+                "name": "OBD2",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T077D"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-customer-master-l3-customer-account-groups-l4-obd2-l5-t077d",
+                    "level": 5,
+                    "name": "T077D",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T077D"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-ap-ar-l2-vendor-master",
+        "level": 2,
+        "name": "Vendor Master",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T077K"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-ap-ar-l2-vendor-master-l3-vendor-account-groups",
+            "level": 3,
+            "name": "Vendor Account Groups",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T077K"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-ap-ar-l2-vendor-master-l3-vendor-account-groups-l4-obd3",
+                "level": 4,
+                "name": "OBD3",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T077K"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-ap-ar-l2-vendor-master-l3-vendor-account-groups-l4-obd3-l5-t077k",
+                    "level": 5,
+                    "name": "T077K",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T077K"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-financial-accounting-fi-asset-accounting",
+    "level": 1,
+    "name": "FI - Asset Accounting",
+    "module_name": "Financial Accounting",
+    "tables": [
+      "T093D",
+      "T093B",
+      "T093",
+      "T093A",
+      "ANKB"
+    ],
+    "children": [
+      {
+        "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-key",
+        "level": 2,
+        "name": "Depreciation Key",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T093D"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-key-l3-depreciation-keys",
+            "level": 3,
+            "name": "Depreciation Keys",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T093D"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-key-l3-depreciation-keys-l4-afama",
+                "level": 4,
+                "name": "AFAMA",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T093D"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-key-l3-depreciation-keys-l4-afama-l5-t093d",
+                    "level": 5,
+                    "name": "T093D",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T093D"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-asset-accounting-l2-number-ranges",
+        "level": 2,
+        "name": "Number Ranges",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T093B"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-asset-accounting-l2-number-ranges-l3-asset-number-range-per-class",
+            "level": 3,
+            "name": "Asset Number Range per Class",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T093B"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-asset-accounting-l2-number-ranges-l3-asset-number-range-per-class-l4-as08",
+                "level": 4,
+                "name": "AS08",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T093B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-asset-accounting-l2-number-ranges-l3-asset-number-range-per-class-l4-as08-l5-t093b",
+                    "level": 5,
+                    "name": "T093B",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T093B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-asset-accounting-l2-chart-of-depr",
+        "level": 2,
+        "name": "Chart of Depr.",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T093"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-asset-accounting-l2-chart-of-depr-l3-chart-of-depreciation",
+            "level": 3,
+            "name": "Chart of Depreciation",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T093"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-asset-accounting-l2-chart-of-depr-l3-chart-of-depreciation-l4-ec08",
+                "level": 4,
+                "name": "EC08",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T093"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-asset-accounting-l2-chart-of-depr-l3-chart-of-depreciation-l4-ec08-l5-t093",
+                    "level": 5,
+                    "name": "T093",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T093"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation",
+        "level": 2,
+        "name": "Depreciation",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T093A",
+          "ANKB"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-depreciation-areas",
+            "level": 3,
+            "name": "Depreciation Areas",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T093A"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-depreciation-areas-l4-oadb",
+                "level": 4,
+                "name": "OADB",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T093A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-depreciation-areas-l4-oadb-l5-t093a",
+                    "level": 5,
+                    "name": "T093A",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T093A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-asset-class-depreciation-area-defaults",
+            "level": 3,
+            "name": "Asset Class - Depreciation Area Defaults",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "ANKB"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-asset-class-depreciation-area-defaults-l4-oayz",
+                "level": 4,
+                "name": "OAYZ",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "ANKB"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-asset-accounting-l2-depreciation-l3-asset-class-depreciation-area-defaults-l4-oayz-l5-ankb",
+                    "level": 5,
+                    "name": "ANKB",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "ANKB"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-financial-accounting-fi-general-ledger",
+    "level": 1,
+    "name": "FI - General Ledger",
+    "module_name": "Financial Accounting",
+    "tables": [
+      "T012",
+      "T012K",
+      "TBSL",
+      "T043",
+      "T003",
+      "T003T",
+      "T004F",
+      "T004V",
+      "T007A",
+      "T007B",
+      "T077S",
+      "T005",
+      "NRIV"
+    ],
+    "children": [
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank",
+        "level": 2,
+        "name": "House Bank",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T012",
+          "T012K"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-banks",
+            "level": 3,
+            "name": "House Banks",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T012"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-banks-l4-fi12",
+                "level": 4,
+                "name": "FI12",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T012"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-banks-l4-fi12-l5-t012",
+                    "level": 5,
+                    "name": "T012",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T012"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-bank-accounts",
+            "level": 3,
+            "name": "House Bank Accounts",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T012K"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-bank-accounts-l4-fi12",
+                "level": 4,
+                "name": "FI12",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T012K"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-house-bank-l3-house-bank-accounts-l4-fi12-l5-t012k",
+                    "level": 5,
+                    "name": "T012K",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T012K"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-posting-keys",
+        "level": 2,
+        "name": "Posting Keys",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "TBSL"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-posting-keys-l3-posting-keys",
+            "level": 3,
+            "name": "Posting Keys",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "TBSL"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-posting-keys-l3-posting-keys-l4-ob41",
+                "level": 4,
+                "name": "OB41",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "TBSL"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-posting-keys-l3-posting-keys-l4-ob41-l5-tbsl",
+                    "level": 5,
+                    "name": "TBSL",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "TBSL"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-tolerance",
+        "level": 2,
+        "name": "Tolerance",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T043"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-tolerance-l3-tolerance-groups-for-gl-accounts",
+            "level": 3,
+            "name": "Tolerance Groups for GL Accounts",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T043"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-tolerance-l3-tolerance-groups-for-gl-accounts-l4-oba0",
+                "level": 4,
+                "name": "OBA0",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T043"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-tolerance-l3-tolerance-groups-for-gl-accounts-l4-oba0-l5-t043",
+                    "level": 5,
+                    "name": "T043",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T043"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types",
+        "level": 2,
+        "name": "Doc. Types",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T003",
+          "T003T"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-types",
+            "level": 3,
+            "name": "Document Types",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T003"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-types-l4-oba7",
+                "level": 4,
+                "name": "OBA7",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T003"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-types-l4-oba7-l5-t003",
+                    "level": 5,
+                    "name": "T003",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T003"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-type-texts",
+            "level": 3,
+            "name": "Document Type Texts",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T003T"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-type-texts-l4-oba7",
+                "level": 4,
+                "name": "OBA7",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T003T"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-doc-types-l3-document-type-texts-l4-oba7-l5-t003t",
+                    "level": 5,
+                    "name": "T003T",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T003T"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-field-status",
+        "level": 2,
+        "name": "Field Status",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T004F",
+          "T004V"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-variants",
+            "level": 3,
+            "name": "Field Status Variants",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T004F"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-variants-l4-obc4",
+                "level": 4,
+                "name": "OBC4",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T004F"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-variants-l4-obc4-l5-t004f",
+                    "level": 5,
+                    "name": "T004F",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T004F"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-groups",
+            "level": 3,
+            "name": "Field Status Groups",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T004V"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-groups-l4-obc4",
+                "level": 4,
+                "name": "OBC4",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T004V"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-field-status-l3-field-status-groups-l4-obc4-l5-t004v",
+                    "level": 5,
+                    "name": "T004V",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T004V"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-tax",
+        "level": 2,
+        "name": "Tax",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T007A",
+          "T007B",
+          "T005"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-keys",
+            "level": 3,
+            "name": "Tax Keys",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T007A"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-keys-l4-obcg",
+                "level": 4,
+                "name": "OBCG",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T007A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-keys-l4-obcg-l5-t007a",
+                    "level": 5,
+                    "name": "T007A",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T007A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-processing-in-accounting",
+            "level": 3,
+            "name": "Tax Processing in Accounting",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T007B"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-processing-in-accounting-l4-obcn",
+                "level": 4,
+                "name": "OBCN",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T007B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-tax-processing-in-accounting-l4-obcn-l5-t007b",
+                    "level": 5,
+                    "name": "T007B",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T007B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-countries-tax-jurisdiction-basis",
+            "level": 3,
+            "name": "Countries / Tax Jurisdiction basis",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T005"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-countries-tax-jurisdiction-basis-l4-oy01",
+                "level": 4,
+                "name": "OY01",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T005"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-tax-l3-countries-tax-jurisdiction-basis-l4-oy01-l5-t005",
+                    "level": 5,
+                    "name": "T005",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T005"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-account-groups",
+        "level": 2,
+        "name": "Account Groups",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "T077S"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-account-groups-l3-gl-account-groups",
+            "level": 3,
+            "name": "GL Account Groups",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "T077S"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-account-groups-l3-gl-account-groups-l4-obd4",
+                "level": 4,
+                "name": "OBD4",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "T077S"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-account-groups-l3-gl-account-groups-l4-obd4-l5-t077s",
+                    "level": 5,
+                    "name": "T077S",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "T077S"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-fi-general-ledger-l2-number-ranges",
+        "level": 2,
+        "name": "Number Ranges",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "NRIV"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-fi-general-ledger-l2-number-ranges-l3-number-range-intervals-cross-application",
+            "level": 3,
+            "name": "Number Range Intervals (cross-application)",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "NRIV"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-fi-general-ledger-l2-number-ranges-l3-number-range-intervals-cross-application-l4-snro-fbn1",
+                "level": 4,
+                "name": "SNRO / FBN1",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "NRIV"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-fi-general-ledger-l2-number-ranges-l3-number-range-intervals-cross-application-l4-snro-fbn1-l5-nriv",
+                    "level": 5,
+                    "name": "NRIV",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "NRIV"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-financial-accounting-tr-treasury",
+    "level": 1,
+    "name": "TR - Treasury",
+    "module_name": "Financial Accounting",
+    "tables": [
+      "TB010",
+      "TB020"
+    ],
+    "children": [
+      {
+        "id": "l1-financial-accounting-tr-treasury-l2-financial-transactions",
+        "level": 2,
+        "name": "Financial Transactions",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "TB010"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-tr-treasury-l2-financial-transactions-l3-financial-transaction-types",
+            "level": 3,
+            "name": "Financial Transaction Types",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "TB010"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-tr-treasury-l2-financial-transactions-l3-financial-transaction-types-l4-spro-treasury-transaction-manager",
+                "level": 4,
+                "name": "SPRO: Treasury > Transaction Manager",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "TB010"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-tr-treasury-l2-financial-transactions-l3-financial-transaction-types-l4-spro-treasury-transaction-manager-l5-tb010",
+                    "level": 5,
+                    "name": "TB010",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "TB010"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-financial-accounting-tr-treasury-l2-product-types",
+        "level": 2,
+        "name": "Product Types",
+        "module_name": "Financial Accounting",
+        "tables": [
+          "TB020"
+        ],
+        "children": [
+          {
+            "id": "l1-financial-accounting-tr-treasury-l2-product-types-l3-product-types-treasury",
+            "level": 3,
+            "name": "Product Types (Treasury)",
+            "module_name": "Financial Accounting",
+            "tables": [
+              "TB020"
+            ],
+            "children": [
+              {
+                "id": "l1-financial-accounting-tr-treasury-l2-product-types-l3-product-types-treasury-l4-spro-treasury-transaction-manager",
+                "level": 4,
+                "name": "SPRO: Treasury > Transaction Manager",
+                "module_name": "Financial Accounting",
+                "tables": [
+                  "TB020"
+                ],
+                "children": [
+                  {
+                    "id": "l1-financial-accounting-tr-treasury-l2-product-types-l3-product-types-treasury-l4-spro-treasury-transaction-manager-l5-tb020",
+                    "level": 5,
+                    "name": "TB020",
+                    "module_name": "Financial Accounting",
+                    "tables": [
+                      "TB020"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-controlling-co-cost-center-accounting",
+    "level": 1,
+    "name": "CO - Cost Center Accounting",
+    "module_name": "Controlling",
+    "tables": [
+      "TKVS",
+      "TKA07"
+    ],
+    "children": [
+      {
+        "id": "l1-controlling-co-cost-center-accounting-l2-versions",
+        "level": 2,
+        "name": "Versions",
+        "module_name": "Controlling",
+        "tables": [
+          "TKVS"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-cost-center-accounting-l2-versions-l3-co-versions",
+            "level": 3,
+            "name": "CO Versions",
+            "module_name": "Controlling",
+            "tables": [
+              "TKVS"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-cost-center-accounting-l2-versions-l3-co-versions-l4-okeq",
+                "level": 4,
+                "name": "OKEQ",
+                "module_name": "Controlling",
+                "tables": [
+                  "TKVS"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-cost-center-accounting-l2-versions-l3-co-versions-l4-okeq-l5-tkvs",
+                    "level": 5,
+                    "name": "TKVS",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "TKVS"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-controlling-co-cost-center-accounting-l2-cost-center",
+        "level": 2,
+        "name": "Cost Center",
+        "module_name": "Controlling",
+        "tables": [
+          "TKA07"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-cost-center-accounting-l2-cost-center-l3-standard-hierarchy-assignment-per-co-area",
+            "level": 3,
+            "name": "Standard Hierarchy Assignment per CO Area",
+            "module_name": "Controlling",
+            "tables": [
+              "TKA07"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-cost-center-accounting-l2-cost-center-l3-standard-hierarchy-assignment-per-co-area-l4-okkp",
+                "level": 4,
+                "name": "OKKP",
+                "module_name": "Controlling",
+                "tables": [
+                  "TKA07"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-cost-center-accounting-l2-cost-center-l3-standard-hierarchy-assignment-per-co-area-l4-okkp-l5-tka07",
+                    "level": 5,
+                    "name": "TKA07",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "TKA07"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-controlling-co-orders-pca-costing",
+    "level": 1,
+    "name": "CO - Orders/PCA/Costing",
+    "module_name": "Controlling",
+    "tables": [
+      "TKA03",
+      "CE4<opco>",
+      "TKEB",
+      "T003O",
+      "TCK03",
+      "T688"
+    ],
+    "children": [
+      {
+        "id": "l1-controlling-co-orders-pca-costing-l2-profit-center",
+        "level": 2,
+        "name": "Profit Center",
+        "module_name": "Controlling",
+        "tables": [
+          "TKA03"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-profit-center-l3-profit-center-standard-hierarchy",
+            "level": 3,
+            "name": "Profit Center Standard Hierarchy",
+            "module_name": "Controlling",
+            "tables": [
+              "TKA03"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-profit-center-l3-profit-center-standard-hierarchy-l4-0ke5",
+                "level": 4,
+                "name": "0KE5",
+                "module_name": "Controlling",
+                "tables": [
+                  "TKA03"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-profit-center-l3-profit-center-standard-hierarchy-l4-0ke5-l5-tka03",
+                    "level": 5,
+                    "name": "TKA03",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "TKA03"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-controlling-co-orders-pca-costing-l2-copa",
+        "level": 2,
+        "name": "COPA",
+        "module_name": "Controlling",
+        "tables": [
+          "CE4<opco>",
+          "TKEB"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-copa-segment-level-table-client-generated-per-operating-concern",
+            "level": 3,
+            "name": "COPA Segment-Level Table (client-generated per operating concern)",
+            "module_name": "Controlling",
+            "tables": [
+              "CE4<opco>"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-copa-segment-level-table-client-generated-per-operating-concern-l4-kea0",
+                "level": 4,
+                "name": "KEA0",
+                "module_name": "Controlling",
+                "tables": [
+                  "CE4<opco>"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-copa-segment-level-table-client-generated-per-operating-concern-l4-kea0-l5-ce4-opco",
+                    "level": 5,
+                    "name": "CE4<opco>",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "CE4<opco>"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-operating-concern-definition",
+            "level": 3,
+            "name": "Operating Concern Definition",
+            "module_name": "Controlling",
+            "tables": [
+              "TKEB"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-operating-concern-definition-l4-kea0",
+                "level": 4,
+                "name": "KEA0",
+                "module_name": "Controlling",
+                "tables": [
+                  "TKEB"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-copa-l3-operating-concern-definition-l4-kea0-l5-tkeb",
+                    "level": 5,
+                    "name": "TKEB",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "TKEB"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-controlling-co-orders-pca-costing-l2-order-types",
+        "level": 2,
+        "name": "Order Types",
+        "module_name": "Controlling",
+        "tables": [
+          "T003O"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-order-types-l3-order-types-internal-orders",
+            "level": 3,
+            "name": "Order Types (Internal Orders)",
+            "module_name": "Controlling",
+            "tables": [
+              "T003O"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-order-types-l3-order-types-internal-orders-l4-kot2-opa",
+                "level": 4,
+                "name": "KOT2_OPA",
+                "module_name": "Controlling",
+                "tables": [
+                  "T003O"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-order-types-l3-order-types-internal-orders-l4-kot2-opa-l5-t003o",
+                    "level": 5,
+                    "name": "T003O",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "T003O"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-controlling-co-orders-pca-costing-l2-costing",
+        "level": 2,
+        "name": "Costing",
+        "module_name": "Controlling",
+        "tables": [
+          "TCK03",
+          "T688"
+        ],
+        "children": [
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-sheet-header",
+            "level": 3,
+            "name": "Costing Sheet Header",
+            "module_name": "Controlling",
+            "tables": [
+              "TCK03"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-sheet-header-l4-kzs2",
+                "level": 4,
+                "name": "KZS2",
+                "module_name": "Controlling",
+                "tables": [
+                  "TCK03"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-sheet-header-l4-kzs2-l5-tck03",
+                    "level": 5,
+                    "name": "TCK03",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "TCK03"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-variant",
+            "level": 3,
+            "name": "Costing Variant",
+            "module_name": "Controlling",
+            "tables": [
+              "T688"
+            ],
+            "children": [
+              {
+                "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-variant-l4-okkn",
+                "level": 4,
+                "name": "OKKN",
+                "module_name": "Controlling",
+                "tables": [
+                  "T688"
+                ],
+                "children": [
+                  {
+                    "id": "l1-controlling-co-orders-pca-costing-l2-costing-l3-costing-variant-l4-okkn-l5-t688",
+                    "level": 5,
+                    "name": "T688",
+                    "module_name": "Controlling",
+                    "tables": [
+                      "T688"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-materials-management-mm-inventory-valuation",
+    "level": 1,
+    "name": "MM - Inventory/Valuation",
+    "module_name": "Materials Management",
+    "tables": [
+      "T030",
+      "T159",
+      "T158B",
+      "T156",
+      "T156T",
+      "T025",
+      "T134M"
+    ],
+    "children": [
+      {
+        "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class",
+        "level": 2,
+        "name": "Valuation Class",
+        "module_name": "Materials Management",
+        "tables": [
+          "T030",
+          "T025"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-automatic-account-determination-valuation",
+            "level": 3,
+            "name": "Automatic Account Determination (Valuation)",
+            "module_name": "Materials Management",
+            "tables": [
+              "T030"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-automatic-account-determination-valuation-l4-obyc",
+                "level": 4,
+                "name": "OBYC",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T030"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-automatic-account-determination-valuation-l4-obyc-l5-t030",
+                    "level": 5,
+                    "name": "T030",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T030"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-valuation-classes",
+            "level": 3,
+            "name": "Valuation Classes",
+            "module_name": "Materials Management",
+            "tables": [
+              "T025"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-valuation-classes-l4-omsk",
+                "level": 4,
+                "name": "OMSK",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T025"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-valuation-class-l3-valuation-classes-l4-omsk-l5-t025",
+                    "level": 5,
+                    "name": "T025",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T025"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-inventory-valuation-l2-physical-inventory",
+        "level": 2,
+        "name": "Physical Inventory",
+        "module_name": "Materials Management",
+        "tables": [
+          "T159"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-physical-inventory-l3-physical-inventory-number-ranges-doc-types",
+            "level": 3,
+            "name": "Physical Inventory Number Ranges/Doc Types",
+            "module_name": "Materials Management",
+            "tables": [
+              "T159"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-physical-inventory-l3-physical-inventory-number-ranges-doc-types-l4-ombn",
+                "level": 4,
+                "name": "OMBN",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T159"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-physical-inventory-l3-physical-inventory-number-ranges-doc-types-l4-ombn-l5-t159",
+                    "level": 5,
+                    "name": "T159",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T159"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-inventory-valuation-l2-batch-mgmt",
+        "level": 2,
+        "name": "Batch Mgmt",
+        "module_name": "Materials Management",
+        "tables": [
+          "T158B"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-batch-mgmt-l3-batch-level-and-activation",
+            "level": 3,
+            "name": "Batch Level and Activation",
+            "module_name": "Materials Management",
+            "tables": [
+              "T158B"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-batch-mgmt-l3-batch-level-and-activation-l4-omct",
+                "level": 4,
+                "name": "OMCT",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T158B"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-batch-mgmt-l3-batch-level-and-activation-l4-omct-l5-t158b",
+                    "level": 5,
+                    "name": "T158B",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T158B"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types",
+        "level": 2,
+        "name": "Movement Types",
+        "module_name": "Materials Management",
+        "tables": [
+          "T156",
+          "T156T"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-types",
+            "level": 3,
+            "name": "Movement Types",
+            "module_name": "Materials Management",
+            "tables": [
+              "T156"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-types-l4-omjj",
+                "level": 4,
+                "name": "OMJJ",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T156"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-types-l4-omjj-l5-t156",
+                    "level": 5,
+                    "name": "T156",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T156"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-type-texts",
+            "level": 3,
+            "name": "Movement Type Texts",
+            "module_name": "Materials Management",
+            "tables": [
+              "T156T"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-type-texts-l4-omjj",
+                "level": 4,
+                "name": "OMJJ",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T156T"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-movement-types-l3-movement-type-texts-l4-omjj-l5-t156t",
+                    "level": 5,
+                    "name": "T156T",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T156T"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-inventory-valuation-l2-price-control",
+        "level": 2,
+        "name": "Price Control",
+        "module_name": "Materials Management",
+        "tables": [
+          "T134M"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-inventory-valuation-l2-price-control-l3-material-type-valuation-class-assignment",
+            "level": 3,
+            "name": "Material Type / Valuation Class Assignment",
+            "module_name": "Materials Management",
+            "tables": [
+              "T134M"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-inventory-valuation-l2-price-control-l3-material-type-valuation-class-assignment-l4-omsk",
+                "level": 4,
+                "name": "OMSK",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T134M"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-inventory-valuation-l2-price-control-l3-material-type-valuation-class-assignment-l4-omsk-l5-t134m",
+                    "level": 5,
+                    "name": "T134M",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T134M"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-materials-management-mm-purchasing",
+    "level": 1,
+    "name": "MM - Purchasing",
+    "module_name": "Materials Management",
+    "tables": [
+      "T685",
+      "T683",
+      "T161",
+      "T147",
+      "T16FC",
+      "T16FS",
+      "T134",
+      "T023",
+      "T161W"
+    ],
+    "children": [
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-conditions",
+        "level": 2,
+        "name": "Conditions",
+        "module_name": "Materials Management",
+        "tables": [
+          "T685"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-conditions-l3-condition-types-pricing-procurement",
+            "level": 3,
+            "name": "Condition Types (Pricing/Procurement)",
+            "module_name": "Materials Management",
+            "tables": [
+              "T685"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-conditions-l3-condition-types-pricing-procurement-l4-m-06",
+                "level": 4,
+                "name": "M/06",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T685"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-conditions-l3-condition-types-pricing-procurement-l4-m-06-l5-t685",
+                    "level": 5,
+                    "name": "T685",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T685"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-schema",
+        "level": 2,
+        "name": "Schema",
+        "module_name": "Materials Management",
+        "tables": [
+          "T683"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-schema-l3-pricing-procedure-determination-mm",
+            "level": 3,
+            "name": "Pricing Procedure Determination (MM)",
+            "module_name": "Materials Management",
+            "tables": [
+              "T683"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-schema-l3-pricing-procedure-determination-mm-l4-m-08",
+                "level": 4,
+                "name": "M/08",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T683"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-schema-l3-pricing-procedure-determination-mm-l4-m-08-l5-t683",
+                    "level": 5,
+                    "name": "T683",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T683"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-purch-doc-types",
+        "level": 2,
+        "name": "Purch. Doc Types",
+        "module_name": "Materials Management",
+        "tables": [
+          "T161"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-purch-doc-types-l3-purchasing-document-types",
+            "level": 3,
+            "name": "Purchasing Document Types",
+            "module_name": "Materials Management",
+            "tables": [
+              "T161"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-purch-doc-types-l3-purchasing-document-types-l4-omec",
+                "level": 4,
+                "name": "OMEC",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T161"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-purch-doc-types-l3-purchasing-document-types-l4-omec-l5-t161",
+                    "level": 5,
+                    "name": "T161",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T161"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-vendor-evaluation",
+        "level": 2,
+        "name": "Vendor Evaluation",
+        "module_name": "Materials Management",
+        "tables": [
+          "T147"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-vendor-evaluation-l3-vendor-evaluation-criteria",
+            "level": 3,
+            "name": "Vendor Evaluation Criteria",
+            "module_name": "Materials Management",
+            "tables": [
+              "T147"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-vendor-evaluation-l3-vendor-evaluation-criteria-l4-omgh",
+                "level": 4,
+                "name": "OMGH",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T147"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-vendor-evaluation-l3-vendor-evaluation-criteria-l4-omgh-l5-t147",
+                    "level": 5,
+                    "name": "T147",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T147"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-release-strategy",
+        "level": 2,
+        "name": "Release Strategy",
+        "module_name": "Materials Management",
+        "tables": [
+          "T16FC",
+          "T16FS"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-requisitions",
+            "level": 3,
+            "name": "Release Strategy for Purchase Requisitions",
+            "module_name": "Materials Management",
+            "tables": [
+              "T16FC"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-requisitions-l4-omgqck",
+                "level": 4,
+                "name": "OMGQCK",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T16FC"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-requisitions-l4-omgqck-l5-t16fc",
+                    "level": 5,
+                    "name": "T16FC",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T16FC"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-orders",
+            "level": 3,
+            "name": "Release Strategy for Purchase Orders",
+            "module_name": "Materials Management",
+            "tables": [
+              "T16FS"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-orders-l4-omgsck",
+                "level": 4,
+                "name": "OMGSCK",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T16FS"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-release-strategy-l3-release-strategy-for-purchase-orders-l4-omgsck-l5-t16fs",
+                    "level": 5,
+                    "name": "T16FS",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T16FS"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-material-types",
+        "level": 2,
+        "name": "Material Types",
+        "module_name": "Materials Management",
+        "tables": [
+          "T134"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-material-types-l3-material-types",
+            "level": 3,
+            "name": "Material Types",
+            "module_name": "Materials Management",
+            "tables": [
+              "T134"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-material-types-l3-material-types-l4-oms2",
+                "level": 4,
+                "name": "OMS2",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T134"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-material-types-l3-material-types-l4-oms2-l5-t134",
+                    "level": 5,
+                    "name": "T134",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T134"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-material-groups",
+        "level": 2,
+        "name": "Material Groups",
+        "module_name": "Materials Management",
+        "tables": [
+          "T023"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-material-groups-l3-material-groups",
+            "level": 3,
+            "name": "Material Groups",
+            "module_name": "Materials Management",
+            "tables": [
+              "T023"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-material-groups-l3-material-groups-l4-omsf",
+                "level": 4,
+                "name": "OMSF",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T023"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-material-groups-l3-material-groups-l4-omsf-l5-t023",
+                    "level": 5,
+                    "name": "T023",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T023"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-materials-management-mm-purchasing-l2-source-determination",
+        "level": 2,
+        "name": "Source Determination",
+        "module_name": "Materials Management",
+        "tables": [
+          "T161W"
+        ],
+        "children": [
+          {
+            "id": "l1-materials-management-mm-purchasing-l2-source-determination-l3-purchasing-document-item-category-combinations",
+            "level": 3,
+            "name": "Purchasing Document / Item Category Combinations",
+            "module_name": "Materials Management",
+            "tables": [
+              "T161W"
+            ],
+            "children": [
+              {
+                "id": "l1-materials-management-mm-purchasing-l2-source-determination-l3-purchasing-document-item-category-combinations-l4-spro-mm-purchasing",
+                "level": 4,
+                "name": "SPRO: MM > Purchasing",
+                "module_name": "Materials Management",
+                "tables": [
+                  "T161W"
+                ],
+                "children": [
+                  {
+                    "id": "l1-materials-management-mm-purchasing-l2-source-determination-l3-purchasing-document-item-category-combinations-l4-spro-mm-purchasing-l5-t161w",
+                    "level": 5,
+                    "name": "T161W",
+                    "module_name": "Materials Management",
+                    "tables": [
+                      "T161W"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-sales-and-distribution-sd-sales",
+    "level": 1,
+    "name": "SD - Sales",
+    "module_name": "Sales and Distribution",
+    "tables": [
+      "TNAPR",
+      "TVLS",
+      "T682",
+      "T685",
+      "T683",
+      "TPAR",
+      "T184",
+      "TVEP",
+      "TVAP",
+      "TVAK"
+    ],
+    "children": [
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-output",
+        "level": 2,
+        "name": "Output",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TNAPR"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-output-l3-output-types-processing-programs",
+            "level": 3,
+            "name": "Output Types / Processing Programs",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TNAPR"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-output-l3-output-types-processing-programs-l4-nace",
+                "level": 4,
+                "name": "NACE",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TNAPR"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-output-l3-output-types-processing-programs-l4-nace-l5-tnapr",
+                    "level": 5,
+                    "name": "TNAPR",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TNAPR"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-blocks",
+        "level": 2,
+        "name": "Sales Doc. Blocks",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVLS"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-blocks-l3-delivery-blocks",
+            "level": 3,
+            "name": "Delivery Blocks",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVLS"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-blocks-l3-delivery-blocks-l4-ovls",
+                "level": 4,
+                "name": "OVLS",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVLS"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-blocks-l3-delivery-blocks-l4-ovls-l5-tvls",
+                    "level": 5,
+                    "name": "TVLS",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVLS"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-pricing",
+        "level": 2,
+        "name": "Pricing",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "T682",
+          "T685",
+          "T683"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-tables",
+            "level": 3,
+            "name": "Condition Tables",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "T682"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-tables-l4-v-03",
+                "level": 4,
+                "name": "V/03",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "T682"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-tables-l4-v-03-l5-t682",
+                    "level": 5,
+                    "name": "T682",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "T682"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-types-sd-pricing",
+            "level": 3,
+            "name": "Condition Types (SD Pricing)",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "T685"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-types-sd-pricing-l4-v-06",
+                "level": 4,
+                "name": "V/06",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "T685"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-condition-types-sd-pricing-l4-v-06-l5-t685",
+                    "level": 5,
+                    "name": "T685",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "T685"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-pricing-procedure-determination-sd",
+            "level": 3,
+            "name": "Pricing Procedure Determination (SD)",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "T683"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-pricing-procedure-determination-sd-l4-v-08",
+                "level": 4,
+                "name": "V/08",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "T683"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-pricing-l3-pricing-procedure-determination-sd-l4-v-08-l5-t683",
+                    "level": 5,
+                    "name": "T683",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "T683"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-partner-determination",
+        "level": 2,
+        "name": "Partner Determination",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TPAR"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-partner-determination-l3-partner-functions",
+            "level": 3,
+            "name": "Partner Functions",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TPAR"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-partner-determination-l3-partner-functions-l4-vopa",
+                "level": 4,
+                "name": "VOPA",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TPAR"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-partner-determination-l3-partner-functions-l4-vopa-l5-tpar",
+                    "level": 5,
+                    "name": "TPAR",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TPAR"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-item-cat-determ",
+        "level": 2,
+        "name": "Item Cat. Determ.",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "T184"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-item-cat-determ-l3-item-category-determination",
+            "level": 3,
+            "name": "Item Category Determination",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "T184"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-item-cat-determ-l3-item-category-determination-l4-vov4",
+                "level": 4,
+                "name": "VOV4",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "T184"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-item-cat-determ-l3-item-category-determination-l4-vov4-l5-t184",
+                    "level": 5,
+                    "name": "T184",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "T184"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-schedule-lines",
+        "level": 2,
+        "name": "Schedule Lines",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVEP"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-schedule-lines-l3-schedule-line-categories",
+            "level": 3,
+            "name": "Schedule Line Categories",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVEP"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-schedule-lines-l3-schedule-line-categories-l4-vov6",
+                "level": 4,
+                "name": "VOV6",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVEP"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-schedule-lines-l3-schedule-line-categories-l4-vov6-l5-tvep",
+                    "level": 5,
+                    "name": "TVEP",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVEP"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-item-categories",
+        "level": 2,
+        "name": "Item Categories",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVAP"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-item-categories-l3-sales-document-item-categories",
+            "level": 3,
+            "name": "Sales Document Item Categories",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVAP"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-item-categories-l3-sales-document-item-categories-l4-vov7",
+                "level": 4,
+                "name": "VOV7",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVAP"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-item-categories-l3-sales-document-item-categories-l4-vov7-l5-tvap",
+                    "level": 5,
+                    "name": "TVAP",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVAP"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-types",
+        "level": 2,
+        "name": "Sales Doc Types",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVAK"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-types-l3-sales-document-types",
+            "level": 3,
+            "name": "Sales Document Types",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVAK"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-types-l3-sales-document-types-l4-vov8",
+                "level": 4,
+                "name": "VOV8",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVAK"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-sales-l2-sales-doc-types-l3-sales-document-types-l4-vov8-l5-tvak",
+                    "level": 5,
+                    "name": "TVAK",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVAK"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-sales-and-distribution-sd-shipping-billing",
+    "level": 1,
+    "name": "SD - Shipping/Billing",
+    "module_name": "Sales and Distribution",
+    "tables": [
+      "TVLK",
+      "TVRO",
+      "T685A",
+      "TVFK",
+      "VTFA / VTFL"
+    ],
+    "children": [
+      {
+        "id": "l1-sales-and-distribution-sd-shipping-billing-l2-delivery-types",
+        "level": 2,
+        "name": "Delivery Types",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVLK"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-shipping-billing-l2-delivery-types-l3-delivery-types",
+            "level": 3,
+            "name": "Delivery Types",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVLK"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-shipping-billing-l2-delivery-types-l3-delivery-types-l4-0vlk",
+                "level": 4,
+                "name": "0VLK",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVLK"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-shipping-billing-l2-delivery-types-l3-delivery-types-l4-0vlk-l5-tvlk",
+                    "level": 5,
+                    "name": "TVLK",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVLK"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-shipping-billing-l2-route-determination",
+        "level": 2,
+        "name": "Route Determination",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVRO"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-shipping-billing-l2-route-determination-l3-routes",
+            "level": 3,
+            "name": "Routes",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVRO"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-shipping-billing-l2-route-determination-l3-routes-l4-ovtc",
+                "level": 4,
+                "name": "OVTC",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVRO"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-shipping-billing-l2-route-determination-l3-routes-l4-ovtc-l5-tvro",
+                    "level": 5,
+                    "name": "TVRO",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVRO"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-shipping-billing-l2-account-determination",
+        "level": 2,
+        "name": "Account Determination",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "T685A"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-shipping-billing-l2-account-determination-l3-account-determination-for-revenue-assignment",
+            "level": 3,
+            "name": "Account Determination for Revenue (assignment)",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "T685A"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-shipping-billing-l2-account-determination-l3-account-determination-for-revenue-assignment-l4-vkoa",
+                "level": 4,
+                "name": "VKOA",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "T685A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-shipping-billing-l2-account-determination-l3-account-determination-for-revenue-assignment-l4-vkoa-l5-t685a",
+                    "level": 5,
+                    "name": "T685A",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "T685A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-types",
+        "level": 2,
+        "name": "Billing Types",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "TVFK"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-types-l3-billing-document-types",
+            "level": 3,
+            "name": "Billing Document Types",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "TVFK"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-types-l3-billing-document-types-l4-vofa",
+                "level": 4,
+                "name": "VOFA",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "TVFK"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-types-l3-billing-document-types-l4-vofa-l5-tvfk",
+                    "level": 5,
+                    "name": "TVFK",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "TVFK"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing",
+        "level": 2,
+        "name": "Billing",
+        "module_name": "Sales and Distribution",
+        "tables": [
+          "VTFA / VTFL"
+        ],
+        "children": [
+          {
+            "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-l3-copy-control-order-to-billing-delivery-to-billing",
+            "level": 3,
+            "name": "Copy Control: Order-to-Billing / Delivery-to-Billing",
+            "module_name": "Sales and Distribution",
+            "tables": [
+              "VTFA / VTFL"
+            ],
+            "children": [
+              {
+                "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-l3-copy-control-order-to-billing-delivery-to-billing-l4-vtfa-vtfl",
+                "level": 4,
+                "name": "VTFA / VTFL",
+                "module_name": "Sales and Distribution",
+                "tables": [
+                  "VTFA / VTFL"
+                ],
+                "children": [
+                  {
+                    "id": "l1-sales-and-distribution-sd-shipping-billing-l2-billing-l3-copy-control-order-to-billing-delivery-to-billing-l4-vtfa-vtfl-l5-vtfa-vtfl",
+                    "level": 5,
+                    "name": "VTFA / VTFL",
+                    "module_name": "Sales and Distribution",
+                    "tables": [
+                      "VTFA / VTFL"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-production-planning-pp-production-planning",
+    "level": 1,
+    "name": "PP - Production Planning",
+    "module_name": "Production Planning",
+    "tables": [
+      "T438A",
+      "T440A",
+      "MDLV",
+      "T399X",
+      "T436A",
+      "T416"
+    ],
+    "children": [
+      {
+        "id": "l1-production-planning-pp-production-planning-l2-mrp",
+        "level": 2,
+        "name": "MRP",
+        "module_name": "Production Planning",
+        "tables": [
+          "T438A",
+          "T440A",
+          "MDLV"
+        ],
+        "children": [
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-types",
+            "level": 3,
+            "name": "MRP Types",
+            "module_name": "Production Planning",
+            "tables": [
+              "T438A"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-types-l4-omd9",
+                "level": 4,
+                "name": "OMD9",
+                "module_name": "Production Planning",
+                "tables": [
+                  "T438A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-types-l4-omd9-l5-t438a",
+                    "level": 5,
+                    "name": "T438A",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "T438A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-plant-parameters-for-mrp",
+            "level": 3,
+            "name": "Plant Parameters for MRP",
+            "module_name": "Production Planning",
+            "tables": [
+              "T440A"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-plant-parameters-for-mrp-l4-omdu",
+                "level": 4,
+                "name": "OMDU",
+                "module_name": "Production Planning",
+                "tables": [
+                  "T440A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-plant-parameters-for-mrp-l4-omdu-l5-t440a",
+                    "level": 5,
+                    "name": "T440A",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "T440A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-areas",
+            "level": 3,
+            "name": "MRP Areas",
+            "module_name": "Production Planning",
+            "tables": [
+              "MDLV"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-areas-l4-oppq",
+                "level": 4,
+                "name": "OPPQ",
+                "module_name": "Production Planning",
+                "tables": [
+                  "MDLV"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-mrp-l3-mrp-areas-l4-oppq-l5-mdlv",
+                    "level": 5,
+                    "name": "MDLV",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "MDLV"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-production-planning-pp-production-planning-l2-order-types",
+        "level": 2,
+        "name": "Order Types",
+        "module_name": "Production Planning",
+        "tables": [
+          "T399X"
+        ],
+        "children": [
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-order-types-l3-production-order-type-dependent-parameters",
+            "level": 3,
+            "name": "Production Order Type-Dependent Parameters",
+            "module_name": "Production Planning",
+            "tables": [
+              "T399X"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-order-types-l3-production-order-type-dependent-parameters-l4-opl8",
+                "level": 4,
+                "name": "OPL8",
+                "module_name": "Production Planning",
+                "tables": [
+                  "T399X"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-order-types-l3-production-order-type-dependent-parameters-l4-opl8-l5-t399x",
+                    "level": 5,
+                    "name": "T399X",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "T399X"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-production-planning-pp-production-planning-l2-scheduling",
+        "level": 2,
+        "name": "Scheduling",
+        "module_name": "Production Planning",
+        "tables": [
+          "T436A"
+        ],
+        "children": [
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-scheduling-l3-scheduling-margin-key",
+            "level": 3,
+            "name": "Scheduling Margin Key",
+            "module_name": "Production Planning",
+            "tables": [
+              "T436A"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-scheduling-l3-scheduling-margin-key-l4-opu5",
+                "level": 4,
+                "name": "OPU5",
+                "module_name": "Production Planning",
+                "tables": [
+                  "T436A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-scheduling-l3-scheduling-margin-key-l4-opu5-l5-t436a",
+                    "level": 5,
+                    "name": "T436A",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "T436A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-production-planning-pp-production-planning-l2-bom-usage",
+        "level": 2,
+        "name": "BOM Usage",
+        "module_name": "Production Planning",
+        "tables": [
+          "T416"
+        ],
+        "children": [
+          {
+            "id": "l1-production-planning-pp-production-planning-l2-bom-usage-l3-bom-usage",
+            "level": 3,
+            "name": "BOM Usage",
+            "module_name": "Production Planning",
+            "tables": [
+              "T416"
+            ],
+            "children": [
+              {
+                "id": "l1-production-planning-pp-production-planning-l2-bom-usage-l3-bom-usage-l4-os20",
+                "level": 4,
+                "name": "OS20",
+                "module_name": "Production Planning",
+                "tables": [
+                  "T416"
+                ],
+                "children": [
+                  {
+                    "id": "l1-production-planning-pp-production-planning-l2-bom-usage-l3-bom-usage-l4-os20-l5-t416",
+                    "level": 5,
+                    "name": "T416",
+                    "module_name": "Production Planning",
+                    "tables": [
+                      "T416"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-quality-management-qm-quality-management",
+    "level": 1,
+    "name": "QM - Quality Management",
+    "module_name": "Quality Management",
+    "tables": [
+      "QPRF",
+      "T741",
+      "T740"
+    ],
+    "children": [
+      {
+        "id": "l1-quality-management-qm-quality-management-l2-sampling",
+        "level": 2,
+        "name": "Sampling",
+        "module_name": "Quality Management",
+        "tables": [
+          "QPRF"
+        ],
+        "children": [
+          {
+            "id": "l1-quality-management-qm-quality-management-l2-sampling-l3-sampling-procedures",
+            "level": 3,
+            "name": "Sampling Procedures",
+            "module_name": "Quality Management",
+            "tables": [
+              "QPRF"
+            ],
+            "children": [
+              {
+                "id": "l1-quality-management-qm-quality-management-l2-sampling-l3-sampling-procedures-l4-qdv1",
+                "level": 4,
+                "name": "QDV1",
+                "module_name": "Quality Management",
+                "tables": [
+                  "QPRF"
+                ],
+                "children": [
+                  {
+                    "id": "l1-quality-management-qm-quality-management-l2-sampling-l3-sampling-procedures-l4-qdv1-l5-qprf",
+                    "level": 5,
+                    "name": "QPRF",
+                    "module_name": "Quality Management",
+                    "tables": [
+                      "QPRF"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-quality-management-qm-quality-management-l2-insp-lot-origin",
+        "level": 2,
+        "name": "Insp. Lot Origin",
+        "module_name": "Quality Management",
+        "tables": [
+          "T741"
+        ],
+        "children": [
+          {
+            "id": "l1-quality-management-qm-quality-management-l2-insp-lot-origin-l3-inspection-lot-origins",
+            "level": 3,
+            "name": "Inspection Lot Origins",
+            "module_name": "Quality Management",
+            "tables": [
+              "T741"
+            ],
+            "children": [
+              {
+                "id": "l1-quality-management-qm-quality-management-l2-insp-lot-origin-l3-inspection-lot-origins-l4-qsm1",
+                "level": 4,
+                "name": "QSM1",
+                "module_name": "Quality Management",
+                "tables": [
+                  "T741"
+                ],
+                "children": [
+                  {
+                    "id": "l1-quality-management-qm-quality-management-l2-insp-lot-origin-l3-inspection-lot-origins-l4-qsm1-l5-t741",
+                    "level": 5,
+                    "name": "T741",
+                    "module_name": "Quality Management",
+                    "tables": [
+                      "T741"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-quality-management-qm-quality-management-l2-inspection-type",
+        "level": 2,
+        "name": "Inspection Type",
+        "module_name": "Quality Management",
+        "tables": [
+          "T740"
+        ],
+        "children": [
+          {
+            "id": "l1-quality-management-qm-quality-management-l2-inspection-type-l3-inspection-types",
+            "level": 3,
+            "name": "Inspection Types",
+            "module_name": "Quality Management",
+            "tables": [
+              "T740"
+            ],
+            "children": [
+              {
+                "id": "l1-quality-management-qm-quality-management-l2-inspection-type-l3-inspection-types-l4-spro-qm-quality-planning-inspection-types",
+                "level": 4,
+                "name": "SPRO: QM > Quality Planning > Inspection Types",
+                "module_name": "Quality Management",
+                "tables": [
+                  "T740"
+                ],
+                "children": [
+                  {
+                    "id": "l1-quality-management-qm-quality-management-l2-inspection-type-l3-inspection-types-l4-spro-qm-quality-planning-inspection-types-l5-t740",
+                    "level": 5,
+                    "name": "T740",
+                    "module_name": "Quality Management",
+                    "tables": [
+                      "T740"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-plant-maintenance-pm-plant-maintenance",
+    "level": 1,
+    "name": "PM - Plant Maintenance",
+    "module_name": "Plant Maintenance",
+    "tables": [
+      "T350",
+      "T370K",
+      "T370",
+      "T024I",
+      "T352T",
+      "QPCT"
+    ],
+    "children": [
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-order-types",
+        "level": 2,
+        "name": "Order Types",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "T350"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-order-types-l3-maintenance-order-types",
+            "level": 3,
+            "name": "Maintenance Order Types",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "T350"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-order-types-l3-maintenance-order-types-l4-oioa",
+                "level": 4,
+                "name": "OIOA",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "T350"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-order-types-l3-maintenance-order-types-l4-oioa-l5-t350",
+                    "level": 5,
+                    "name": "T350",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "T350"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-functional-location",
+        "level": 2,
+        "name": "Functional Location",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "T370K"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-functional-location-l3-functional-location-category-structure-indicator",
+            "level": 3,
+            "name": "Functional Location Category / Structure Indicator",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "T370K"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-functional-location-l3-functional-location-category-structure-indicator-l4-oiob",
+                "level": 4,
+                "name": "OIOB",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "T370K"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-functional-location-l3-functional-location-category-structure-indicator-l4-oiob-l5-t370k",
+                    "level": 5,
+                    "name": "T370K",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "T370K"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-equipment",
+        "level": 2,
+        "name": "Equipment",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "T370"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-equipment-l3-equipment-category",
+            "level": 3,
+            "name": "Equipment Category",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "T370"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-equipment-l3-equipment-category-l4-oiol",
+                "level": 4,
+                "name": "OIOL",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "T370"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-equipment-l3-equipment-category-l4-oiol-l5-t370",
+                    "level": 5,
+                    "name": "T370",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "T370"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-planner-group",
+        "level": 2,
+        "name": "Planner Group",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "T024I"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-planner-group-l3-maintenance-planner-groups",
+            "level": 3,
+            "name": "Maintenance Planner Groups",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "T024I"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-planner-group-l3-maintenance-planner-groups-l4-oiop",
+                "level": 4,
+                "name": "OIOP",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "T024I"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-planner-group-l3-maintenance-planner-groups-l4-oiop-l5-t024i",
+                    "level": 5,
+                    "name": "T024I",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "T024I"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-notification-types",
+        "level": 2,
+        "name": "Notification Types",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "T352T"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-notification-types-l3-maintenance-notification-types-texts",
+            "level": 3,
+            "name": "Maintenance Notification Types (texts)",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "T352T"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-notification-types-l3-maintenance-notification-types-texts-l4-oqz7",
+                "level": 4,
+                "name": "OQZ7",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "T352T"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-notification-types-l3-maintenance-notification-types-texts-l4-oqz7-l5-t352t",
+                    "level": 5,
+                    "name": "T352T",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "T352T"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-plant-maintenance-pm-plant-maintenance-l2-damage-codes",
+        "level": 2,
+        "name": "Damage Codes",
+        "module_name": "Plant Maintenance",
+        "tables": [
+          "QPCT"
+        ],
+        "children": [
+          {
+            "id": "l1-plant-maintenance-pm-plant-maintenance-l2-damage-codes-l3-damage-cause-codes-catalogs-shared-with-qm",
+            "level": 3,
+            "name": "Damage/Cause Codes (Catalogs, shared with QM)",
+            "module_name": "Plant Maintenance",
+            "tables": [
+              "QPCT"
+            ],
+            "children": [
+              {
+                "id": "l1-plant-maintenance-pm-plant-maintenance-l2-damage-codes-l3-damage-cause-codes-catalogs-shared-with-qm-l4-owqc",
+                "level": 4,
+                "name": "OWQC",
+                "module_name": "Plant Maintenance",
+                "tables": [
+                  "QPCT"
+                ],
+                "children": [
+                  {
+                    "id": "l1-plant-maintenance-pm-plant-maintenance-l2-damage-codes-l3-damage-cause-codes-catalogs-shared-with-qm-l4-owqc-l5-qpct",
+                    "level": 5,
+                    "name": "QPCT",
+                    "module_name": "Plant Maintenance",
+                    "tables": [
+                      "QPCT"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-project-system-ps-project-systems",
+    "level": 1,
+    "name": "PS - Project Systems",
+    "module_name": "Project System",
+    "tables": [
+      "TCJ01",
+      "TCJ20",
+      "T399"
+    ],
+    "children": [
+      {
+        "id": "l1-project-system-ps-project-systems-l2-project-profile",
+        "level": 2,
+        "name": "Project Profile",
+        "module_name": "Project System",
+        "tables": [
+          "TCJ01"
+        ],
+        "children": [
+          {
+            "id": "l1-project-system-ps-project-systems-l2-project-profile-l3-project-profiles",
+            "level": 3,
+            "name": "Project Profiles",
+            "module_name": "Project System",
+            "tables": [
+              "TCJ01"
+            ],
+            "children": [
+              {
+                "id": "l1-project-system-ps-project-systems-l2-project-profile-l3-project-profiles-l4-opsa",
+                "level": 4,
+                "name": "OPSA",
+                "module_name": "Project System",
+                "tables": [
+                  "TCJ01"
+                ],
+                "children": [
+                  {
+                    "id": "l1-project-system-ps-project-systems-l2-project-profile-l3-project-profiles-l4-opsa-l5-tcj01",
+                    "level": 5,
+                    "name": "TCJ01",
+                    "module_name": "Project System",
+                    "tables": [
+                      "TCJ01"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-project-system-ps-project-systems-l2-project-type",
+        "level": 2,
+        "name": "Project Type",
+        "module_name": "Project System",
+        "tables": [
+          "TCJ20"
+        ],
+        "children": [
+          {
+            "id": "l1-project-system-ps-project-systems-l2-project-type-l3-project-types",
+            "level": 3,
+            "name": "Project Types",
+            "module_name": "Project System",
+            "tables": [
+              "TCJ20"
+            ],
+            "children": [
+              {
+                "id": "l1-project-system-ps-project-systems-l2-project-type-l3-project-types-l4-opsb",
+                "level": 4,
+                "name": "OPSB",
+                "module_name": "Project System",
+                "tables": [
+                  "TCJ20"
+                ],
+                "children": [
+                  {
+                    "id": "l1-project-system-ps-project-systems-l2-project-type-l3-project-types-l4-opsb-l5-tcj20",
+                    "level": 5,
+                    "name": "TCJ20",
+                    "module_name": "Project System",
+                    "tables": [
+                      "TCJ20"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-project-system-ps-project-systems-l2-network-type",
+        "level": 2,
+        "name": "Network Type",
+        "module_name": "Project System",
+        "tables": [
+          "T399"
+        ],
+        "children": [
+          {
+            "id": "l1-project-system-ps-project-systems-l2-network-type-l3-network-order-types",
+            "level": 3,
+            "name": "Network Order Types",
+            "module_name": "Project System",
+            "tables": [
+              "T399"
+            ],
+            "children": [
+              {
+                "id": "l1-project-system-ps-project-systems-l2-network-type-l3-network-order-types-l4-opuu",
+                "level": 4,
+                "name": "OPUU",
+                "module_name": "Project System",
+                "tables": [
+                  "T399"
+                ],
+                "children": [
+                  {
+                    "id": "l1-project-system-ps-project-systems-l2-network-type-l3-network-order-types-l4-opuu-l5-t399",
+                    "level": 5,
+                    "name": "T399",
+                    "module_name": "Project System",
+                    "tables": [
+                      "T399"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-warehouse-logistics-execution-wm-warehouse-management",
+    "level": 1,
+    "name": "WM - Warehouse Management",
+    "module_name": "Warehouse / Logistics Execution",
+    "tables": [
+      "T333",
+      "T300",
+      "T302",
+      "T301",
+      "T303"
+    ],
+    "children": [
+      {
+        "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-movement-types",
+        "level": 2,
+        "name": "Movement Types",
+        "module_name": "Warehouse / Logistics Execution",
+        "tables": [
+          "T333"
+        ],
+        "children": [
+          {
+            "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-movement-types-l3-wm-movement-types",
+            "level": 3,
+            "name": "WM Movement Types",
+            "module_name": "Warehouse / Logistics Execution",
+            "tables": [
+              "T333"
+            ],
+            "children": [
+              {
+                "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-movement-types-l3-wm-movement-types-l4-omkz",
+                "level": 4,
+                "name": "OMKZ",
+                "module_name": "Warehouse / Logistics Execution",
+                "tables": [
+                  "T333"
+                ],
+                "children": [
+                  {
+                    "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-movement-types-l3-wm-movement-types-l4-omkz-l5-t333",
+                    "level": 5,
+                    "name": "T333",
+                    "module_name": "Warehouse / Logistics Execution",
+                    "tables": [
+                      "T333"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-warehouse-number",
+        "level": 2,
+        "name": "Warehouse Number",
+        "module_name": "Warehouse / Logistics Execution",
+        "tables": [
+          "T300"
+        ],
+        "children": [
+          {
+            "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-warehouse-number-l3-warehouse-numbers",
+            "level": 3,
+            "name": "Warehouse Numbers",
+            "module_name": "Warehouse / Logistics Execution",
+            "tables": [
+              "T300"
+            ],
+            "children": [
+              {
+                "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-warehouse-number-l3-warehouse-numbers-l4-omwa",
+                "level": 4,
+                "name": "OMWA",
+                "module_name": "Warehouse / Logistics Execution",
+                "tables": [
+                  "T300"
+                ],
+                "children": [
+                  {
+                    "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-warehouse-number-l3-warehouse-numbers-l4-omwa-l5-t300",
+                    "level": 5,
+                    "name": "T300",
+                    "module_name": "Warehouse / Logistics Execution",
+                    "tables": [
+                      "T300"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-section",
+        "level": 2,
+        "name": "Storage Section",
+        "module_name": "Warehouse / Logistics Execution",
+        "tables": [
+          "T302"
+        ],
+        "children": [
+          {
+            "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-section-l3-storage-sections",
+            "level": 3,
+            "name": "Storage Sections",
+            "module_name": "Warehouse / Logistics Execution",
+            "tables": [
+              "T302"
+            ],
+            "children": [
+              {
+                "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-section-l3-storage-sections-l4-omwe",
+                "level": 4,
+                "name": "OMWE",
+                "module_name": "Warehouse / Logistics Execution",
+                "tables": [
+                  "T302"
+                ],
+                "children": [
+                  {
+                    "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-section-l3-storage-sections-l4-omwe-l5-t302",
+                    "level": 5,
+                    "name": "T302",
+                    "module_name": "Warehouse / Logistics Execution",
+                    "tables": [
+                      "T302"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-type",
+        "level": 2,
+        "name": "Storage Type",
+        "module_name": "Warehouse / Logistics Execution",
+        "tables": [
+          "T301"
+        ],
+        "children": [
+          {
+            "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-type-l3-storage-types",
+            "level": 3,
+            "name": "Storage Types",
+            "module_name": "Warehouse / Logistics Execution",
+            "tables": [
+              "T301"
+            ],
+            "children": [
+              {
+                "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-type-l3-storage-types-l4-omwm",
+                "level": 4,
+                "name": "OMWM",
+                "module_name": "Warehouse / Logistics Execution",
+                "tables": [
+                  "T301"
+                ],
+                "children": [
+                  {
+                    "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-type-l3-storage-types-l4-omwm-l5-t301",
+                    "level": 5,
+                    "name": "T301",
+                    "module_name": "Warehouse / Logistics Execution",
+                    "tables": [
+                      "T301"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-bin",
+        "level": 2,
+        "name": "Storage Bin",
+        "module_name": "Warehouse / Logistics Execution",
+        "tables": [
+          "T303"
+        ],
+        "children": [
+          {
+            "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-bin-l3-storage-bin-types",
+            "level": 3,
+            "name": "Storage Bin Types",
+            "module_name": "Warehouse / Logistics Execution",
+            "tables": [
+              "T303"
+            ],
+            "children": [
+              {
+                "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-bin-l3-storage-bin-types-l4-omwq",
+                "level": 4,
+                "name": "OMWQ",
+                "module_name": "Warehouse / Logistics Execution",
+                "tables": [
+                  "T303"
+                ],
+                "children": [
+                  {
+                    "id": "l1-warehouse-logistics-execution-wm-warehouse-management-l2-storage-bin-l3-storage-bin-types-l4-omwq-l5-t303",
+                    "level": 5,
+                    "name": "T303",
+                    "module_name": "Warehouse / Logistics Execution",
+                    "tables": [
+                      "T303"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-other-modules-hr-org-mgmt-pa",
+    "level": 1,
+    "name": "HR - Org Mgmt / PA",
+    "module_name": "Other modules",
+    "tables": [
+      "T501",
+      "T503",
+      "T582A",
+      "T001P",
+      "T549A",
+      "T500P"
+    ],
+    "children": [
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-group",
+        "level": 2,
+        "name": "Employee Group",
+        "module_name": "Other modules",
+        "tables": [
+          "T501"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-group-l3-employee-groups",
+            "level": 3,
+            "name": "Employee Groups",
+            "module_name": "Other modules",
+            "tables": [
+              "T501"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-group-l3-employee-groups-l4-o041",
+                "level": 4,
+                "name": "O041",
+                "module_name": "Other modules",
+                "tables": [
+                  "T501"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-group-l3-employee-groups-l4-o041-l5-t501",
+                    "level": 5,
+                    "name": "T501",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T501"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-subgroup",
+        "level": 2,
+        "name": "Employee Subgroup",
+        "module_name": "Other modules",
+        "tables": [
+          "T503"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-subgroup-l3-employee-subgroups",
+            "level": 3,
+            "name": "Employee Subgroups",
+            "module_name": "Other modules",
+            "tables": [
+              "T503"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-subgroup-l3-employee-subgroups-l4-o042",
+                "level": 4,
+                "name": "O042",
+                "module_name": "Other modules",
+                "tables": [
+                  "T503"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-employee-subgroup-l3-employee-subgroups-l4-o042-l5-t503",
+                    "level": 5,
+                    "name": "T503",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T503"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-infotype-config",
+        "level": 2,
+        "name": "Infotype Config",
+        "module_name": "Other modules",
+        "tables": [
+          "T582A"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-infotype-config-l3-infotype-attributes",
+            "level": 3,
+            "name": "Infotype Attributes",
+            "module_name": "Other modules",
+            "tables": [
+              "T582A"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-infotype-config-l3-infotype-attributes-l4-oo70",
+                "level": 4,
+                "name": "OO70",
+                "module_name": "Other modules",
+                "tables": [
+                  "T582A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-infotype-config-l3-infotype-attributes-l4-oo70-l5-t582a",
+                    "level": 5,
+                    "name": "T582A",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T582A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-subarea",
+        "level": 2,
+        "name": "Personnel Subarea",
+        "module_name": "Other modules",
+        "tables": [
+          "T001P"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-subarea-l3-personnel-subareas",
+            "level": 3,
+            "name": "Personnel Subareas",
+            "module_name": "Other modules",
+            "tables": [
+              "T001P"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-subarea-l3-personnel-subareas-l4-ox03",
+                "level": 4,
+                "name": "OX03",
+                "module_name": "Other modules",
+                "tables": [
+                  "T001P"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-subarea-l3-personnel-subareas-l4-ox03-l5-t001p",
+                    "level": 5,
+                    "name": "T001P",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T001P"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-payroll-area",
+        "level": 2,
+        "name": "Payroll Area",
+        "module_name": "Other modules",
+        "tables": [
+          "T549A"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-payroll-area-l3-payroll-areas",
+            "level": 3,
+            "name": "Payroll Areas",
+            "module_name": "Other modules",
+            "tables": [
+              "T549A"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-payroll-area-l3-payroll-areas-l4-pa03",
+                "level": 4,
+                "name": "PA03",
+                "module_name": "Other modules",
+                "tables": [
+                  "T549A"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-payroll-area-l3-payroll-areas-l4-pa03-l5-t549a",
+                    "level": 5,
+                    "name": "T549A",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T549A"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-area",
+        "level": 2,
+        "name": "Personnel Area",
+        "module_name": "Other modules",
+        "tables": [
+          "T500P"
+        ],
+        "children": [
+          {
+            "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-area-l3-personnel-areas",
+            "level": 3,
+            "name": "Personnel Areas",
+            "module_name": "Other modules",
+            "tables": [
+              "T500P"
+            ],
+            "children": [
+              {
+                "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-area-l3-personnel-areas-l4-po01",
+                "level": 4,
+                "name": "PO01",
+                "module_name": "Other modules",
+                "tables": [
+                  "T500P"
+                ],
+                "children": [
+                  {
+                    "id": "l1-other-modules-hr-org-mgmt-pa-l2-personnel-area-l3-personnel-areas-l4-po01-l5-t500p",
+                    "level": 5,
+                    "name": "T500P",
+                    "module_name": "Other modules",
+                    "tables": [
+                      "T500P"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
